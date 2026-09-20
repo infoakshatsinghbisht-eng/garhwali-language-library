@@ -1,32 +1,62 @@
 [
   {
-    "pakhana": "डांड्यूं का डाळ, पानी का पाळ।",
-    "literal": "Mountains have trees, rivers have embankments.",
-    "meaning": "Everything has its own natural place and protective shield in life.",
-    "hindi": "हर वस्तु का प्रकृति में अपना स्थान और सुरक्षा होती है।"
+    "pakhana": "जस खाणु, तस पाणु।",
+    "literal": "As you eat, so you shall receive.",
+    "meaning": "As you sow, so shall you reap. Actions determine the results.",
+    "hindi": "जैसा कर्म करोगे, वैसा ही फल पाओगे।"
   },
   {
     "pakhana": "काफल पाको मैन नी चाखो।",
     "literal": "The wild berries ripened, but I could not taste them.",
-    "meaning": "A poignant folk expression of longing, separation, or missed opportunities in the mountains.",
-    "hindi": "अवसर हाथ से निकल जाने या विरह की भावना को व्यक्त करना।"
+    "meaning": "Deep folk metaphor for missed opportunities, longing, or unfulfilled desires in the mountains.",
+    "hindi": "अवसर हाथ से निकल जाने या विरह की कसक।"
+  },
+  {
+    "pakhana": "डांड्यूं का डाळ, पानी का पाळ।",
+    "literal": "Mountains have trees, rivers have embankments.",
+    "meaning": "Nature has provided natural protection and order for everything in life.",
+    "hindi": "प्रकृति में प्रत्येक वस्तु का अपना रक्षक और संतुलन होता है।"
   },
   {
     "pakhana": "आपु मरे बिना सरग नी देखिंद।",
     "literal": "Without dying oneself, one cannot see heaven.",
-    "meaning": "To achieve success or experience reality, one must do the hard work oneself.",
-    "hindi": "स्वयं प्रयास किए बिना सफलता या प्रत्यक्ष अनुभव नहीं मिलता।"
-  },
-  {
-    "pakhana": "नौं दिन चलै, अढ़ाई कोस।",
-    "literal": "Walked for nine days, traveled only two and a half kos.",
-    "meaning": "Extremely slow and lethargic progress.",
-    "hindi": "बहुत धीमी गति से कार्य होना।"
+    "meaning": "True realization or success comes only through direct personal effort.",
+    "hindi": "स्वयं मेहनत किए बिना सफलता या प्रत्यक्ष अनुभव नहीं मिलता।"
   },
   {
     "pakhana": "घौर कु जोगी जोगणा, आन गौं कु सिद्ध।",
-    "literal": "A monk of own house is just a beggar, but an outsider monk is revered as enlightened.",
-    "meaning": "Familiarity breeds contempt; people ignore talent at home and praise outsiders.",
-    "hindi": "घर की प्रतिभा की कद्र न होना, बाहरी व्यक्ति को अधिक मान देना (घर की मुर्गी दाल बराबर)।"
+    "literal": "A monk of one's own house is dismissed as a beggar, but an outsider monk is revered as a sage.",
+    "meaning": "Familiarity breeds contempt; people overlook wisdom at home while praising outsiders.",
+    "hindi": "घर की प्रतिभा की कद्र न होना, बाहरी व्यक्ति को अधिक सम्मान देना।"
+  },
+  {
+    "pakhana": "जखि देखि तवा परात, बखि बिताई सारी रात।",
+    "literal": "Wherever a frying pan and plate of food were spotted, there the whole night was spent.",
+    "meaning": "An opportunist who settles wherever free comforts and food are available.",
+    "hindi": "अवसरवादी व्यक्ति जो जहाँ सुविधा और भोजन मिले वहीं टिक जाता है।"
+  },
+  {
+    "pakhana": "नौं दिन चलै, अढ़ाई कोस।",
+    "literal": "Walked for nine days, reached only two and a half kos.",
+    "meaning": "Extremely slow, sluggish, and inefficient pace of work.",
+    "hindi": "अत्यंत धीमी गति से कार्य होना।"
+  },
+  {
+    "pakhana": "आपु पाको, जगु पाको।",
+    "literal": "When you are enlightened/matured, the whole world becomes matured.",
+    "meaning": "Reform begins with self-improvement; when you improve yourself, your view of the world improves.",
+    "hindi": "पहले स्वयं में सुधार करो, फिर संसार अच्छा दिखेगा।"
+  },
+  {
+    "pakhana": "कुंवा खुद, पाणि पी।",
+    "literal": "Dig your own well, drink your own fresh water.",
+    "meaning": "Self-reliance and hard independent labor yield the sweetest reward.",
+    "hindi": "आत्मनिर्भर बनो, अपने परिश्रम से ही सच्ची तृप्ति मिलती है।"
+  },
+  {
+    "pakhana": "छै गौकि छांछ, नंदू का खावन।",
+    "literal": "Six villages produce buttermilk, yet poor Nandu suffers scarcity.",
+    "meaning": "Abundance all around, yet the deserving or destitute person remains deprived.",
+    "hindi": "चारों तरफ प्रचुरता होने पर भी किसी अभावग्रस्त को लाभ न मिलना।"
   }
 ]

@@ -1,92 +1,233 @@
 [
   {
     "category": "greetings",
-    "garhwali": "प्रणाम / पैलाग",
-    "hindi": "नमस्ते / प्रणाम",
-    "english": "Hello / Respectful greetings"
+    "garhwali": "प्रणाम / पैलाग दाज्यू!",
+    "hindi": "नमस्ते / प्रणाम भाई साहब!",
+    "english": "Greetings / Respectful hello elder brother!",
+    "audio_hint": "Pailag Daajyu!"
   },
   {
     "category": "greetings",
-    "garhwali": "तुमु कना छा?",
-    "hindi": "आप कैसे हैं?",
-    "english": "How are you? (formal)"
+    "garhwali": "सिवासौँळी! तुमु कना छा?",
+    "hindi": "सादर प्रणाम! आप कैसे हैं?",
+    "english": "Greetings! How are you? (formal)",
+    "audio_hint": "Siwasaunli! Tumu kana chha?"
   },
   {
     "category": "greetings",
-    "garhwali": "त्वे कनु छै?",
-    "hindi": "तुम कैसे हो?",
-    "english": "How are you? (informal)"
+    "garhwali": "त्वे कनु छै भुला?",
+    "hindi": "तुम कैसे हो छोटे भाई?",
+    "english": "How are you younger brother? (informal)",
+    "audio_hint": "Twe kanu chhai bhula?"
   },
   {
     "category": "greetings",
-    "garhwali": "मी ठीक छौं।",
-    "hindi": "मैं ठीक हूँ।",
-    "english": "I am fine."
+    "garhwali": "मी बिल्कुल ठीक छौं, आपणी सुनावा।",
+    "hindi": "मैं बिल्कुल ठीक हूँ, अपनी बताइए।",
+    "english": "I am totally fine, please tell about yourself.",
+    "audio_hint": "Mi bilkul theek chhaun, aapani sunawa."
   },
   {
     "category": "greetings",
     "garhwali": "तुमारु नौ क्या छ?",
     "hindi": "आपका नाम क्या है?",
-    "english": "What is your name?"
+    "english": "What is your name?",
+    "audio_hint": "Tumaru nau kya chha?"
   },
   {
     "category": "greetings",
     "garhwali": "म्यारु नौ अमित छ।",
     "hindi": "मेरा नाम अमित है।",
-    "english": "My name is Amit."
+    "english": "My name is Amit.",
+    "audio_hint": "Myaru nau Amit chha."
+  },
+  {
+    "category": "greetings",
+    "garhwali": "तुमु कख बटी छा?",
+    "hindi": "आप कहाँ से हैं?",
+    "english": "Where are you from?",
+    "audio_hint": "Tumu kakh bati chha?"
+  },
+  {
+    "category": "greetings",
+    "garhwali": "मी पौड़ी गढ़वाल बटी छौं।",
+    "hindi": "मैं पौड़ी गढ़वाल से हूँ।",
+    "english": "I am from Pauri Garhwal.",
+    "audio_hint": "Mi Pauri Garhwal bati chhaun."
+  },
+  {
+    "category": "greetings",
+    "garhwali": "भौत-भौत धन्यवाद / आभार!",
+    "hindi": "बहुत-बहुत धन्यवाद / आभार!",
+    "english": "Thank you very much!",
+    "audio_hint": "Bhaut-bhaut dhanyawaad!"
+  },
+  {
+    "category": "greetings",
+    "garhwali": "शुभ राति, भल कै सुत्या।",
+    "hindi": "शुभ रात्रि, अच्छे से सोइएगा।",
+    "english": "Good night, sleep well.",
+    "audio_hint": "Shubh raati, bhal kai sutya."
   },
   {
     "category": "travel",
     "garhwali": "यौ बाट कख जांदु?",
     "hindi": "यह रास्ता कहाँ जाता है?",
-    "english": "Where does this path go?"
+    "english": "Where does this path go?",
+    "audio_hint": "Yau baat kakh jaandu?"
   },
   {
     "category": "travel",
     "garhwali": "बदरीनाथ कतगा दूर छ?",
     "hindi": "बद्रीनाथ कितनी दूर है?",
-    "english": "How far is Badrinath?"
+    "english": "How far is Badrinath?",
+    "audio_hint": "Badrinath katga door chha?"
+  },
+  {
+    "category": "travel",
+    "garhwali": "केदारनाथ जाणा कु बाट कनु छ?",
+    "hindi": "केदारनाथ जाने का रास्ता कैसा है?",
+    "english": "How is the route to Kedarnath?",
+    "audio_hint": "Kedarnath jaana ku baat kanu chha?"
+  },
+  {
+    "category": "travel",
+    "garhwali": "बस स्टेशन कख मिललो?",
+    "hindi": "बस स्टेशन कहाँ मिलेगा?",
+    "english": "Where will I find the bus station?",
+    "audio_hint": "Bus station kakh milalo?"
+  },
+  {
+    "category": "travel",
+    "garhwali": "गाड़ी कब औली?",
+    "hindi": "गाड़ी कब आएगी?",
+    "english": "When will the vehicle arrive?",
+    "audio_hint": "Gaadi kab aulee?"
+  },
+  {
+    "category": "travel",
+    "garhwali": "यहाँ रुका दाज्यू!",
+    "hindi": "यहाँ रोकिए भाई साहब!",
+    "english": "Please stop here brother!",
+    "audio_hint": "Yahaan ruka daajyu!"
+  },
+  {
+    "category": "travel",
+    "garhwali": "होटल या कमरा कख मिललो?",
+    "hindi": "होटल या कमरा कहाँ मिलेगा?",
+    "english": "Where can I find a hotel or room?",
+    "audio_hint": "Hotel ya kamra kakh milalo?"
   },
   {
     "category": "food",
-    "garhwali": "रोटी खा ली?",
-    "hindi": "खाना खा लिया?",
-    "english": "Have you eaten food?"
+    "garhwali": "भात खा ली क्या?",
+    "hindi": "खाना खा लिया क्या?",
+    "english": "Did you eat food?",
+    "audio_hint": "Bhaat khaa lee kya?"
   },
   {
     "category": "food",
-    "garhwali": "च्या पी ला।",
-    "hindi": "चाय पी लो।",
-    "english": "Please drink tea."
+    "garhwali": "च्या पी ला दाज्यू।",
+    "hindi": "चाय पी लीजिए भाई साहब।",
+    "english": "Please have some tea brother.",
+    "audio_hint": "Chya pee laa daajyu."
   },
   {
     "category": "food",
-    "garhwali": "पाणि पिणा?",
-    "hindi": "पानी पीना है?",
-    "english": "Do you want to drink water?"
+    "garhwali": "पाणि पिणा क्या?",
+    "hindi": "पानी पीना है क्या?",
+    "english": "Do you want to drink water?",
+    "audio_hint": "Paani pinaa kya?"
+  },
+  {
+    "category": "food",
+    "garhwali": "मूकै भौत भूख लागि गै।",
+    "hindi": "मुझे बहुत भूख लग गई है।",
+    "english": "I am feeling very hungry.",
+    "audio_hint": "Mookai bhaut bhookh laagi gai."
+  },
+  {
+    "category": "food",
+    "garhwali": "आज कंडाली कु साग अर झंगोरा बणि छ।",
+    "hindi": "आज बिच्छू घास का साग और झंगोरा बना है।",
+    "english": "Today nettle greens and barnyard millet are cooked.",
+    "audio_hint": "Aaj kandaali ku saag ar jhangora bani chha."
+  },
+  {
+    "category": "food",
+    "garhwali": "भात भौत मीठु स्वादिलो छ।",
+    "hindi": "भोजन बहुत स्वादिष्ट और मीठा है।",
+    "english": "The food is extremely delicious.",
+    "audio_hint": "Bhaat bhaut meethu swaadeelo chha."
   },
   {
     "category": "hospitality",
-    "garhwali": "घौर औंदा रया।",
-    "hindi": "घर आते रहिएगा।",
-    "english": "Keep visiting our home."
+    "garhwali": "घौर औंदा रया!",
+    "hindi": "घर आते रहिएगा!",
+    "english": "Please keep visiting our home!",
+    "audio_hint": "Ghaur aunda rayaa!"
   },
   {
     "category": "hospitality",
-    "garhwali": "बौठा, च्या पी ला।",
-    "hindi": "बैठो, चाय पी लो।",
-    "english": "Sit down, have some tea."
+    "garhwali": "बौठा, थकुवा उतारा।",
+    "hindi": "बैठिए, थकान मिटाइए।",
+    "english": "Sit down and take some rest.",
+    "audio_hint": "Bautha, thakuwa utaara."
   },
   {
     "category": "family",
     "garhwali": "ब्वै कख छिन?",
     "hindi": "माँ कहाँ हैं?",
-    "english": "Where is mother?"
+    "english": "Where is mother?",
+    "audio_hint": "Bwai kakh chhin?"
   },
   {
     "category": "family",
-    "garhwali": "बुबा बजार गैन।",
-    "hindi": "पिताजी बाजार गए हैं।",
-    "english": "Father has gone to the market."
+    "garhwali": "बुबा खेत मा गैन।",
+    "hindi": "पिताजी खेत में गए हैं।",
+    "english": "Father has gone to the fields.",
+    "audio_hint": "Buba khet ma gain."
+  },
+  {
+    "category": "family",
+    "garhwali": "बूबू सुत्यूँ छन।",
+    "hindi": "दादा जी सोए हुए हैं।",
+    "english": "Grandfather is sleeping.",
+    "audio_hint": "Booboo sutyun chhan."
+  },
+  {
+    "category": "family",
+    "garhwali": "नान्तिन डंड्याळ मा खेलणा छन।",
+    "hindi": "बच्चे आँगन में खेल रहे हैं।",
+    "english": "Children are playing in the courtyard.",
+    "audio_hint": "Naantin dandyaal ma khelna chhan."
+  },
+  {
+    "category": "emergency",
+    "garhwali": "मेरी मदद करा दाज्यू!",
+    "hindi": "मेरी मदद कीजिए भाई साहब!",
+    "english": "Please help me brother!",
+    "audio_hint": "Meri madad kara daajyu!"
+  },
+  {
+    "category": "emergency",
+    "garhwali": "अस्पताल कख छ?",
+    "hindi": "अस्पताल कहाँ है?",
+    "english": "Where is the hospital?",
+    "audio_hint": "Aspataal kakh chha?"
+  },
+  {
+    "category": "emergency",
+    "garhwali": "पुलिस कणी बुलावा!",
+    "hindi": "पुलिस को बुलाइए!",
+    "english": "Call the police!",
+    "audio_hint": "Police kani bulawa!"
+  },
+  {
+    "category": "emergency",
+    "garhwali": "मूकै जाड़ लागणो छ।",
+    "hindi": "मुझे ठंड लग रही है।",
+    "english": "I am feeling cold.",
+    "audio_hint": "Mookai jaad laagno chha."
   }
 ]

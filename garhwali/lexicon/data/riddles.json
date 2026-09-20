@@ -2,21 +2,31 @@
   {
     "aana": "हरियो रुमाल, लाल किनारी। पेट मा बच्चा, डाल मा दुलारी।",
     "solution": "तोता / सुवा (Parrot)",
-    "english_hint": "Green bird with red beak and friendly nature."
+    "english_hint": "Green bird with red beak that nests in tree hollows."
   },
   {
     "aana": "एक थान कपड़ो, सारी दुनिया डांकै।",
-    "solution": "आकाश / बदळ (Sky / Clouds)",
-    "english_hint": "A single sheet that covers the whole world."
+    "solution": "आकाश / बदळ (Sky / Cloud)",
+    "english_hint": "A single giant sheet covering the whole earth."
   },
   {
     "aana": "कांठा मा बठ्यूं, सबु तैं देखदु, आपु कखि नी जांदु।",
     "solution": "पहाड़ की चोटी / डांडा (Mountain Peak)",
-    "english_hint": "Sits on the high peak, watches everyone, but never moves."
+    "english_hint": "Sits high on the ridge, overlooks all valleys, but never walks."
   },
   {
     "aana": "काली गैया काठ खांदी, पाणि पींदा मरी जांदी।",
     "solution": "आग (Fire)",
-    "english_hint": "Black cow eats wood, dies when drinking water."
+    "english_hint": "Black creature that eats dry firewood and dies instantly with water."
+  },
+  {
+    "aana": "दिन मा धाण, रात मा पाण।",
+    "solution": "जूता / खड़ाऊँ (Shoes / Footwear)",
+    "english_hint": "Works all day on roads, rests quietly at night under the bed."
+  },
+  {
+    "aana": "कटोरी मा कटोरी, बेटा बाप से भी गोरी।",
+    "solution": "नारियल (Coconut)",
+    "english_hint": "Outer shell is dark and rough, inner kernel is white."
   }
 ]
