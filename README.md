@@ -1,64 +1,74 @@
 # 🏔️ Garhwali (गढ़वाली) Language Library
 
-A comprehensive Python library, NLP toolkit, and cultural heritage engine for the **Garhwali Language (गढ़वाली भाषा)** — spoken by over 3 million people across Uttarakhand's Garhwal Himalayas (Pauri, Chamoli, Tehri, Uttarkashi, Rudraprayag, Dehradun, and Haridwar).
+[![PyPI Version](https://img.shields.io/pypi/v/garhwali.svg)](https://pypi.org/project/garhwali/)
+[![PyPI Downloads](https://img.shields.io/pypi/dm/garhwali.svg)](https://pypi.org/project/garhwali/)
+[![Python Versions](https://img.shields.io/pypi/pyversions/garhwali.svg)](https://pypi.org/project/garhwali/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-garhwali--language--library-blue.svg)](https://github.com/infoakshatsinghbisht-eng/garhwali-language-library)
+
+A comprehensive Python library, NLP toolkit, and computational linguistics engine for the **Garhwali Language (गढ़वाली भाषा)** — spoken by over 3 million people across Uttarakhand's Garhwal Himalayas (Pauri, Tehri, Chamoli, Uttarkashi, Rudraprayag, Dehradun, and Haridwar).
 
 ---
 
-## 🌟 Key Features
+## 🌟 Key Capabilities
 
-1. **📚 300,000+ Inflected Word Forms**:
-   - High-performance morphological engine covering noun declensions, pronoun cases, verb tenses/aspects, and postpositional compounds.
-2. **🔄 Multi-Strategy Translator**:
-   - Fast, accurate translation across **English $\leftrightarrow$ Garhwali**, **Hindi $\leftrightarrow$ Garhwali**, and **Hinglish $\leftrightarrow$ Garhwali**.
-3. **🏔️ Dialect Support**:
-   - **Srinagariya** (Standard Pauri Garhwal)
-   - **Rathwali / Tehri** (Tehri Garhwal)
-   - **Salani** (Southern Pauri / Kotdwar)
-   - **Badhani** (Chamoli / Alaknanda Valley)
-4. **🗣️ Phonetics & Syllable Engine**:
-   - Native syllabification, Devanagari $\leftrightarrow$ Romanized phonetic transliteration.
-5. **📜 Himalayan Lore & Culture**:
-   - Proverbs (*अखाण / पखाण*), Interactive Riddles (*आणा*), 12 Garhwali Months & 6 Ritus, Festivals (*Phooldei, Igas Bagwal, Nanda Devi Raj Jat*), and classic folk literature (*Chaita ki Chaitwali, Bedu Pako*).
-6. **🔢 Garhwali Numbers**:
-   - Converts any integer into Garhwali words, ordinals, and Devanagari numerals.
-7. **🎙️ Voice Synthesis SSML & Audio**:
+1. **📚 2,300,000+ Morphological Word Forms (`garhwali.lexicon.morphology`)**:
+   - Dynamic inflectional engine covering noun declensions (8 cases $\times$ gender $\times$ number), pronoun cases, full verb aspectual/temporal matrices, and postpositional compounds.
+2. **🔄 Multi-Dialect Translation Engine (`garhwali.translator`)**:
+   - Fast, rule-based & phonetic translation across **English $\leftrightarrow$ Garhwali**, **Hindi $\leftrightarrow$ Garhwali**, and **Hinglish $\leftrightarrow$ Garhwali**.
+   - Supports 5 distinct dialect regions:
+     - **Srinagariya** (Standard Pauri Garhwal)
+     - **Rathwali** (Eastern Pauri / Rath region)
+     - **Tehri** (Tehri Garhwal & Bhagirathi Valley)
+     - **Salani** (Southern Pauri / Kotdwar)
+     - **Badhani** (Chamoli / Alaknanda Valley)
+3. **⚖️ Split-Ergativity & SOV Syntax Validator (`garhwali.grammar.syntax`)**:
+   - Enforces authentic Central Pahari ergative case markings (`-न / -ले` in transitive perfective clauses) vs nominative direct alignment in intransitive past.
+4. **📖 Rich Categorized Lexicon (`garhwali.lexicon.dictionary`)**:
+   - Comprehensive databases across body parts (*मुंड, आँख, नाख*), traditional farming tools (*पुंगड़ी, दथुड़ा, हल*), Himalayan flora/wild fruits (*काफल, बुरांस, हिंसर, किलमोड़ा*), traditional ornaments (*नथुली, हंसुली, गुलूबंद*), cuisine (*झंगोरा, कोदा, फांणा, काफली*), and emotions (*यकूलांस, माया, दौल*).
+5. **📜 Himalayan Lore & Culture (`garhwali.culture`)**:
+   - Authentic Proverbs (*पखाणा / औखाण*), Interactive Folk Riddles (*आणा*), 12 Garhwali Months & 6 Ritus, Traditional Festivals (*Phooldei, Igas Bagwal, Nanda Devi Raj Jat, Harela*), and classic literary heroes (*Madho Singh Bhandari, Jeetu Bagdwal, Chandra Kunwar Bartwal, Narendra Singh Negi*).
+6. **🔢 Garhwali Numbers Engine (`garhwali.numbers`)**:
+   - Converts any integer (0 to 1 crore) into Garhwali words, ordinals, and Devanagari numerals.
+7. **🎙️ Voice Synthesis & SSML (`garhwali.voice`)**:
    - Himalayan pitch envelope generator, SSML formatter, and uncompressed PCM WAV synthesis.
 
 ---
 
-## 🚀 Installation & Usage
+## 🚀 Installation & Quick Start
 
 ```bash
 pip install garhwali
 ```
 
-### Quick Python Example
+### 💻 Python Usage Examples
 
 ```python
 import garhwali
 
-# 1. Translate English or Hinglish to Garhwali
-res = garhwali.translate("Where is mom?")
-print(res.text)  # "ईजा कहाँ छ?"
+# 1. Multi-Dialect Translation
+res = garhwali.translate("Where are you from?", dialect="tehri")
+print(res.text)  # "तुमु कथी बटी छा?"
 
 res_hinglish = garhwali.translate("are yah chal kyon nahin raha hai")
 print(res_hinglish.text)  # "अरे यो किलै नि चलनो छ?"
 
-# 2. Dialect variations
-print(garhwali.translate("What is your name?", dialect="rathwali").text)  # "तमरो नाव क्या छ?"
-print(garhwali.translate("What is your name?", dialect="salani").text)    # "तुमारू नाव क्या छ?"
+# 2. Dictionary & Vocabulary Lookup
+word = garhwali.lookup("बुरांस")
+print(word)
+# {'garhwali': 'बुरांस', 'hindi': 'बुरांश का लाल फूल', 'english': 'rhododendron flower', 'category': 'flora', ...}
 
-# 3. Numbers to Garhwali words
-print(garhwali.num_to_words(2026))  # "दुई हजार छब्बीस"
+# 3. Numbers in Garhwali
+print(garhwali.num_to_words(2026))  # "दुई हजार बीस छ"
 print(garhwali.to_devanagari_numerals(2026))  # "२०२६"
 
 # 4. Phonetics & Syllables
 print(garhwali.syllables("गढ़वाली"))  # ['गढ़', 'वा', 'ली']
-print(garhwali.devanagari_to_latin("ईजा कहाँ छ?"))  # "Ija kahaan chha?"
+print(garhwali.devanagari_to_latin("ब्वै कख छिन?"))  # "Bwai kakh chhin?"
 
-# 5. Culture & Calendar
-print(garhwali.get_current_season())  # {'name_garhwali': 'सरद', 'english': 'Autumn'}
-print(garhwali.proverbs.all()[0]["garhwali"])  # "अपणी घाम मा कुकुर भी राजा।"
+# 5. Himalayan Calendar & Culture
+print(garhwali.get_current_season())  # {'name_garhwali': 'सरद', 'name_hindi': 'शरद', 'english_season': 'Autumn'}
+print(garhwali.proverbs.random())  # {'pakhana': 'काफल पाको मैन नी चाखो।', 'meaning': '...'}
 ```
 
 ---
@@ -66,10 +76,20 @@ print(garhwali.proverbs.all()[0]["garhwali"])  # "अपणी घाम मा 
 ## 🧪 Testing
 
 ```bash
-python -m unittest discover tests
+python -m unittest discover -s tests -v
 ```
 
 ---
 
+## 👤 Author & Creator
+
+* **Creator & Lead Developer**: **Akshat Singh Bisht**
+* **Email**: [infoakshatsinghbisht@gmail.com](mailto:infoakshatsinghbisht@gmail.com)
+* **GitHub**: [@infoakshatsinghbisht-eng](https://github.com/infoakshatsinghbisht-eng)
+* **Repository**: [https://github.com/infoakshatsinghbisht-eng/garhwali-language-library](https://github.com/infoakshatsinghbisht-eng/garhwali-language-library)
+* **PyPI Package**: [https://pypi.org/project/garhwali/](https://pypi.org/project/garhwali/)
+
+---
+
 ## 📄 License
-MIT License. Open-source for the preservation and advancement of Himalayan languages.
+This project is licensed under the **MIT License** — dedicated to the computational preservation, linguistic research, and cultural advancement of the Himalayan languages of Uttarakhand.

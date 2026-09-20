@@ -12,6 +12,9 @@ Comprehensive NLP and Cultural Heritage toolkit for the Garhwali Language:
 
 __version__ = "1.0.0"
 __author__ = "Akshat Singh Bisht"
+__email__ = "infoakshatsinghbisht@gmail.com"
+__maintainer__ = "Akshat Singh Bisht"
+__copyright__ = "Copyright (c) 2026 Akshat Singh Bisht"
 
 from .translator.engine import translate, TranslationResult
 from .lexicon.dictionary import GarhwaliDictionary

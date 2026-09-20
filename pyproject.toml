@@ -5,8 +5,13 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "garhwali"
 version = "1.0.0"
-authors = [{ name="Akshat Singh Bisht" }]
-description = "Garhwali (गढ़वाली) Language Library: 300k+ words, NLP toolkit, multi-dialect translation and Himalayan lore"
+authors = [
+    { name = "Akshat Singh Bisht", email = "infoakshatsinghbisht@gmail.com" }
+]
+maintainers = [
+    { name = "Akshat Singh Bisht", email = "infoakshatsinghbisht@gmail.com" }
+]
+description = "Garhwali (गढ़वाली) Language Library: 2.3M+ Inflections, Multi-dialect Translation, NLP Toolkit, and Himalayan Culture"
 readme = "README.md"
 requires-python = ">=3.8"
 classifiers = [
@@ -14,3 +19,7 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
+
+[project.urls]
+"Homepage" = "https://github.com/infoakshatsinghbisht-eng/garhwali-language-library"
+"Bug Tracker" = "https://github.com/infoakshatsinghbisht-eng/garhwali-language-library/issues"
