@@ -1,0 +1,850 @@
+[
+  {
+    "garhwali": "नौनी",
+    "hindi": "लड़की",
+    "english": "girl",
+    "pos": "noun",
+    "gender": "F",
+    "dialect_variants": {
+      "srinagariya": "नौनी",
+      "rathwali": "नौनी",
+      "tehri": "कंड्याली",
+      "salani": "नौनी"
+    }
+  },
+  {
+    "garhwali": "नौन",
+    "hindi": "लड़का",
+    "english": "boy",
+    "pos": "noun",
+    "gender": "M",
+    "dialect_variants": {
+      "srinagariya": "नौन",
+      "rathwali": "नौन",
+      "tehri": "लंडौरा",
+      "salani": "नौन"
+    }
+  },
+  {
+    "garhwali": "पाणि",
+    "hindi": "पानी",
+    "english": "water",
+    "pos": "noun",
+    "gender": "M",
+    "dialect_variants": {
+      "srinagariya": "पाणि",
+      "rathwali": "पाणि",
+      "tehri": "पाणी",
+      "salani": "पाणि"
+    }
+  },
+  {
+    "garhwali": "गाड़",
+    "hindi": "नदी",
+    "english": "river",
+    "pos": "noun",
+    "gender": "F",
+    "dialect_variants": {
+      "srinagariya": "गाड़",
+      "rathwali": "गाड़",
+      "tehri": "गाड़",
+      "salani": "गाड़"
+    }
+  },
+  {
+    "garhwali": "धार",
+    "hindi": "पहाड़ की चोटी",
+    "english": "mountain ridge",
+    "pos": "noun",
+    "gender": "F",
+    "dialect_variants": {
+      "srinagariya": "धार",
+      "rathwali": "धार",
+      "tehri": "डांडो",
+      "salani": "धार"
+    }
+  },
+  {
+    "garhwali": "ब्वै",
+    "hindi": "माँ",
+    "english": "mother",
+    "pos": "noun",
+    "gender": "F",
+    "dialect_variants": {
+      "srinagariya": "ब्वै",
+      "rathwali": "माई",
+      "tehri": "ब्वे",
+      "salani": "माजी"
+    }
+  },
+  {
+    "garhwali": "बुबा",
+    "hindi": "पिता",
+    "english": "father",
+    "pos": "noun",
+    "gender": "M",
+    "dialect_variants": {
+      "srinagariya": "बुबा",
+      "rathwali": "बाबा",
+      "tehri": "बुबा",
+      "salani": "बुबा"
+    }
+  },
+  {
+    "garhwali": "दादू",
+    "hindi": "बड़ा भाई",
+    "english": "elder brother",
+    "pos": "noun",
+    "gender": "M",
+    "dialect_variants": {
+      "srinagariya": "दादू",
+      "rathwali": "भैजी",
+      "tehri": "दादू",
+      "salani": "दादू"
+    }
+  },
+  {
+    "garhwali": "दिदी",
+    "hindi": "बड़ी बहन",
+    "english": "elder sister",
+    "pos": "noun",
+    "gender": "F",
+    "dialect_variants": {
+      "srinagariya": "दिदी",
+      "rathwali": "दीदी",
+      "tehri": "दिदी",
+      "salani": "दीदी"
+    }
+  },
+  {
+    "garhwali": "गौं",
+    "hindi": "गाँव",
+    "english": "village",
+    "pos": "noun",
+    "gender": "M",
+    "dialect_variants": {
+      "srinagariya": "गौं",
+      "rathwali": "गाँव",
+      "tehri": "गौं",
+      "salani": "गौं"
+    }
+  },
+  {
+    "garhwali": "घौर",
+    "hindi": "घर",
+    "english": "house / home",
+    "pos": "noun",
+    "gender": "M",
+    "dialect_variants": {
+      "srinagariya": "घौर",
+      "rathwali": "घर",
+      "tehri": "घौर",
+      "salani": "घर"
+    }
+  },
+  {
+    "garhwali": "रोटी",
+    "hindi": "रोटी / भोजन",
+    "english": "bread / food",
+    "pos": "noun",
+    "gender": "F",
+    "dialect_variants": {
+      "srinagariya": "रोटी",
+      "rathwali": "रोटी",
+      "tehri": "रोटी",
+      "salani": "रोटी"
+    }
+  },
+  {
+    "garhwali": "भात",
+    "hindi": "चावल / भात",
+    "english": "cooked rice",
+    "pos": "noun",
+    "gender": "M",
+    "dialect_variants": {
+      "srinagariya": "भात",
+      "rathwali": "भात",
+      "tehri": "भात",
+      "salani": "भात"
+    }
+  },
+  {
+    "garhwali": "झंगोरा",
+    "hindi": "झंगोरा (बाजरा)",
+    "english": "barnyard millet",
+    "pos": "noun",
+    "gender": "M",
+    "dialect_variants": {
+      "srinagariya": "झंगोरा",
+      "rathwali": "झंगोरा",
+      "tehri": "झंगोरा",
+      "salani": "झंगोरा"
+    }
+  },
+  {
+    "garhwali": "कंडाली",
+    "hindi": "बिच्छू घास",
+    "english": "stinging nettle",
+    "pos": "noun",
+    "gender": "F",
+    "dialect_variants": {
+      "srinagariya": "कंडाली",
+      "rathwali": "कंडाली",
+      "tehri": "कंडाली",
+      "salani": "कंडाली"
+    }
+  },
+  {
+    "garhwali": "काफल",
+    "hindi": "काफल (जंगली बेरी)",
+    "english": "bayberry (wild fruit)",
+    "pos": "noun",
+    "gender": "M",
+    "dialect_variants": {
+      "srinagariya": "काफल",
+      "rathwali": "काफल",
+      "tehri": "काफल",
+      "salani": "काफल"
+    }
+  },
+  {
+    "garhwali": "बुरांस",
+    "hindi": "बुरांश का फूल",
+    "english": "rhododendron flower",
+    "pos": "noun",
+    "gender": "M",
+    "dialect_variants": {
+      "srinagariya": "बुरांस",
+      "rathwali": "बुरांस",
+      "tehri": "बुरांस",
+      "salani": "बुरांस"
+    }
+  },
+  {
+    "garhwali": "डांडा",
+    "hindi": "पहाड़",
+    "english": "mountain",
+    "pos": "noun",
+    "gender": "M",
+    "dialect_variants": {
+      "srinagariya": "डांडा",
+      "rathwali": "डांडा",
+      "tehri": "डांडो",
+      "salani": "डांडा"
+    }
+  },
+  {
+    "garhwali": "कांठा",
+    "hindi": "हिमालय की बर्फीली चोटी",
+    "english": "high snowy mountain ridge",
+    "pos": "noun",
+    "gender": "M",
+    "dialect_variants": {
+      "srinagariya": "कांठा",
+      "rathwali": "कांठा",
+      "tehri": "कांठा",
+      "salani": "कांठा"
+    }
+  },
+  {
+    "garhwali": "गौचर",
+    "hindi": "चारागाह",
+    "english": "pasture field",
+    "pos": "noun",
+    "gender": "M",
+    "dialect_variants": {
+      "srinagariya": "गौचर",
+      "rathwali": "गोचर",
+      "tehri": "गौचर",
+      "salani": "गौचर"
+    }
+  },
+  {
+    "garhwali": "बगड़",
+    "hindi": "नदी का रेतीला किनारा",
+    "english": "riverbank sandbar",
+    "pos": "noun",
+    "gender": "M",
+    "dialect_variants": {
+      "srinagariya": "बगड़",
+      "rathwali": "बगड़",
+      "tehri": "बगड़",
+      "salani": "बगड़"
+    }
+  },
+  {
+    "garhwali": "च्या",
+    "hindi": "चाय",
+    "english": "tea",
+    "pos": "noun",
+    "gender": "F",
+    "dialect_variants": {
+      "srinagariya": "च्या",
+      "rathwali": "च्या",
+      "tehri": "च्या",
+      "salani": "चाय"
+    }
+  },
+  {
+    "garhwali": "गूर",
+    "hindi": "गुड़",
+    "english": "jaggery",
+    "pos": "noun",
+    "gender": "M",
+    "dialect_variants": {
+      "srinagariya": "गूर",
+      "rathwali": "गुड़",
+      "tehri": "गूर",
+      "salani": "गुड़"
+    }
+  },
+  {
+    "garhwali": "घ्यू",
+    "hindi": "घी",
+    "english": "clarified butter",
+    "pos": "noun",
+    "gender": "M",
+    "dialect_variants": {
+      "srinagariya": "घ्यू",
+      "rathwali": "घ्यु",
+      "tehri": "घ्यू",
+      "salani": "घी"
+    }
+  },
+  {
+    "garhwali": "दौथ",
+    "hindi": "दही",
+    "english": "curd / yogurt",
+    "pos": "noun",
+    "gender": "M",
+    "dialect_variants": {
+      "srinagariya": "दौथ",
+      "rathwali": "दही",
+      "tehri": "दौथ",
+      "salani": "दही"
+    }
+  },
+  {
+    "garhwali": "छ्या",
+    "hindi": "छाछ / मट्ठा",
+    "english": "buttermilk",
+    "pos": "noun",
+    "gender": "F",
+    "dialect_variants": {
+      "srinagariya": "छ्या",
+      "rathwali": "छाछ",
+      "tehri": "छ्या",
+      "salani": "छाछ"
+    }
+  },
+  {
+    "garhwali": "बल्द",
+    "hindi": "बैल",
+    "english": "bullock / ox",
+    "pos": "noun",
+    "gender": "M",
+    "dialect_variants": {
+      "srinagariya": "बल्द",
+      "rathwali": "बल्द",
+      "tehri": "बल्द",
+      "salani": "बैल"
+    }
+  },
+  {
+    "garhwali": "गौई",
+    "hindi": "गाय",
+    "english": "cow",
+    "pos": "noun",
+    "gender": "F",
+    "dialect_variants": {
+      "srinagariya": "गौई",
+      "rathwali": "गौ",
+      "tehri": "गौई",
+      "salani": "गाय"
+    }
+  },
+  {
+    "garhwali": "भैंसि",
+    "hindi": "भैंस",
+    "english": "buffalo",
+    "pos": "noun",
+    "gender": "F",
+    "dialect_variants": {
+      "srinagariya": "भैंसि",
+      "rathwali": "भैंस",
+      "tehri": "भैंसि",
+      "salani": "भैंस"
+    }
+  },
+  {
+    "garhwali": "कुकुर",
+    "hindi": "कुत्ता",
+    "english": "dog",
+    "pos": "noun",
+    "gender": "M",
+    "dialect_variants": {
+      "srinagariya": "कुकुर",
+      "rathwali": "कुकुर",
+      "tehri": "कुकुर",
+      "salani": "कुकुर"
+    }
+  },
+  {
+    "garhwali": "बिलाव",
+    "hindi": "बिल्ली",
+    "english": "cat",
+    "pos": "noun",
+    "gender": "M",
+    "dialect_variants": {
+      "srinagariya": "बिलाव",
+      "rathwali": "बिलाव",
+      "tehri": "बिलाली",
+      "salani": "बिल्ली"
+    }
+  },
+  {
+    "garhwali": "बाखरि",
+    "hindi": "बकरी",
+    "english": "goat",
+    "pos": "noun",
+    "gender": "F",
+    "dialect_variants": {
+      "srinagariya": "बाखरि",
+      "rathwali": "बाकरी",
+      "tehri": "बाखरि",
+      "salani": "बकरी"
+    }
+  },
+  {
+    "garhwali": "घ्वैड़",
+    "hindi": "घोड़ा",
+    "english": "horse",
+    "pos": "noun",
+    "gender": "M",
+    "dialect_variants": {
+      "srinagariya": "घ्वैड़",
+      "rathwali": "घोड़ा",
+      "tehri": "घ्वैड़",
+      "salani": "घोड़ा"
+    }
+  },
+  {
+    "garhwali": "काग",
+    "hindi": "कौआ",
+    "english": "crow",
+    "pos": "noun",
+    "gender": "M",
+    "dialect_variants": {
+      "srinagariya": "काग",
+      "rathwali": "काग",
+      "tehri": "काव्वा",
+      "salani": "काग"
+    }
+  },
+  {
+    "garhwali": "घुघुती",
+    "hindi": "कबूतर की प्रजाति (फाख्ता)",
+    "english": "spotted dove",
+    "pos": "noun",
+    "gender": "F",
+    "dialect_variants": {
+      "srinagariya": "घुघुती",
+      "rathwali": "घुघुती",
+      "tehri": "घुघुती",
+      "salani": "घुघुती"
+    }
+  },
+  {
+    "garhwali": "स्यूं",
+    "hindi": "सेब",
+    "english": "apple",
+    "pos": "noun",
+    "gender": "M",
+    "dialect_variants": {
+      "srinagariya": "स्यूं",
+      "rathwali": "स्यो",
+      "tehri": "स्यूं",
+      "salani": "सेब"
+    }
+  },
+  {
+    "garhwali": "दाड़िम",
+    "hindi": "अनार",
+    "english": "pomegranate",
+    "pos": "noun",
+    "gender": "M",
+    "dialect_variants": {
+      "srinagariya": "दाड़िम",
+      "rathwali": "दाड़िम",
+      "tehri": "दाड़िम",
+      "salani": "अनार"
+    }
+  },
+  {
+    "garhwali": "आलू",
+    "hindi": "आलू",
+    "english": "potato",
+    "pos": "noun",
+    "gender": "M",
+    "dialect_variants": {
+      "srinagariya": "आलू",
+      "rathwali": "आलू",
+      "tehri": "आलू",
+      "salani": "आलू"
+    }
+  },
+  {
+    "garhwali": "गहत",
+    "hindi": "कुलथ की दाल",
+    "english": "horse gram",
+    "pos": "noun",
+    "gender": "M",
+    "dialect_variants": {
+      "srinagariya": "गहत",
+      "rathwali": "गहत",
+      "tehri": "गहत",
+      "salani": "गहत"
+    }
+  },
+  {
+    "garhwali": "भट्ट",
+    "hindi": "काला सोयाबीन",
+    "english": "black soybean",
+    "pos": "noun",
+    "gender": "M",
+    "dialect_variants": {
+      "srinagariya": "भट्ट",
+      "rathwali": "भट्ट",
+      "tehri": "भट्ट",
+      "salani": "भट्ट"
+    }
+  },
+  {
+    "garhwali": "उरद",
+    "hindi": "उड़द दाल",
+    "english": "black gram",
+    "pos": "noun",
+    "gender": "M",
+    "dialect_variants": {
+      "srinagariya": "उरद",
+      "rathwali": "उरद",
+      "tehri": "उरद",
+      "salani": "उड़द"
+    }
+  },
+  {
+    "garhwali": "जाण",
+    "hindi": "जाना",
+    "english": "to go",
+    "pos": "verb",
+    "root": "जा",
+    "dialect_variants": {
+      "srinagariya": "जाण",
+      "rathwali": "जाणा",
+      "tehri": "जाण",
+      "salani": "जाणा"
+    }
+  },
+  {
+    "garhwali": "आण",
+    "hindi": "आना",
+    "english": "to come",
+    "pos": "verb",
+    "root": "आ",
+    "dialect_variants": {
+      "srinagariya": "आण",
+      "rathwali": "आणा",
+      "tehri": "आण",
+      "salani": "आणा"
+    }
+  },
+  {
+    "garhwali": "खाण",
+    "hindi": "खाना",
+    "english": "to eat",
+    "pos": "verb",
+    "root": "खा",
+    "dialect_variants": {
+      "srinagariya": "खाण",
+      "rathwali": "खाणा",
+      "tehri": "खाण",
+      "salani": "खाणा"
+    }
+  },
+  {
+    "garhwali": "पीण",
+    "hindi": "पीना",
+    "english": "to drink",
+    "pos": "verb",
+    "root": "पी",
+    "dialect_variants": {
+      "srinagariya": "पीण",
+      "rathwali": "पीणा",
+      "tehri": "पीण",
+      "salani": "पीणा"
+    }
+  },
+  {
+    "garhwali": "सुणण",
+    "hindi": "सुनना",
+    "english": "to listen / hear",
+    "pos": "verb",
+    "root": "सुण",
+    "dialect_variants": {
+      "srinagariya": "सुणण",
+      "rathwali": "सुणणा",
+      "tehri": "सुणण",
+      "salani": "सुणणा"
+    }
+  },
+  {
+    "garhwali": "देखण",
+    "hindi": "देखना",
+    "english": "to see",
+    "pos": "verb",
+    "root": "देख",
+    "dialect_variants": {
+      "srinagariya": "देखण",
+      "rathwali": "देखणा",
+      "tehri": "देखण",
+      "salani": "देखणा"
+    }
+  },
+  {
+    "garhwali": "कन",
+    "hindi": "कहना",
+    "english": "to say",
+    "pos": "verb",
+    "root": "क",
+    "dialect_variants": {
+      "srinagariya": "कन",
+      "rathwali": "कहणा",
+      "tehri": "कन",
+      "salani": "कहणा"
+    }
+  },
+  {
+    "garhwali": "करण",
+    "hindi": "करना",
+    "english": "to do",
+    "pos": "verb",
+    "root": "कर",
+    "dialect_variants": {
+      "srinagariya": "करण",
+      "rathwali": "करणा",
+      "tehri": "करण",
+      "salani": "करणा"
+    }
+  },
+  {
+    "garhwali": "बौठण",
+    "hindi": "बैठना",
+    "english": "to sit",
+    "pos": "verb",
+    "root": "बौठ",
+    "dialect_variants": {
+      "srinagariya": "बौठण",
+      "rathwali": "बैठणा",
+      "tehri": "बौठण",
+      "salani": "बैठणा"
+    }
+  },
+  {
+    "garhwali": "सवेर",
+    "hindi": "सुबह",
+    "english": "morning",
+    "pos": "noun",
+    "gender": "F",
+    "dialect_variants": {
+      "srinagariya": "सवेर",
+      "rathwali": "सवेरा",
+      "tehri": "सवेर",
+      "salani": "सवेरे"
+    }
+  },
+  {
+    "garhwali": "ब्याळ",
+    "hindi": "शाम",
+    "english": "evening",
+    "pos": "noun",
+    "gender": "F",
+    "dialect_variants": {
+      "srinagariya": "ब्याळ",
+      "rathwali": "ब्याली",
+      "tehri": "ब्याळ",
+      "salani": "शाम"
+    }
+  },
+  {
+    "garhwali": "रात",
+    "hindi": "रात",
+    "english": "night",
+    "pos": "noun",
+    "gender": "F",
+    "dialect_variants": {
+      "srinagariya": "रात",
+      "rathwali": "रात",
+      "tehri": "रात",
+      "salani": "रात"
+    }
+  },
+  {
+    "garhwali": "दुपारी",
+    "hindi": "दोपहर",
+    "english": "afternoon",
+    "pos": "noun",
+    "gender": "F",
+    "dialect_variants": {
+      "srinagariya": "दुपारी",
+      "rathwali": "दुपारी",
+      "tehri": "दुपारी",
+      "salani": "दोपहरी"
+    }
+  },
+  {
+    "garhwali": "अज",
+    "hindi": "आज",
+    "english": "today",
+    "pos": "adverb",
+    "dialect_variants": {
+      "srinagariya": "अज",
+      "rathwali": "आज",
+      "tehri": "अज",
+      "salani": "आज"
+    }
+  },
+  {
+    "garhwali": "ब्याळि",
+    "hindi": "कल (बीता हुआ)",
+    "english": "yesterday",
+    "pos": "adverb",
+    "dialect_variants": {
+      "srinagariya": "ब्याळि",
+      "rathwali": "ब्याली",
+      "tehri": "ब्याळि",
+      "salani": "कल"
+    }
+  },
+  {
+    "garhwali": "भोळ",
+    "hindi": "कल (आने वाला)",
+    "english": "tomorrow",
+    "pos": "adverb",
+    "dialect_variants": {
+      "srinagariya": "भोळ",
+      "rathwali": "भोली",
+      "tehri": "भोळ",
+      "salani": "कल"
+    }
+  },
+  {
+    "garhwali": "पोरुं",
+    "hindi": "परसों",
+    "english": "day after tomorrow / before yesterday",
+    "pos": "adverb",
+    "dialect_variants": {
+      "srinagariya": "पोरुं",
+      "rathwali": "पोरू",
+      "tehri": "पोरुं",
+      "salani": "परसों"
+    }
+  },
+  {
+    "garhwali": "कख",
+    "hindi": "कहाँ",
+    "english": "where",
+    "pos": "adverb",
+    "dialect_variants": {
+      "srinagariya": "कख",
+      "rathwali": "कख",
+      "tehri": "कथी",
+      "salani": "कहाँ"
+    }
+  },
+  {
+    "garhwali": "कब",
+    "hindi": "कब",
+    "english": "when",
+    "pos": "adverb",
+    "dialect_variants": {
+      "srinagariya": "कब",
+      "rathwali": "कबि",
+      "tehri": "कबे",
+      "salani": "कब"
+    }
+  },
+  {
+    "garhwali": "किलै",
+    "hindi": "क्यों",
+    "english": "why",
+    "pos": "adverb",
+    "dialect_variants": {
+      "srinagariya": "किलै",
+      "rathwali": "क्ये",
+      "tehri": "किलै",
+      "salani": "क्यों"
+    }
+  },
+  {
+    "garhwali": "कैन",
+    "hindi": "किसने",
+    "english": "who (ergative)",
+    "pos": "pronoun",
+    "dialect_variants": {
+      "srinagariya": "कैन",
+      "rathwali": "कैन",
+      "tehri": "कैन",
+      "salani": "किसने"
+    }
+  },
+  {
+    "garhwali": "को",
+    "hindi": "कौन",
+    "english": "who",
+    "pos": "pronoun",
+    "dialect_variants": {
+      "srinagariya": "को",
+      "rathwali": "को",
+      "tehri": "को",
+      "salani": "कौन"
+    }
+  },
+  {
+    "garhwali": "क्या",
+    "hindi": "क्या",
+    "english": "what",
+    "pos": "pronoun",
+    "dialect_variants": {
+      "srinagariya": "क्या",
+      "rathwali": "क्या",
+      "tehri": "क्या",
+      "salani": "क्या"
+    }
+  },
+  {
+    "garhwali": "कनु",
+    "hindi": "कैसा",
+    "english": "how / what kind",
+    "pos": "adverb",
+    "gender": "M",
+    "dialect_variants": {
+      "srinagariya": "कनु",
+      "rathwali": "कनो",
+      "tehri": "कनु",
+      "salani": "कैसा"
+    }
+  },
+  {
+    "garhwali": "कनि",
+    "hindi": "कैसी",
+    "english": "how / what kind (fem)",
+    "pos": "adverb",
+    "gender": "F",
+    "dialect_variants": {
+      "srinagariya": "कनि",
+      "rathwali": "कनी",
+      "tehri": "कनि",
+      "salani": "कैसी"
+    }
+  }
+]

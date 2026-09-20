@@ -1,0 +1,92 @@
+[
+  {
+    "category": "greetings",
+    "garhwali": "प्रणाम / पैलाग",
+    "hindi": "नमस्ते / प्रणाम",
+    "english": "Hello / Respectful greetings"
+  },
+  {
+    "category": "greetings",
+    "garhwali": "तुमु कना छा?",
+    "hindi": "आप कैसे हैं?",
+    "english": "How are you? (formal)"
+  },
+  {
+    "category": "greetings",
+    "garhwali": "त्वे कनु छै?",
+    "hindi": "तुम कैसे हो?",
+    "english": "How are you? (informal)"
+  },
+  {
+    "category": "greetings",
+    "garhwali": "मी ठीक छौं।",
+    "hindi": "मैं ठीक हूँ।",
+    "english": "I am fine."
+  },
+  {
+    "category": "greetings",
+    "garhwali": "तुमारु नौ क्या छ?",
+    "hindi": "आपका नाम क्या है?",
+    "english": "What is your name?"
+  },
+  {
+    "category": "greetings",
+    "garhwali": "म्यारु नौ अमित छ।",
+    "hindi": "मेरा नाम अमित है।",
+    "english": "My name is Amit."
+  },
+  {
+    "category": "travel",
+    "garhwali": "यौ बाट कख जांदु?",
+    "hindi": "यह रास्ता कहाँ जाता है?",
+    "english": "Where does this path go?"
+  },
+  {
+    "category": "travel",
+    "garhwali": "बदरीनाथ कतगा दूर छ?",
+    "hindi": "बद्रीनाथ कितनी दूर है?",
+    "english": "How far is Badrinath?"
+  },
+  {
+    "category": "food",
+    "garhwali": "रोटी खा ली?",
+    "hindi": "खाना खा लिया?",
+    "english": "Have you eaten food?"
+  },
+  {
+    "category": "food",
+    "garhwali": "च्या पी ला।",
+    "hindi": "चाय पी लो।",
+    "english": "Please drink tea."
+  },
+  {
+    "category": "food",
+    "garhwali": "पाणि पिणा?",
+    "hindi": "पानी पीना है?",
+    "english": "Do you want to drink water?"
+  },
+  {
+    "category": "hospitality",
+    "garhwali": "घौर औंदा रया।",
+    "hindi": "घर आते रहिएगा।",
+    "english": "Keep visiting our home."
+  },
+  {
+    "category": "hospitality",
+    "garhwali": "बौठा, च्या पी ला।",
+    "hindi": "बैठो, चाय पी लो।",
+    "english": "Sit down, have some tea."
+  },
+  {
+    "category": "family",
+    "garhwali": "ब्वै कख छिन?",
+    "hindi": "माँ कहाँ हैं?",
+    "english": "Where is mother?"
+  },
+  {
+    "category": "family",
+    "garhwali": "बुबा बजार गैन।",
+    "hindi": "पिताजी बाजार गए हैं।",
+    "english": "Father has gone to the market."
+  }
+]

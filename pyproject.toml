@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "garhwali"
+version = "1.0.0"
+authors = [{ name="Akshat Singh Bisht" }]
+description = "Garhwali (गढ़वाली) Language Library: 300k+ words, NLP toolkit, multi-dialect translation and Himalayan lore"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
