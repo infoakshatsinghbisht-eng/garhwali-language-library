@@ -21,5 +21,9 @@ classifiers = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/infoakshatsinghbisht-eng/garhwali-language-library"
+"Homepage" = "https://akshatsinghbisht.com/"
+"GitHub" = "https://github.com/infoakshatsinghbisht-eng/garhwali-language-library"
+"LinkedIn" = "https://www.linkedin.com/in/akshat-singh-bisht-digital-performance-marketing-specialist/"
+"Amazon Author" = "https://www.amazon.com/stores/Akshat-Singh-Bisht/author/B0D5TYDT28"
+"ResearchGate" = "https://www.researchgate.net/profile/Akshat-Bisht-8"
 "Bug Tracker" = "https://github.com/infoakshatsinghbisht-eng/garhwali-language-library/issues"
