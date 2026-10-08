@@ -49,6 +49,10 @@ class GarhwaliDictionary:
                 results.append(item)
         return results
 
+    @property
+    def words(self) -> List[Dict[str, Any]]:
+        return list(self._words.values())
+
     def all_words(self) -> List[Dict[str, Any]]:
         return list(self._words.values())
 

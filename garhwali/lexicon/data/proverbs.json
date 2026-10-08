@@ -58,5 +58,515 @@
     "literal": "Six villages produce buttermilk, yet poor Nandu suffers scarcity.",
     "meaning": "Abundance all around, yet the deserving or destitute person remains deprived.",
     "hindi": "चारों तरफ प्रचुरता होने पर भी किसी अभावग्रस्त को लाभ न मिलना।"
+  },
+  {
+    "pakhana": "एक बेटा गजे, एक कुलो मलेथे।",
+    "literal": "One son Gajai sacrificed, one water canal dug for Maletha.",
+    "meaning": "Immortal folk proverb commemorating hero Madho Singh Bhandari's supreme sacrifice for public welfare.",
+    "hindi": "माधो सिंह भंडारी द्वारा मलेथा में नहर लाने के लिए पुत्र गजे के बलिदान की अमर लोकोक्ति; जनकल्याण हेतु सर्वोच्च त्याग।"
+  },
+  {
+    "pakhana": "कफू पाको, मैं नी चाखो।",
+    "literal": "The wild berries ripened, but I did not taste them.",
+    "meaning": "Proverbial cry of the Himalayan cuckoo bird lamenting unmerited accusation and missed innocence.",
+    "hindi": "निर्दोष होने पर भी झूठा आरोप लगना या अवसर हाथ से निकल जाने की विरह-वेदना।"
+  },
+  {
+    "pakhana": "डांडा का बांज, गाड़ का पाथर।",
+    "literal": "Oaks on the mountain heights, boulders in the riverbed.",
+    "meaning": "Each element in nature is stationed where it belongs to preserve universal harmony.",
+    "hindi": "प्रकृति में प्रत्येक वस्तु का अपना स्वाभाविक स्थान और संतुलन है।"
+  },
+  {
+    "pakhana": "जख घाम, तख छांव; जख सुख, तख दुःख।",
+    "literal": "Where there is sunshine, there is shade; where there is joy, there is sorrow.",
+    "meaning": "Life is an inseparable tapestry of joy and sorrow, light and darkness.",
+    "hindi": "सुख और दुःख जीवन के दो अविभाज्य पहलू हैं।"
+  },
+  {
+    "pakhana": "आपु मरे बिना बैकुंठ नी देखिंद।",
+    "literal": "Without dying oneself, heaven cannot be seen.",
+    "meaning": "Direct personal toil and struggle are indispensable to achieve true greatness.",
+    "hindi": "स्वयं कठिन परिश्रम किए बिना सिद्धि या सफलता प्राप्त नहीं होती।"
+  },
+  {
+    "pakhana": "घर का जोगी जोगणा, आन गौं का सिद्ध।",
+    "literal": "A hermit in one's own house is dismissed as a beggar, but an outsider is revered as an enlightened master.",
+    "meaning": "People take local genius for granted while lavishing esteem upon outsiders.",
+    "hindi": "घर की योग्यता की कद्र न होना, बाहरी व्यक्ति का अंधानुकरण करना।"
+  },
+  {
+    "pakhana": "जस बीज बोलो, तस फल खौलो।",
+    "literal": "As the seed you sow, so the harvest you shall taste.",
+    "meaning": "The universal moral law of karma: virtuous deeds yield sweet outcomes, evil yields sorrow.",
+    "hindi": "जैसा कर्म करोगे, वैसा ही प्रतिफल पाओगे।"
+  },
+  {
+    "pakhana": "चैत की चैतवाली, मैत की सुध लागी।",
+    "literal": "Spring songs of Chaitra arrived, awakening sweet memories of the mother's home.",
+    "meaning": "Spring brings longing for kinship, heritage, and maternal village roots.",
+    "hindi": "वसंत ऋतु आने पर विवाहिता स्त्री के मन में मायके की प्रबल स्मृतियां जाग उठना।"
+  },
+  {
+    "pakhana": "उखल मा सिर दियो, त मूसल से क्या डरणु।",
+    "literal": "Having put one's head inside the mortar, why fear the falling pestle?",
+    "meaning": "Once a daunting path has been embraced, one must face all ensuing hardships courageously.",
+    "hindi": "कठिन कार्य प्रारंभ करने के बाद आने वाली कठिनाइयों से भयभीत नहीं होना चाहिए।"
+  },
+  {
+    "pakhana": "आंधी का आम, कब तक टिकला।",
+    "literal": "Fallen mangoes gathered during a tempest do not last long.",
+    "meaning": "Ill-gotten or windfall gains provide only fleeting satisfaction.",
+    "hindi": "अनायास या अनैतिक रूप से मिला लाभ स्थायी नहीं होता।"
+  },
+  {
+    "pakhana": "बगड़ को बालू, पाणी मा नी टिकदु।",
+    "literal": "Sand of the riverbank cannot halt flowing waters.",
+    "meaning": "Weak foundations cannot endure great historical trials.",
+    "hindi": "कमजोर आधार पर बड़ा कार्य नहीं टिक सकता।"
+  },
+  {
+    "pakhana": "नौ दिन चलै, अढ़ाई कोस।",
+    "literal": "Walked for nine full days, progressed only two and a half kos.",
+    "meaning": "Extreme lethargy, procrastination, or remarkably slow execution.",
+    "hindi": "अत्यंत धीमी गति से कार्य करना; सुस्ती।"
+  },
+  {
+    "pakhana": "धुआँ देखि पाणी नी भूलणु।",
+    "literal": "Seeing distant smoke, do not forget the value of life-giving water.",
+    "meaning": "Do not let deceptive illusions distract you from essential truth.",
+    "hindi": "भ्रम या दिखावे में पड़कर वास्तविक साधन को नहीं छोड़ना चाहिए।"
+  },
+  {
+    "pakhana": "पहाड़ की चढ़ाई, धीरे-धीरे पार होंदी।",
+    "literal": "A steep mountain ascent is conquered only stride by steady stride.",
+    "meaning": "Monumental undertakings demand patience, grit, and step-by-step resolve.",
+    "hindi": "धैर्य और निरंतर प्रयास से ही कठिन लक्ष्य सिद्ध होते हैं।"
+  },
+  {
+    "pakhana": "गाउँ का नौना, शहर मा जाई भूल्या आपणी बोली।",
+    "literal": "The village youth went to the city and abandoned his mother tongue.",
+    "meaning": "Social commentary lamenting the cultural estrangement caused by mindless urban migration.",
+    "hindi": "शहरी चकाचौंध में आकर अपनी मातृभाषा और सांस्कृतिक जड़ों को भुला देना।"
+  },
+  {
+    "pakhana": "गौं को जोगी जोगड़ा, आन गौं को सिद्ध।",
+    "literal": "The yogi of one's own village is a mere beggar, but of another village an enlightened sage.",
+    "meaning": "Familiarity breeds contempt; people do not value wisdom found in their own locality.",
+    "hindi": "घर का जोगी जोगड़ा, आन गाँव का सिद्ध। (घर की मुर्गी दाल बराबर)"
+  },
+  {
+    "pakhana": "जां की खाणी बाटी, तां की बजाणी थाटी।",
+    "literal": "Whose bread you eat, whose estate's praise you must play.",
+    "meaning": "One must be loyal to those who provide nourishment and livelihood.",
+    "hindi": "जिसका खाना, उसी का गुण गाना। (जिसका नमक खाया उसका हक अदा करना)"
+  },
+  {
+    "pakhana": "आग लागी डांडा, पाणी मांगदी कांडा।",
+    "literal": "The mountain ridge caught fire, yet water is sought on a dry thorn bush.",
+    "meaning": "Seeking help in the wrong place or applying remedies where they are futile.",
+    "hindi": "जहाँ जरूरत है वहाँ ध्यान न देकर व्यर्थ प्रयास करना।"
+  },
+  {
+    "pakhana": "अंधा का हाथ बटेर।",
+    "literal": "A quail landed straight into a blind man's hand.",
+    "meaning": "An incompetent person getting a rare prize by sheer fluke or luck.",
+    "hindi": "अयोग्य व्यक्ति को अनायास ही उत्तम वस्तु मिल जाना (अंधे के हाथ बटेर लगना)।"
+  },
+  {
+    "pakhana": "ऊंट का मुँह मा जीरा।",
+    "literal": "A single cumin seed in the mouth of a camel.",
+    "meaning": "A ridiculously tiny quantity given where a vast amount is needed.",
+    "hindi": "बहुत बड़े खर्च या भूख के मुकाबले अत्यंत अल्प साधन।"
+  },
+  {
+    "pakhana": "बंदर क्या जाणे अदरक को स्वाद।",
+    "literal": "What does a monkey know of the delicate taste of ginger?",
+    "meaning": "Those without discernment cannot appreciate the value of fine things.",
+    "hindi": "अज्ञानी व्यक्ति उत्तम गुण या वस्तु का मूल्य नहीं समझ सकता।"
+  },
+  {
+    "pakhana": "आपणी दही कणी कुई खट्टी नि कूँदु।",
+    "literal": "Nobody calls their own curd sour.",
+    "meaning": "No one admits the defects or shortcomings of their own possessions or family.",
+    "hindi": "अपनी वस्तु या संतान की कोई बुराई नहीं करता।"
+  },
+  {
+    "pakhana": "डांडी का फूल डांडी मा, सेरा को धान सेरा मा।",
+    "literal": "The flowers of the high hills bloom on the peaks, the paddy of the valleys ripens in the lowlands.",
+    "meaning": "Everything belongs in its natural environment; each person has their own station in life.",
+    "hindi": "हर वस्तु और व्यक्ति अपने स्वाभाविक परिवेश में ही शोभा पाता है।"
+  },
+  {
+    "pakhana": "जस बाप तसो बेटा, जस बीज तसो पौधा।",
+    "literal": "As is the father, so is the son; as is the seed, so is the sapling.",
+    "meaning": "Children inherit character and traits from their parents.",
+    "hindi": "जैसा पिता वैसा पुत्र (यथा राजा तथा प्रजा)।"
+  },
+  {
+    "pakhana": "एक हाथ ले ताळी नि बजदी।",
+    "literal": "A clap cannot be struck with a single hand.",
+    "meaning": "Both parties are responsible for a dispute or cooperation.",
+    "hindi": "झगड़ा या मेल दोनों तरफ से होता है (एक हाथ से ताली नहीं बजती)।"
+  },
+  {
+    "pakhana": "दुध को जल्यूं मोछो फूँकिक पीन्दू।",
+    "literal": "One burned by boiling milk blows even on cold buttermilk before drinking.",
+    "meaning": "Once bitten, twice shy; a bad experience makes a person overly cautious.",
+    "hindi": "दूध का जला छाछ भी फूँक-फूँक कर पीता है।"
+  },
+  {
+    "pakhana": "नौ दिन चले अढाई कोस।",
+    "literal": "Walked for nine days and covered only two-and-a-half kos (5 miles).",
+    "meaning": "Extremely slow, sluggish, and inefficient work.",
+    "hindi": "अत्यंत धीमी गति से काम करना।"
+  },
+  {
+    "pakhana": "बैल नि ब्यांदू, बाछो कुण देन्दू?",
+    "literal": "An ox does not give birth, who then gives the calf?",
+    "meaning": "Expecting results from an impossible or fruitless source.",
+    "hindi": "असंभव साधन से परिणाम की आशा करना व्यर्थ है।"
+  },
+  {
+    "pakhana": "जां रूख नि तां ऐंरड पधान।",
+    "literal": "Where there are no trees, the castor bush acts as the village headman.",
+    "meaning": "In the absence of competent leaders, mediocre people assume authority.",
+    "hindi": "जहाँ योग्य लोग न हों वहाँ अयोग्य व्यक्ति ही प्रधान बन बैठता है।"
+  },
+  {
+    "pakhana": "खाण कणी मण्डुवा नि, पहरन कणी रेशम।",
+    "literal": "Not even coarse finger millet to eat, yet longing for fine silk garments.",
+    "meaning": "Pretentious living beyond one's true humble means.",
+    "hindi": "बुनियादी जरूरतें पूरी न होना पर दिखावे का बड़ा शौक होना।"
+  },
+  {
+    "pakhana": "नदी बटी पाणी ल्याणा मा लाज क्या?",
+    "literal": "What shame is there in fetching water from the pure river?",
+    "meaning": "Honest physical labour brings no disgrace.",
+    "hindi": "मेहनत और स्वावलंबन में कोई शर्म नहीं होनी चाहिए।"
+  },
+  {
+    "pakhana": "अति को भलो नि बोलणो, अति की भली नि चूप।",
+    "literal": "Excessive talking is not good, neither is excessive silence.",
+    "meaning": "Moderation is the key in speech and behavior.",
+    "hindi": "हर बात में संयम और संतुलन आवश्यक है।"
+  },
+  {
+    "pakhana": "चोर की दाढ़ी मा तिनको।",
+    "literal": "A straw in the thief's beard.",
+    "meaning": "A guilty conscience betrays itself through nervousness.",
+    "hindi": "अपराधी अपने आचरण से स्वयं भेद खोल देता है।"
+  },
+  {
+    "pakhana": "काक कणी मोती की परख क्या?",
+    "literal": "What does a crow understand of the value of a pearl?",
+    "meaning": "Unrefined minds cannot recognize true virtue or artistic brilliance.",
+    "hindi": "गुणहीन व्यक्ति सद्गुणों की कद्र नहीं कर सकता।"
+  },
+  {
+    "pakhana": "पहाड़ को पाणी अर पहाड़ की जवानी पहाड़ का काम नि औंदी।",
+    "literal": "The water of the hills and the youth of the mountains do not serve the hills.",
+    "meaning": "Traditional hill proverb on mountain water flowing down to plains and youth out-migrating for work.",
+    "hindi": "पहाड़ की प्रतिभा और जल का सदुपयोग स्थानीय स्तर पर न हो पाना।"
+  },
+  {
+    "pakhana": "गौं को जोगी जोगना, आन गौं को सिद्ध।",
+    "literal": "The ascetic of one's own village is merely a beggar, while an ascetic from another village is considered enlightened.",
+    "meaning": "Familiarity breeds contempt; people do not value talent or wisdom found in their own home or locality.",
+    "hindi": "घर की मुर्गी दाल बराबर।"
+  },
+  {
+    "pakhana": "भैंसिक आगि बीन बजौण।",
+    "literal": "Playing a flute in front of a buffalo.",
+    "meaning": "Trying to give good advice or impart wisdom to someone who cannot appreciate or comprehend it.",
+    "hindi": "भैंस के आगे बीन बजाना।"
+  },
+  {
+    "pakhana": "आपण हाथ जगन्नाथ।",
+    "literal": "One's own hand is Lord Jagannath.",
+    "meaning": "Self-reliance is the greatest virtue; reliance on one's own work brings success.",
+    "hindi": "अपना हाथ जगन्नाथ / आत्मनिर्भरता ही सबसे बड़ा बल है।"
+  },
+  {
+    "pakhana": "कौवा बैठण और डाली भांगण।",
+    "literal": "The crow perched and the branch snapped.",
+    "meaning": "A pure coincidence that ends up getting blamed on the person who arrived at that moment.",
+    "hindi": "इत्तफ़ाक से हुआ नुकसान किसी के मत्थे मढ़ना।"
+  },
+  {
+    "pakhana": "बाखरो खाणो न सींग देखणो।",
+    "literal": "Neither eating the goat nor seeing its horns.",
+    "meaning": "Suffering punishment or blame for something without having enjoyed any benefit from it.",
+    "hindi": "बिना किसी लाभ के बदनामी झेलना।"
+  },
+  {
+    "pakhana": "चैतक घाम और जेठक ब्याल।",
+    "literal": "The sunshine of Chait (spring) and the evening breeze of Jeth (summer).",
+    "meaning": "Describing things that bring immense comfort and natural delight in the Himalayan hills.",
+    "hindi": "मौसम का सबसे सुखद और मनभावन अहसास।"
+  },
+  {
+    "pakhana": "जाँक घाम, ताँक छाँव।",
+    "literal": "Where there is sun, there is shadow.",
+    "meaning": "Every joyous situation has its trials, and every blessing comes with responsibilities.",
+    "hindi": "जहाँ धूप है, वहीं छाँव भी है।"
+  },
+  {
+    "pakhana": "डाली म न चिल्या, घौंसल म न अण्ड।",
+    "literal": "Neither bird on tree nor egg in the nest.",
+    "meaning": "Being completely empty-handed without any resource or fallback.",
+    "hindi": "पूरी तरह से साधनविहीन होना।"
+  },
+  {
+    "pakhana": "आपणो मरो, स्वर्ग देख्यो।",
+    "literal": "Only when one dies oneself does one see heaven.",
+    "meaning": "One learns best and achieves success through firsthand personal struggle and direct experience.",
+    "hindi": "अपने मरे बिना स्वर्ग नहीं दिखता।"
+  },
+  {
+    "pakhana": "जैसि करनी, वैसि भरनी।",
+    "literal": "As you act, so you shall receive.",
+    "meaning": "Actions carry natural consequences.",
+    "hindi": "जैसी करनी, वैसी भरनी।"
+  },
+  {
+    "pakhana": "द्याप्त देखण जागस्यर, म्यल देखण बागस्यर।",
+    "literal": "To behold the deities go to Jageshwar; to witness the grand folk fair go to Bageshwar.",
+    "meaning": "Each place possesses its distinct cultural and spiritual pinnacle; seek things where their true excellence lies.",
+    "hindi": "देव दर्शन के लिए जागेश्वर और मेले के आनंद के लिए बागेश्वर सर्वोत्तम है।"
+  },
+  {
+    "pakhana": "अकलक उमरक भेंट न हनू।",
+    "literal": "Wisdom and age do not necessarily meet together.",
+    "meaning": "Age alone does not guarantee wisdom, and young people may possess great insight and maturity.",
+    "hindi": "बुद्धि और उम्र का एक साथ होना जरूरी नहीं; समझदारी अनुभव और विचार से आती है।"
+  },
+  {
+    "pakhana": "अगासकि तारा लुछि ल्होन।",
+    "literal": "Claiming to pluck stars from the sky.",
+    "meaning": "Boasting about achieving impossible or impractical feats.",
+    "hindi": "आसमान के तारे तोड़ लाने का दावा करना / असंभव बातें करना।"
+  },
+  {
+    "pakhana": "साप कै डरै, लट्ठी से डरस।",
+    "literal": "After fearing the snake, one even fears a walking stick.",
+    "meaning": "Once a person suffers a severe setback or trauma, even harmless reminders cause apprehension.",
+    "hindi": "दूध का जला छाछ भी फूँक-फूँक कर पीता है।"
+  },
+  {
+    "pakhana": "घुरि गा भैंस पानी मा।",
+    "literal": "The buffalo went back into the mud water again.",
+    "meaning": "All hard-earned progress was undone, and matters returned to square one or old flawed habits.",
+    "hindi": "गई भैंस पानी में / सारी मेहनत पर फिर पानी फिर जाना।"
+  },
+  {
+    "pakhana": "रुखक पात लै हवा बिना नी हल्लान।",
+    "literal": "Even the leaf of a tree does not shake without the wind.",
+    "meaning": "Every event or rumor has an underlying cause or grain of truth.",
+    "hindi": "बिना आग के धुआँ नहीं उठता।"
+  },
+  {
+    "pakhana": "काफल पाको चैत, मेरी छैल नी रैत।",
+    "literal": "The wild Kaaphal berries ripen in spring, yet my beloved does not stay in the shadow.",
+    "meaning": "Folk lament expressing the fleeting joy of Himalayan spring and seasonal separation.",
+    "hindi": "काफल पकने की बहार आई, पर प्रियतम का संग न मिला।"
+  },
+  {
+    "pakhana": "बूबूक धोती, नातीक जाँघ।",
+    "literal": "The grandfather's dhoti becomes the grandson's shorts.",
+    "meaning": "Illustrates traditional Himalayan thriftiness, sustainable reuse, and generational heritage.",
+    "hindi": "पुरानी चीजों का सदुपयोग और मितव्ययिता।"
+  },
+  {
+    "pakhana": "अभागि कौतिक गो, कौतिकै नि है।",
+    "literal": "The unlucky man went to the fair, and no fair took place.",
+    "meaning": "An unlucky person encounters disappointment wherever he goes.",
+    "hindi": "दुर्भाग्यशाली व्यक्ति को कहीं भी सफलता या सुख नहीं मिलता।"
+  },
+  {
+    "pakhana": "अघैईं बामणै कि भैंसेन खीर।",
+    "literal": "To a full-bellied Brahmin, even buffalo milk kheer has flaws.",
+    "meaning": "When one is already satiated or over-indulged, even the best offerings seem inadequate.",
+    "hindi": "तृप्त व्यक्ति को स्वादिष्ट और उत्तम वस्तु में भी नुक्स नजर आते हैं।"
+  },
+  {
+    "pakhana": "अकल और उमर कैं कभैं भेट नि हुनि।",
+    "literal": "Wisdom and youth never meet.",
+    "meaning": "True wisdom only matures with age and experience, rarely in impetuous youth.",
+    "hindi": "बुद्धि और परिपक्वता समय और अनुभव के साथ ही आती है।"
+  },
+  {
+    "pakhana": "अघिन कुकेलि पछिन मिठी।",
+    "literal": "Bitter at first, but sweet in the end.",
+    "meaning": "Wholesome advice or hard discipline may taste harsh initially, but yields rewarding results.",
+    "hindi": "सच्ची सीख या अनुशासन शुरुआत में कड़वा लगता है पर परिणाम मधुर होता है।"
+  },
+  {
+    "pakhana": "अपणा जोगि जोगता, पल्ले गौं का संत।",
+    "literal": "Our own ascetic is just a mendicant, but a distant village's hermit is hailed as a saint.",
+    "meaning": "Familiarity breeds contempt; local talents are undervalued while outsiders are praised.",
+    "hindi": "घर के गुणी व्यक्ति की कद्र नहीं होती, बाहर वाले को अधिक सम्मान दिया जाता है (घर का जोगी जोगड़ा, आन गाँव का सिद्ध)।"
+  },
+  {
+    "pakhana": "अमुसि दिन गौ बल्द लै ठाड़ उठूँ।",
+    "literal": "On the new moon night, even lazy cattle stand up alert.",
+    "meaning": "When supreme danger or adversity looms, even the weakest rally all their strength.",
+    "hindi": "विपत्ति आने पर दुर्बल और आलसी व्यक्ति भी आत्मरक्षा के लिए उठ खड़ा होता है।"
+  },
+  {
+    "pakhana": "अन्यारै कि मार खबर नै सार।",
+    "literal": "A blow struck in the dark leaves neither evidence nor explanation.",
+    "meaning": "Hidden injustices or lack of transparency leave no clue for resolution.",
+    "hindi": "अंधेरे में किया गया कार्य या अपारदर्शी व्यवस्था में सच्चाई का पता नहीं चलता।"
+  },
+  {
+    "pakhana": "अस्सी गिचाँ दगड़ि कैलै नि सकि।",
+    "literal": "No one can contend against eighty mouths speaking at once.",
+    "meaning": "It is impossible for an individual to stop collective gossip and rumors.",
+    "hindi": "सार्वजनिक अफवाहों और बहुसंख्यक जुबानों को अकेला व्यक्ति नहीं रोक सकता।"
+  },
+  {
+    "pakhana": "अति बिराऊँ में मूस नि मरन।",
+    "literal": "When there are too many cats, no mouse gets caught.",
+    "meaning": "Too many cooks spoil the broth; overcrowded authority creates confusion.",
+    "hindi": "अधिक लोगों के हस्तक्षेप से कार्य बिगड़ जाता है (ज्यादा जोगी मठ उजाड़)।"
+  },
+  {
+    "pakhana": "ब्याज रात में ले बाट लागि रौं।",
+    "literal": "Interest on debt travels along the path even through the night.",
+    "meaning": "Debts and interest never cease accumulating, even while you sleep.",
+    "hindi": "कर्ज का ब्याज दिन-रात निरंतर बढ़ता रहता है।"
+  },
+  {
+    "pakhana": "बण सुंगरै'ल उज्याड़ खै, गौं को कुकूरै'ल डांड भरी।",
+    "literal": "The wild boar destroyed the crop, but the village dog paid the penalty.",
+    "meaning": "The guilty party escapes into the wild, while an innocent scapegoat is punished.",
+    "hindi": "अपराध कोई करे और सजा किसी निर्दोष को भुगतनी पड़े।"
+  },
+  {
+    "pakhana": "नानी खाप, ठुलि धाद।",
+    "literal": "A small mouth, but a gigantic shout.",
+    "meaning": "Small people making tall, unsubstantiated boasts (small stature, big talk).",
+    "hindi": "छोटा मुँह बड़ी बात करना / सामर्थ्य से अधिक डींगें हांकना।"
+  },
+  {
+    "pakhana": "जखा बिल्लि नि तखा मूस नाचुनी।",
+    "literal": "Where the cat is absent, the mice dance.",
+    "meaning": "When the supervisor is away, subordinates neglect discipline and make merry.",
+    "hindi": "मुखिया या नियंत्रक की अनुपस्थिति में अनुशासनहीनता फैल जाती है।"
+  },
+  {
+    "pakhana": "बाण बणै बल्द हराणो।",
+    "literal": "Losing the ox while in the middle of ploughing.",
+    "meaning": "Extreme absent-mindedness; losing track of the very tool in one's own hands.",
+    "hindi": "अति भूलक्कड़पन, हाथ की चीज को ही तलाशते रहना।"
+  },
+  {
+    "pakhana": "अनाल कि चोट कनाल।",
+    "literal": "Aiming at the lower terrace and hitting the upper ridge.",
+    "meaning": "Accidental result completely contrary to the original intention.",
+    "hindi": "निशाना कहीं और लगाना और असर कहीं और होना / अनपेक्षित परिणाम।"
+  },
+  {
+    "pakhana": "नाँव नौ ततरो-ततरो, पाणी पीणा को फुट्यूँ पातरो।",
+    "literal": "Great name and loud reputation, but only a cracked pot to drink water.",
+    "meaning": "Hollow grandeur; big reputation on the outside but destitute inside.",
+    "hindi": "नाम बड़े और दर्शन छोटे / दिखावटी शानो-शौकत।"
+  },
+  {
+    "pakhana": "कौवा शिकार मारन त बाज को पाल।",
+    "literal": "If crows could hunt prey, who would feed and train a falcon?",
+    "meaning": "If unqualified people could do specialized work, experts would not be needed.",
+    "hindi": "यदि अयोग्य व्यक्ति ही कठिन काम कर लेते तो गुणी विशेषज्ञों की आवश्यकता क्यों पड़ती।"
+  },
+  {
+    "pakhana": "गाँवक गोरु, गाँवकै ब्यान।",
+    "literal": "The village cattle calve within the village.",
+    "meaning": "Village affairs and relationships find their natural resolution within the community.",
+    "hindi": "आपसी मामले और रिश्तेदारी अपने ही समाज और गाँव में भली लगती है।"
+  },
+  {
+    "pakhana": "घ्याव पडो बामणाक दाढ़ी।",
+    "literal": "Clarified butter fell into the Brahmin's beard.",
+    "meaning": "An unexpected windfall or fortune benefiting someone perfectly positioned to enjoy it.",
+    "hindi": "अनायास ही किसी प्रिय वस्तु का लाभ मिल जाना।"
+  },
+  {
+    "pakhana": "धार मलि घाम, तलि मलि ब्याव।",
+    "literal": "Sun on the mountain crest, wedding festivity echoing across the valley.",
+    "meaning": "Good news and sunlight cannot be hidden on the hills.",
+    "hindi": "अच्छी खबर और धूप पहाड़ में कभी छिपी नहीं रहती।"
+  },
+  {
+    "pakhana": "आफू मरे बिना सरग नी देखिंछ।",
+    "literal": "Without dying oneself, heaven cannot be seen.",
+    "meaning": "Self-effort and direct experience are necessary to achieve high outcomes.",
+    "hindi": "बिना खुद मरे स्वर्ग नहीं दिखता (खुद के प्रयास से ही फल मिलता है)।"
+  },
+  {
+    "pakhana": "काकड़ाक मुंड नि, भुंगड़ाक पूंछ नि।",
+    "literal": "The cucumber has no distinct head, the roasted grain has no tail.",
+    "meaning": "Disorganized speech or action without beginning or end.",
+    "hindi": "बिना सिर-पैर की बात।"
+  },
+  {
+    "pakhana": "गौं म घट्ट, बन म लाकड़, पेट म भूख।",
+    "literal": "The watermill in the village, firewood in the forest, and hunger in the stomach.",
+    "meaning": "When all resources are nearby, one only needs effort to solve any problem.",
+    "hindi": "साधन पास में हों तो मेहनत से ही काम बनता है।"
+  },
+  {
+    "pakhana": "डाली म काफल, मन म लालच।",
+    "literal": "Wild berries on high branches, longing in the human heart.",
+    "meaning": "Temptation of sweet things that require arduous climbing to reach.",
+    "hindi": "ऊंचे फल देखकर मन ललचाना।"
+  },
+  {
+    "pakhana": "घाम तापा, पाणि पिवा, निरोगी रया।",
+    "literal": "Bask in the mountain sun, drink pure spring water, and stay healthy.",
+    "meaning": "Simplicity and natural living in the Himalayas ensure a disease-free life.",
+    "hindi": "प्राकृतिक जीवन शैली से ही उत्तम स्वास्थ्य संभव है।"
+  },
+  {
+    "pakhana": "आपण हाथ जगन्नाथ, आपण गोठ अन्नदाता।",
+    "literal": "One's own hands are Lord Jagannath, one's own cattle barn provides food.",
+    "meaning": "Self-reliance, hard labor and agriculture are the true foundation of wealth and dignity.",
+    "hindi": "स्वावलंबन और अपनी मेहनत ही सबसे बड़ा सहारा है।"
+  },
+  {
+    "pakhana": "हिमालयक पाथर मजबूत, कुमाऊँनी की बात पक्की।",
+    "literal": "As solid as the slate of the Himalayas, so is the pledged word of a Kumaoni.",
+    "meaning": "Integrity, honor, and unshakeable commitment to one's word.",
+    "hindi": "वचनबद्धता और सत्यनिष्ठा ही सबसे बड़ा धर्म है।"
+  },
+  {
+    "pakhana": "आपू मरे बिना सुरग नी देखिण।",
+    "literal": "One cannot see heaven without dying oneself (You must do the hard work yourself to achieve success).",
+    "meaning": "स्वयं मरे बिना स्वर्ग नहीं दिखता (काम स्वयं करने पर ही फल मिलता है)।",
+    "hindi": "स्वयं मरे बिना स्वर्ग नहीं दिखता (काम स्वयं करने पर ही फल मिलता है)।"
+  },
+  {
+    "pakhana": "जाँ घाम ताँ छाम।",
+    "literal": "Where there is sunshine, there is also shade (Joy and sorrow go hand in hand).",
+    "meaning": "जहाँ धूप है, वहीं छाया भी है (सुख और दुःख साथ-साथ चलते हैं)।",
+    "hindi": "जहाँ धूप है, वहीं छाया भी है (सुख और दुःख साथ-साथ चलते हैं)।"
+  },
+  {
+    "pakhana": "डाना का बासा, घाम का भरोसा।",
+    "literal": "Living on a mountain peak relies on sunlight (In tough terrains, one depends on nature's mercy).",
+    "meaning": "पहाड़ की चोटी पर बसेरा धूप के भरोसे होता है (कठिन परिस्थिति में प्राकृतिक साधनों पर निर्भरता)।",
+    "hindi": "पहाड़ की चोटी पर बसेरा धूप के भरोसे होता है (कठिन परिस्थिति में प्राकृतिक साधनों पर निर्भरता)।"
+  },
+  {
+    "pakhana": "अंग्वाव का घाव, पछाड़ को ताव।",
+    "literal": "Wounds in front signify courage, wounds on the back reveal cowardice.",
+    "meaning": "आगे का घाव वीरता है, पीछे का घाव कायरता।",
+    "hindi": "आगे का घाव वीरता है, पीछे का घाव कायरता।"
+  },
+  {
+    "pakhana": "काकड़ का सींग नी हुना।",
+    "literal": "A barking deer has no horns (Do not expect impossible things).",
+    "meaning": "काकड़ हिरण के सींग नहीं होते (असंभव बात की आशा करना व्यर्थ है)।",
+    "hindi": "काकड़ हिरण के सींग नहीं होते (असंभव बात की आशा करना व्यर्थ है)।"
   }
 ]

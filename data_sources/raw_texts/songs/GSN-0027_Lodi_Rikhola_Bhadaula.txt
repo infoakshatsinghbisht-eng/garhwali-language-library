@@ -1,0 +1,21 @@
+TITLE: लोदी रिखोला पवाड़ा (Lodi Rikhola Pawada) (Lodi Rikhola Bhadaula)
+ID: GSN-0027
+ARTIST: Traditional Bardic Ballad
+GENRE: Pawada / Martial Ballad
+CORPUS: Garhwal Royal Commander Chronicles
+THEME: Warrior prowess, Himalayan frontier defense, and King Mahipat Shah's reign
+SOURCE: https://archive.org/details/lodi_rikhola_chronicles
+
+=== CULTURAL CONTEXT ===
+Commemorates General Lodi Rikhola who defended the Himalayan passes and led successful campaigns under the Garhwali monarchy.
+
+=== DEVANGARI LYRICS ===
+लोदी रिखोला वीर बांकुरा, गढ़वाल को सेनापति!
+तिब्बत की सीमा पर, फहरायो धर्म की ध्वजा!
+महिपत शाह को मान राख्यो, बाहूबली सेनापति!
+धौंस-नगाड़ा बाजे जब, रणक्षेत्र मा दौड्यो!
+दुश्मन की छाती तोड़ी, विजय पताका रोप्यो!
+लोदी रिखोला वीर बांकुरा, गढ़वाल को सेनापति!
+
+=== ENGLISH TRANSLATION ===
+Lodi Rikhola, the brave and fierce commander of Garhwal! Along the trans-Himalayan Tibetan frontier, he raised high the standard of Garhwal kingdom!

@@ -229,5 +229,929 @@
     "hindi": "मुझे ठंड लग रही है।",
     "english": "I am feeling cold.",
     "audio_hint": "Mookai jaad laagno chha."
+  },
+  {
+    "category": "idioms",
+    "garhwali": "छाती मा पाथर धरनु",
+    "hindi": "अत्यंत भारी दुःख को चुपचाप सहना / धैर्य धारण करना",
+    "english": "To endure profound sorrow with silent fortitude (literally: placing a stone upon one's chest).",
+    "audio_hint": "Chhaati ma paathar dharnu"
+  },
+  {
+    "category": "idioms",
+    "garhwali": "आँखों मा घाम चमकणु",
+    "hindi": "उम्मीद की नई किरण दिखाई देना / प्रसन्नता होना",
+    "english": "Eyes lighting up with sudden hope and joy (literally: sunlight gleaming in the eyes).",
+    "audio_hint": "Aankhon ma ghaam chamkanu"
+  },
+  {
+    "category": "idioms",
+    "garhwali": "डांडा-कांठा एक करनु",
+    "hindi": "कठिन परिश्रम करना / आकाश-पाताल एक करना",
+    "english": "To leave no stone unturned; moving heaven and earth across ridges and peaks.",
+    "audio_hint": "Danda-kantha ek karnu"
+  },
+  {
+    "category": "idioms",
+    "garhwali": "हिया की प्यास बुझौणु",
+    "hindi": "मन की गहरी अभिलाषा पूरी करना / तृप्ति पाना",
+    "english": "To satisfy one's deepest heartfelt longing.",
+    "audio_hint": "Hiya ki pyaas bujhaunu"
+  },
+  {
+    "category": "idioms",
+    "garhwali": "खुदेड़ लगणु",
+    "hindi": "मातृभूमि या प्रियजन की याद में मन तड़पना",
+    "english": "To be overcome with intense nostalgic homesickness and yearning for one's hills.",
+    "audio_hint": "Khuded lagnu"
+  },
+  {
+    "category": "idioms",
+    "garhwali": "गाड़-गधेरा नापियौणु",
+    "hindi": "व्यर्थ इधर-उधर भटकना",
+    "english": "To wander aimlessly across mountain ravines and brooks.",
+    "audio_hint": "Gaad-gadhera naapiyaunu"
+  },
+  {
+    "category": "idioms",
+    "garhwali": "बगड़ मा पाणी ढोलणु",
+    "hindi": "व्यर्थ श्रम करना / अयोग्य स्थान पर मेहनत गंवाना",
+    "english": "Pouring water over sand; futile effort with no yield.",
+    "audio_hint": "Bagad ma paani dhoolnu"
+  },
+  {
+    "category": "idioms",
+    "garhwali": "कान मा जूँ नी रेंगणु",
+    "hindi": "बिल्कुल असर न होना / अनसुना कर देना",
+    "english": "Turning a deaf ear; remaining utterly indifferent to advice.",
+    "audio_hint": "Kaan ma joon ni rengnu"
+  },
+  {
+    "category": "idioms",
+    "garhwali": "पेट मा दाँत होणु",
+    "hindi": "कपटपूर्ण या अत्यंत चतुर होना",
+    "english": "Cunning and secretive nature (literally: having teeth in one's stomach).",
+    "audio_hint": "Pet ma daanth honu"
+  },
+  {
+    "category": "idioms",
+    "garhwali": "मुँह मा पाणी औणु",
+    "hindi": "लालच उत्पन्न होना / ललचाना",
+    "english": "Mouth watering with sudden temptation.",
+    "audio_hint": "Munh ma paani aunu"
+  },
+  {
+    "category": "education",
+    "garhwali": "गुरुजी प्रणाम, पाटी पर कख लिखूं?",
+    "hindi": "शिक्षक महोदय प्रणाम, स्लेट पर कहाँ लिखूँ?",
+    "english": "Respectful greetings teacher, where should I write on the slate?",
+    "audio_hint": "Guruji pranaam, paati par kakh likhoon?"
+  },
+  {
+    "category": "education",
+    "garhwali": "आज मास्टरजी न पहाड़ा याद करणा कयो।",
+    "hindi": "आज शिक्षक ने गुणा पहाड़ा याद करने को कहा।",
+    "english": "Today the teacher asked us to memorize multiplication tables.",
+    "audio_hint": "Aaj masterji na pahaada yaad karna kayo."
+  },
+  {
+    "category": "education",
+    "garhwali": "स्कूल कतगा बजे खुलदू?",
+    "hindi": "विद्यालय कितने बजे खुलता है?",
+    "english": "What time does the school open?",
+    "audio_hint": "School katga baje khuldoo?"
+  },
+  {
+    "category": "education",
+    "garhwali": "कल स्कूल की छुट्टी च।",
+    "hindi": "कल विद्यालय की छुट्टी है।",
+    "english": "Tomorrow is a school holiday.",
+    "audio_hint": "Kal school ki chhutti cha."
+  },
+  {
+    "category": "education",
+    "garhwali": "मेरी किताब बस्ते मा च।",
+    "hindi": "मेरी पुस्तक बस्ते में है।",
+    "english": "My book is inside the school bag.",
+    "audio_hint": "Meree kitaab baste ma cha."
+  },
+  {
+    "category": "work",
+    "garhwali": "तुमारी सरकारी नौकरी कख लगी?",
+    "hindi": "आपकी सरकारी नौकरी कहाँ लगी?",
+    "english": "Where is your government job posted?",
+    "audio_hint": "Tumari sarkari naukri kakh lagi?"
+  },
+  {
+    "category": "work",
+    "garhwali": "साहब दफ्तर मा बैठ्यां छन।",
+    "hindi": "साहब कार्यालय में बैठे हैं।",
+    "english": "The officer is sitting in his office.",
+    "audio_hint": "Saahab daftar ma baithyan chhan."
+  },
+  {
+    "category": "work",
+    "garhwali": "आज तनख्वाह मिलली क्या?",
+    "hindi": "क्या आज वेतन मिलेगा?",
+    "english": "Will we receive our salary today?",
+    "audio_hint": "Aaj tankhwah milali kya?"
+  },
+  {
+    "category": "work",
+    "garhwali": "ये अर्जी पर दस्तखत करा।",
+    "hindi": "इस प्रार्थना पत्र पर हस्ताक्षर कीजिए।",
+    "english": "Please sign this application form.",
+    "audio_hint": "Ye arji par dastkhat kara."
+  },
+  {
+    "category": "work",
+    "garhwali": "पटवारी जी बगत पर नि औंदा।",
+    "hindi": "पटवारी जी समय पर नहीं आते।",
+    "english": "The revenue inspector does not arrive on time.",
+    "audio_hint": "Patwari ji bagat par ni aunda."
+  },
+  {
+    "category": "work",
+    "garhwali": "मेरी बदली गैरसैंण ह्वे गै।",
+    "hindi": "मेरा स्थानांतरण गैरसैंण हो गया है।",
+    "english": "My transfer has been ordered to Gairsain.",
+    "audio_hint": "Meree badlee Gairsain hwe gai."
+  },
+  {
+    "category": "shopping",
+    "garhwali": "दुकानदार जी, ये दाल को कतगा भाव च?",
+    "hindi": "दुकानदार जी, इस दाल का क्या भाव है?",
+    "english": "Shopkeeper, what is the rate for these lentils?",
+    "audio_hint": "Dukaandar ji, ye daal ko katga bhaaw cha?"
+  },
+  {
+    "category": "shopping",
+    "garhwali": "थोड़ा कम करा दाज्यू, भौत मेहंगू च।",
+    "hindi": "थोड़ा कम कीजिए भाई साहब, बहुत महँगा है।",
+    "english": "Please reduce the price a bit, elder brother, it is quite expensive.",
+    "audio_hint": "Thoda kam kara daajyu, bhaut mehengu cha."
+  },
+  {
+    "category": "shopping",
+    "garhwali": "बज़ार कतुक दूर च यां बटी?",
+    "hindi": "यहाँ से बाज़ार कितनी दूर है?",
+    "english": "How far is the market from here?",
+    "audio_hint": "Bazaar katuk door cha yaan batee?"
+  },
+  {
+    "category": "shopping",
+    "garhwali": "खुल्ला रुप्या छन क्या तुमरा पास?",
+    "hindi": "क्या आपके पास खुले पैसे हैं?",
+    "english": "Do you have change for cash?",
+    "audio_hint": "Khulla rupya chhan kya tumra paas?"
+  },
+  {
+    "category": "shopping",
+    "garhwali": "हमारो व्यापार चोखो चलनो च।",
+    "hindi": "हमारा व्यापार अच्छा चल रहा है।",
+    "english": "Our business is running very smoothly.",
+    "audio_hint": "Hamaro vyaapaar chokho chalno cha."
+  },
+  {
+    "category": "governance",
+    "garhwali": "कचहरी मा आज मुकद्दमा की तारीख च।",
+    "hindi": "अदालत में आज मुकदमे की तारीख है।",
+    "english": "Today is the hearing date for the case in court.",
+    "audio_hint": "Kachahari ma aaj mukaddama ki tareekh cha."
+  },
+  {
+    "category": "governance",
+    "garhwali": "हाकिम न फैसला सुणायो।",
+    "hindi": "न्यायाधीश ने निर्णय सुनाया।",
+    "english": "The magistrate pronounced the verdict.",
+    "audio_hint": "Haakim na faisla sunaayo."
+  },
+  {
+    "category": "governance",
+    "garhwali": "पुलिस चौकी कख च?",
+    "hindi": "पुलिस थाना / चौकी कहाँ है?",
+    "english": "Where is the police station / outpost?",
+    "audio_hint": "Police chauki kakh cha?"
+  },
+  {
+    "category": "governance",
+    "garhwali": "चोर रात कणी पकड़ा गै।",
+    "hindi": "चोर रात को पकड़ा गया।",
+    "english": "The thief was apprehended during the night.",
+    "audio_hint": "Chor raat kani pakada gai."
+  },
+  {
+    "category": "governance",
+    "garhwali": "घूस लेण गैर-कानूनी च।",
+    "hindi": "रिश्वत लेना गैर-कानूनी है।",
+    "english": "Taking a bribe is completely illegal.",
+    "audio_hint": "Ghoos lena gair-kanooni cha."
+  },
+  {
+    "category": "kitchen",
+    "garhwali": "चुला मा ताउली चढ़ावा।",
+    "hindi": "चूल्हे पर पतीला रखिए।",
+    "english": "Place the cooking pot upon the hearth.",
+    "audio_hint": "Chula ma tauli chadhawa."
+  },
+  {
+    "category": "kitchen",
+    "garhwali": "कौदी की रोटी अर झंगोरा की खीर बणाई।",
+    "hindi": "मण्डुवे की रोटी और झंगोरे की खीर बनाई है।",
+    "english": "We prepared millet flatbreads and barnyard millet kheer.",
+    "audio_hint": "Kaudi ki roti ar jhangora ki kheer banai."
+  },
+  {
+    "category": "kitchen",
+    "garhwali": "मिते गरम-गरम पाणी चैं।",
+    "hindi": "मुझे गर्म पानी चाहिए।",
+    "english": "I need hot water.",
+    "audio_hint": "Mite garam-garam paani chain."
+  },
+  {
+    "category": "kitchen",
+    "garhwali": "भात मा थोड़ा घी घाल्या।",
+    "hindi": "चावल में थोड़ा घी डालिए।",
+    "english": "Please drizzle a little ghee over the rice.",
+    "audio_hint": "Bhaat ma thoda ghee ghalya."
+  },
+  {
+    "category": "kitchen",
+    "garhwali": "कांसा का कचौळा मा दाल ल्यावा।",
+    "hindi": "काँसे के कटोरे में दाल लाइए।",
+    "english": "Bring the dal in the bell-metal bowl.",
+    "audio_hint": "Kaansa ka kachola ma daal lyawa."
+  },
+  {
+    "category": "family",
+    "garhwali": "नन्हा धौन्टु पालना मा सुत्यूँ च।",
+    "hindi": "छोटा नवजात शिशु पालने में सो रहा है।",
+    "english": "The tiny infant is sleeping in the cradle.",
+    "audio_hint": "Nanha dhauntu paalna ma suttyun cha."
+  },
+  {
+    "category": "family",
+    "garhwali": "नान्तिन आँगन मा खेलणा छन।",
+    "hindi": "बच्चे आँगन में खेल रहे हैं।",
+    "english": "The children are playing out in the courtyard.",
+    "audio_hint": "Naantin aangan ma khelna chhan."
+  },
+  {
+    "category": "family",
+    "garhwali": "नौना घुटणु-घुटणु चलनो च।",
+    "hindi": "बालक घुटनों के बल रेंग रहा है।",
+    "english": "The little baby is crawling on hands and knees.",
+    "audio_hint": "Nauna ghutanu-ghutanu chalno cha."
+  },
+  {
+    "category": "family",
+    "garhwali": "आज नौनी को झड़ूळा च।",
+    "hindi": "आज बच्ची का मुंडन संस्कार है।",
+    "english": "Today is the child's ceremonial hair-cutting rite.",
+    "audio_hint": "Aaj nauni ko jhadoola cha."
+  },
+  {
+    "category": "family",
+    "garhwali": "दादी जी कथा सुणौणी छ।",
+    "hindi": "दादी जी कहानी सुना रही हैं।",
+    "english": "Grandmother is narrating a folk tale.",
+    "audio_hint": "Daadi ji katha sunauni cha."
+  },
+  {
+    "category": "health",
+    "garhwali": "डाक्टर साहब, मिते जाड़-बुखार च।",
+    "hindi": "चिकित्सक महोदय, मुझे ठंड और बुखार है।",
+    "english": "Doctor, I am suffering from chills and fever.",
+    "audio_hint": "Doctor saahab, mite jaad-bukhaar cha."
+  },
+  {
+    "category": "health",
+    "garhwali": "दवा बगत पर खायो करा।",
+    "hindi": "दवा समय पर खाया कीजिए।",
+    "english": "Please take your medicine on schedule.",
+    "audio_hint": "Dawa bagat par khaayo kara."
+  },
+  {
+    "category": "weather",
+    "garhwali": "आज डांड्युं पर भारी हिउँद पौणी च।",
+    "hindi": "आज पहाड़ों पर भारी बर्फ पड़ रही है।",
+    "english": "Heavy snowfall is blanketing the high ridges today.",
+    "audio_hint": "Aaj daandyun par bhaari hiund pauni cha."
+  },
+  {
+    "category": "weather",
+    "garhwali": "घाम निस्क्यो, चल कपड़ा सुखौल्या।",
+    "hindi": "धूप निकल आई है, चलो कपड़े सुखाएँ।",
+    "english": "The sunshine has broken out, let us dry the clothes.",
+    "audio_hint": "Ghaam niskyo, chal kapda sukhaulya."
+  },
+  {
+    "category": "travel",
+    "garhwali": "डांडी-कांठी को बाटो संभळिक चला।",
+    "hindi": "पहाड़ी पगडंडी पर संभलकर चलिए।",
+    "english": "Tread carefully along the steep mountain path.",
+    "audio_hint": "Daandi-kaanthi ko baato sambhalik chala."
+  },
+  {
+    "category": "greetings",
+    "garhwali": "पैलाग दाज्यू!",
+    "hindi": "प्रणाम बड़े भाई!",
+    "english": "Greetings elder brother! (respectful foot touch)",
+    "audio_hint": "Pailag dajyu!"
+  },
+  {
+    "category": "conversation",
+    "garhwali": "कस छौं तुम?",
+    "hindi": "आप कैसे हैं?",
+    "english": "How are you? (formal)",
+    "audio_hint": "Kas chou tum?"
+  },
+  {
+    "category": "conversation",
+    "garhwali": "कस छे तू?",
+    "hindi": "तू कैसा है?",
+    "english": "How are you? (informal/younger)",
+    "audio_hint": "Kas chhe tu?"
+  },
+  {
+    "category": "conversation",
+    "garhwali": "मैं ठीक छौंँ।",
+    "hindi": "मैं ठीक हूँ।",
+    "english": "I am fine.",
+    "audio_hint": "Main theek choon."
+  },
+  {
+    "category": "conversation",
+    "garhwali": "तुमार नाम क्या छ?",
+    "hindi": "आपका नाम क्या है?",
+    "english": "What is your name?",
+    "audio_hint": "Tumaar naam kya chha?"
+  },
+  {
+    "category": "conversation",
+    "garhwali": "मेरो नाम... छ।",
+    "hindi": "मेरा नाम... है।",
+    "english": "My name is...",
+    "audio_hint": "Mero naam... chha."
+  },
+  {
+    "category": "conversation",
+    "garhwali": "तुम कहाँ रैंछा?",
+    "hindi": "आप कहाँ रहते हैं?",
+    "english": "Where do you live?",
+    "audio_hint": "Tum kahan rainchha?"
+  },
+  {
+    "category": "conversation",
+    "garhwali": "भात खायो?",
+    "hindi": "खाना खा लिया?",
+    "english": "Did you eat food / rice?",
+    "audio_hint": "Bhaat khaayo?"
+  },
+  {
+    "category": "hospitality",
+    "garhwali": "पाणि पिओ।",
+    "hindi": "पानी पीजिये।",
+    "english": "Please drink water.",
+    "audio_hint": "Paani peeo."
+  },
+  {
+    "category": "hospitality",
+    "garhwali": "भितर आ जाओ।",
+    "hindi": "अंदर आ जाइये।",
+    "english": "Please come inside.",
+    "audio_hint": "Bhitar aa jaao."
+  },
+  {
+    "category": "hospitality",
+    "garhwali": "बैठो!",
+    "hindi": "बैठिये!",
+    "english": "Please sit down.",
+    "audio_hint": "Baitho!"
+  },
+  {
+    "category": "directions",
+    "garhwali": "यो बाटो कहाँ जाँछ?",
+    "hindi": "यह रास्ता कहाँ जाता है?",
+    "english": "Where does this road go?",
+    "audio_hint": "Yo baato kahan jaanchha?"
+  },
+  {
+    "category": "directions",
+    "garhwali": "अस्पताल कतुक दूर छ?",
+    "hindi": "अस्पताल कितनी दूर है?",
+    "english": "How far is the hospital?",
+    "audio_hint": "Aspataal katuk door chha?"
+  },
+  {
+    "category": "shopping",
+    "garhwali": "यिको कतुक पैसा छ?",
+    "hindi": "इसका कितना रुपया हुआ?",
+    "english": "How much does this cost?",
+    "audio_hint": "Yiko katuk paisa chha?"
+  },
+  {
+    "category": "emergency",
+    "garhwali": "मैंकणी मदद चाही।",
+    "hindi": "मुझे मदद चाहिए।",
+    "english": "I need help.",
+    "audio_hint": "Mainkani madad chaahi."
+  },
+  {
+    "category": "weather",
+    "garhwali": "घाम लागूँ छ।",
+    "hindi": "धूप खिली है।",
+    "english": "The sun is shining bright / It is sunny.",
+    "audio_hint": "Ghaam laagoon chha."
+  },
+  {
+    "category": "weather",
+    "garhwali": "आज भौत जाड़ छ।",
+    "hindi": "आज बहुत सर्दी है।",
+    "english": "Today is very cold.",
+    "audio_hint": "Aaj bhaut jaad chha."
+  },
+  {
+    "category": "weather",
+    "garhwali": "बरखा लागूँ छे।",
+    "hindi": "बारिश हो रही है।",
+    "english": "It is raining.",
+    "audio_hint": "Barkha laagoon chhe."
+  },
+  {
+    "category": "greetings",
+    "garhwali": "शुभ बिहान!",
+    "hindi": "शुभ प्रभात!",
+    "english": "Good morning!",
+    "audio_hint": "Shubh bihaan!"
+  },
+  {
+    "category": "greetings",
+    "garhwali": "शुभ राति!",
+    "hindi": "शुभ रात्रि!",
+    "english": "Good night!",
+    "audio_hint": "Shubh raati!"
+  },
+  {
+    "category": "farewell",
+    "garhwali": "फिर मिलुला!",
+    "hindi": "फिर मिलेंगे!",
+    "english": "See you again! / Goodbye!",
+    "audio_hint": "Phir milula!"
+  },
+  {
+    "category": "farewell",
+    "garhwali": "आपणी खैरियत रख्या।",
+    "hindi": "अपना ख्याल रखिएगा।",
+    "english": "Take care of yourself.",
+    "audio_hint": "Aapni khairiyat rakhya."
+  },
+  {
+    "category": "greetings",
+    "garhwali": "कि हाल हरियान?",
+    "hindi": "क्या हालचाल हैं?",
+    "english": "How are you doing? / What is the news?",
+    "audio_hint": "Ki haal hariyaan?"
+  },
+  {
+    "category": "conversation",
+    "garhwali": "घर पं सब कस छन?",
+    "hindi": "घर पर सब कैसे हैं?",
+    "english": "How is everyone at home?",
+    "audio_hint": "Ghar pan sab kas chhan?"
+  },
+  {
+    "category": "conversation",
+    "garhwali": "सब ठीक छन।",
+    "hindi": "सब ठीक हैं।",
+    "english": "Everyone is fine.",
+    "audio_hint": "Sab theek chhan."
+  },
+  {
+    "category": "conversation",
+    "garhwali": "तुम अचाहल कि करनो छा?",
+    "hindi": "आप आजकल क्या कर रहे हैं?",
+    "english": "What are you doing these days?",
+    "audio_hint": "Tum achyaal ki karno chha?"
+  },
+  {
+    "category": "conversation",
+    "garhwali": "मैं स्कूल म पडूँ छौंँ।",
+    "hindi": "मैं स्कूल में पढ़ता हूँ।",
+    "english": "I am studying in a school.",
+    "audio_hint": "Main school ma padoon chhoon."
+  },
+  {
+    "category": "conversation",
+    "garhwali": "तुमार स्कूलक नाम क्या छ?",
+    "hindi": "आपके स्कूल का नाम क्या है?",
+    "english": "What is the name of your school?",
+    "audio_hint": "Tumaar schoolak naam kya chha?"
+  },
+  {
+    "category": "conversation",
+    "garhwali": "तुमार गाँव कहाँ छ?",
+    "hindi": "आपका गाँव कहाँ है?",
+    "english": "Where is your village?",
+    "audio_hint": "Tumaar gaanv kahan chha?"
+  },
+  {
+    "category": "conversation",
+    "garhwali": "मेरो गाँव पहाड़ म छ।",
+    "hindi": "मेरा गाँव पहाड़ में है।",
+    "english": "My village is in the mountains.",
+    "audio_hint": "Mero gaanv pahaad ma chha."
+  },
+  {
+    "category": "conversation",
+    "garhwali": "तुम कतुक भाई-बैणी छा?",
+    "hindi": "आप कितने भाई-बहन हैं?",
+    "english": "How many brothers and sisters do you have?",
+    "audio_hint": "Tum katuk bhai-baini chha?"
+  },
+  {
+    "category": "conversation",
+    "garhwali": "मेरो एक नान भाई और एक ठूली दीदी छन।",
+    "hindi": "मेरा एक छोटा भाई और एक बड़ी बहन हैं।",
+    "english": "I have one younger brother and one elder sister.",
+    "audio_hint": "Mero ek naan bhai aur ek thooli didi chhan."
+  },
+  {
+    "category": "conversation",
+    "garhwali": "तुमार बाबु क्या करैनी?",
+    "hindi": "आपके पिताजी क्या करते हैं?",
+    "english": "What does your father do?",
+    "audio_hint": "Tumaar baabu kya karaini?"
+  },
+  {
+    "category": "conversation",
+    "garhwali": "मेर बाबु फौज म नौकरी करैनी।",
+    "hindi": "मेरे पिताजी सेना (फौज) में नौकरी करते हैं।",
+    "english": "My father serves in the army.",
+    "audio_hint": "Mera baabu fauj ma naukari karaini."
+  },
+  {
+    "category": "conversation",
+    "garhwali": "तुमार बूबू आब कस छन?",
+    "hindi": "आपके दादाजी अब कैसे हैं?",
+    "english": "How is your grandfather feeling now?",
+    "audio_hint": "Tumaar booboo aab kas chhan?"
+  },
+  {
+    "category": "travel",
+    "garhwali": "तुम कभै नैनीताल गया छा?",
+    "hindi": "क्या आप कभी नैनीताल गए हैं?",
+    "english": "Have you ever been to Nainital?",
+    "audio_hint": "Tum kabhai Nainital gaya chha?"
+  },
+  {
+    "category": "travel",
+    "garhwali": "होय, भौत बार ग्यूँ।",
+    "hindi": "हाँ, बहुत बार गया हूँ।",
+    "english": "Yes, I have been there many times.",
+    "audio_hint": "Hoye, bhaut baar gyoon."
+  },
+  {
+    "category": "society",
+    "garhwali": "तुमार गाँव म बिजली छ?",
+    "hindi": "क्या आपके गाँव में बिजली है?",
+    "english": "Is there electricity in your village?",
+    "audio_hint": "Tumaar gaanv ma bijali chha?"
+  },
+  {
+    "category": "agriculture",
+    "garhwali": "तुमार पास कतुक गोरू-बाखर छन?",
+    "hindi": "आपके पास कितने मवेशी और बकरियां हैं?",
+    "english": "How many cattle and goats do you have?",
+    "audio_hint": "Tumaar paas katuk goru-baakhar chhan?"
+  },
+  {
+    "category": "agriculture",
+    "garhwali": "हमैरो पास द्वि गोरू और पाँच बाखर छन।",
+    "hindi": "हमारे पास दो गाय/बैल और पाँच बकरियाँ हैं।",
+    "english": "We have two cows and five goats.",
+    "audio_hint": "Hamairo paas dwi goru aur paanch baakhar chhan."
+  },
+  {
+    "category": "agriculture",
+    "garhwali": "पोरो साल धानक फसल कसि भई?",
+    "hindi": "पिछले साल धान की फसल कैसी हुई?",
+    "english": "How was the paddy crop last year?",
+    "audio_hint": "Poro saal dhaanak fasal kasi bhai?"
+  },
+  {
+    "category": "weather",
+    "garhwali": "बरखा भौत भली भई।",
+    "hindi": "बारिश बहुत अच्छी हुई।",
+    "english": "The rains were very good.",
+    "audio_hint": "Barkha bhaut bhali bhai."
+  },
+  {
+    "category": "weather",
+    "garhwali": "आज भौत घाम लागूँ छ।",
+    "hindi": "आज बहुत तेज धूप खिली है।",
+    "english": "Today the sun is shining very bright.",
+    "audio_hint": "Aaj bhaut ghaam laagoon chha."
+  },
+  {
+    "category": "weather",
+    "garhwali": "ह्यूँद म पहाड़न म ह्यूँ पडूँ छ।",
+    "hindi": "सर्दियों में पहाड़ों पर बर्फ गिरती है।",
+    "english": "In winter, snow falls on the mountains.",
+    "audio_hint": "Hyoond ma pahaadan ma hyoon padoon chha."
+  },
+  {
+    "category": "wisdom",
+    "garhwali": "आपण हाथ जगन्नाथ।",
+    "hindi": "अपना हाथ जगन्नाथ / आत्मनिर्भरता सबसे बड़ा बल है।",
+    "english": "Self-reliance is the greatest strength.",
+    "audio_hint": "Aapan haath Jagannath."
+  },
+  {
+    "category": "culture",
+    "garhwali": "जी रया, जागि रया, तिष्ठि रया!",
+    "hindi": "दीर्घायु हो, जागृत रहो, समृद्ध बनो! (हरेला का पारंपरिक आशीर्वाद)",
+    "english": "May you live long, stay enlightened, and prosper! (Traditional Kumaoni blessings during Harela/festivals)",
+    "audio_hint": "Jee raya, jaagi raya, tishti raya!"
+  },
+  {
+    "category": "culture",
+    "garhwali": "लागू हरेला, लागूँ मास, जी रये जागि रये!",
+    "hindi": "हरेला का शुभ आगमन हो, दीर्घायु और स्वस्थ रहो!",
+    "english": "May the blessings of Harela be upon you; live long and stay healthy!",
+    "audio_hint": "Laagoo Harela, laagoon maas, jee raye jaagi raye!"
+  },
+  {
+    "category": "culture",
+    "garhwali": "फूल देई, छम्मा देई, दैणी द्वार, भर भकार!",
+    "hindi": "फूल देई, सुख-समृद्धि आए, देहरी पर ईश्वर का वास हो, अन्न के भंडार भरें!",
+    "english": "May flowers bring prosperity, blessings at your doorstep, and granaries full of grain! (Phool Dei spring festival chant)",
+    "audio_hint": "Phool dei, chhamma dei, daini dwaar, bhar bhakaar!"
+  },
+  {
+    "category": "culture",
+    "garhwali": "काले कौवा काले, घुघुती माला खाले!",
+    "hindi": "काले कौवे आओ, घुघुती की मीठी माला खाओ!",
+    "english": "O black crow, come and eat the garland of sweet Ghughuti snacks! (Ghughutiya / Uttarayani traditional chant)",
+    "audio_hint": "Kaale kauwa kaale, ghughuti maala khaale!"
+  },
+  {
+    "category": "literature",
+    "garhwali": "सांचो मन्खि रुणि छै",
+    "hindi": "सच्चा इंसान रोता रहता है",
+    "english": "The truthful person is left to weep in despair",
+    "audio_hint": "Saancho mankhi runi chhai"
+  },
+  {
+    "category": "literature",
+    "garhwali": "धरम करम सब छौंटि गो",
+    "hindi": "धर्म-कर्म सब छूट गया",
+    "english": "Righteous duty and spiritual deeds have been neglected",
+    "audio_hint": "Dharam karam sab chhooti go"
+  },
+  {
+    "category": "idiom",
+    "garhwali": "मुकदमा लड़न म घर-बार बिकि जाँ",
+    "hindi": "कचहरी के मुकदमों में घर-बार बिक जाता है",
+    "english": "Fighting court litigations bankrupts hearth and home",
+    "audio_hint": "Mukadama ladan ma ghar-baar biki jaan"
+  },
+  {
+    "category": "ecology",
+    "garhwali": "बाँझ-बुराँश हमैरि जीवनरेखा छन",
+    "hindi": "बांज और बुरांश हमारी जीवनरेखा हैं",
+    "english": "Oak and rhododendron are the very lifeblood of the Himalayas",
+    "audio_hint": "Baanjh-buraansh hamairi jeevanrekha chhan"
+  },
+  {
+    "category": "nature",
+    "garhwali": "नौला-धारा सूखि जाला",
+    "hindi": "नौले और प्राकृतिक जलस्रोत सूख जाएंगे",
+    "english": "The stepwells and natural springs will dry up",
+    "audio_hint": "Naula-dhaara sookhi jaala"
+  },
+  {
+    "category": "idiom",
+    "garhwali": "अनाल कि चोट कनाल पड़न",
+    "hindi": "निशाना कहीं और लगना और असर कहीं और होना",
+    "english": "Missing the lower mark and hitting the top ridge unexpectedly",
+    "audio_hint": "Anaal ki chot kanaal padan"
+  },
+  {
+    "category": "idiom",
+    "garhwali": "काकड़ मारन कुकूर, जस खान भड़भड़",
+    "hindi": "मेहनत कोई करे और यश किसी और को मिले",
+    "english": "The dogs hunt down the deer, but the cooking pot takes the credit",
+    "audio_hint": "Kaakad maaran kukur, jas khaan bhadbhad"
+  },
+  {
+    "category": "blessings",
+    "garhwali": "फुलि जाए फलि जाए, जीरये जागि रये",
+    "hindi": "फलो और फूलो, दीर्घायु हो और सदा सजग रहो।",
+    "english": "May you blossom and bear fruit, live long and stay awake and alert!",
+    "audio_hint": "Phuli jaae phali jaae, jeeraye jaagi raye"
+  },
+  {
+    "category": "lullaby",
+    "garhwali": "नौला को पानि पिले, गुदड़ी में पड़ि रौले",
+    "hindi": "नौले का मीठा पानी पी लो और गुदड़ी में आराम से सो जाओ।",
+    "english": "Drink sweet water from the natural spring and rest comfortably in your quilt.",
+    "audio_hint": "Naula ko paani pile, gudadi mein padi roule"
+  },
+  {
+    "category": "daily_conversation",
+    "garhwali": "अज्याल का दिन भौत सुखद छन",
+    "hindi": "आजकल के दिन बहुत सुखद हैं।",
+    "english": "Nowadays the days are very pleasant.",
+    "audio_hint": "Ajyaal ka din bhaut sukhad chhan"
+  },
+  {
+    "category": "weather",
+    "garhwali": "पोरिबेर हमार गांव में भौत हिउँ पडो",
+    "hindi": "पिछले साल हमारे गाँव में बहुत बर्फ पड़ी थी।",
+    "english": "Last year it snowed heavily in our village.",
+    "audio_hint": "Poriber hamaar gaanw mein bhaut hiun pado"
+  },
+  {
+    "category": "daily_conversation",
+    "garhwali": "तुमि कबार घौर औला?",
+    "hindi": "आप कब घर आएंगे?",
+    "english": "When will you come home?",
+    "audio_hint": "Tumi kabaar ghaur aula?"
+  },
+  {
+    "category": "travel",
+    "garhwali": "अस्टे-अस्टे हिटा, बाटो बिगल छ",
+    "hindi": "धीरे-धीरे चलो, रास्ता फिसलन भरा है।",
+    "english": "Walk slowly and carefully, the path is slippery and treacherous.",
+    "audio_hint": "Aste-aste hita, baato bigal chha"
+  },
+  {
+    "category": "culture",
+    "garhwali": "बौज्युक आशीर्वाद लैबे सब काम भल हुंला",
+    "hindi": "पिताजी का आशीर्वाद लेकर सब काम अच्छे होंगे।",
+    "english": "With the blessings of elders/father, all endeavors will succeed.",
+    "audio_hint": "Boujyuk aasheervaad laibe sab kaam bhal hunla"
+  },
+  {
+    "category": "greetings",
+    "garhwali": "तुम कसिक छा? सब कुशल-मंगल छ?",
+    "hindi": "आप कैसे हैं? सब कुशल-मंगल है?",
+    "english": "How are you? Is everything well and peaceful with you?",
+    "audio_hint": "Tum kasik chha? Sab kushal-mangal chha?"
+  },
+  {
+    "category": "respect",
+    "garhwali": "मेरि ब्वै-बौज्युक पाँव लागूँ।",
+    "hindi": "माता-पिता के चरण स्पर्श करता हूँ।",
+    "english": "I touch the feet of my mother and father in reverence.",
+    "audio_hint": "Meri ija-boujyuk paanw laagoon."
+  },
+  {
+    "category": "nature",
+    "garhwali": "पहाड़क नौला को पानि अमृत बरोबर छ।",
+    "hindi": "पहाड़ के नौले का पानी अमृत के समान है।",
+    "english": "The water from mountain natural springs is as pure as nectar.",
+    "audio_hint": "Pahaadak naula ko paani amrit barobar chha."
+  },
+  {
+    "category": "weather",
+    "garhwali": "आज घाम भौत तेज लागूँ छ।",
+    "hindi": "आज धूप बहुत तेज है।",
+    "english": "The sun is shining very intensely today.",
+    "audio_hint": "Aaj ghaam bhaut tej laagoon chha."
+  },
+  {
+    "category": "wisdom",
+    "garhwali": "हाँसी-खुशी म जिनगि बिताओ, क्तुक झगड़ो नि करो।",
+    "hindi": "हंसी-खुशी में जीवन बिताओ, झगड़ा मत करो।",
+    "english": "Spend your days in joy and laughter; do not engage in quarrels.",
+    "audio_hint": "Haansi-khushi ma jinagi bitaao, katuk jhagdo ni karo."
+  },
+  {
+    "category": "festivals",
+    "garhwali": "हमार कुमाऊँ म नन्दा देवी को मैलो भौत धूम-धाम से हुंण छ।",
+    "hindi": "हमारे कुमाऊँ में नंदा देवी का मेला बड़ी धूमधाम से मनाया जाता है।",
+    "english": "In our Kumaon, the grand festival of Goddess Nanda Devi is celebrated with great devotion.",
+    "audio_hint": "Hamaar Kumaun ma Nanda Devi ko mailo bhaut dhoom-dhaam se hunn chha."
+  },
+  {
+    "category": "health",
+    "garhwali": "सबेरे-सबेरे उठिबेर सैर म जाण स्वास्थ्यक हुणि भल छ।",
+    "hindi": "सुबह जल्दी उठकर टहलना स्वास्थ्य के लिए उत्तम है।",
+    "english": "Waking up early and walking in the morning is great for one's health.",
+    "audio_hint": "Sabere-sabere uthibaer sair ma jaan swaasthyak huni bhal chha."
+  },
+  {
+    "category": "blessings",
+    "garhwali": "देवभूमि कुमाऊँ म सब द्यूतों की कृपा बणि रौ।",
+    "hindi": "देवभूमि कुमाऊँ में सभी देवी-देवताओं की कृपा बनी रहे।",
+    "english": "May the divine grace of all deities always shower upon sacred Devbhoomi Kumaon.",
+    "audio_hint": "Devbhoomi Kumaun ma sab dyooton ki kripa bani rou."
+  },
+  {
+    "category": "seasons",
+    "garhwali": "बुग्यालों म हिउँ पगलिगे, ब्वार ऐगे।",
+    "hindi": "बुग्यालों में बर्फ पिघल गई है, वसंत आ गया है।",
+    "english": "The snow has melted in the high alpine meadows; spring has arrived.",
+    "audio_hint": "Bugyaalon ma hiun pagalige, bwaar aige."
+  },
+  {
+    "category": "culture",
+    "garhwali": "हमार पूर्वजों को अमर इतिहास हमरो गौरव छ।",
+    "hindi": "हमारे पूर्वजों का अमर इतिहास हमारा गौरव है।",
+    "english": "The immortal history of our ancestors is our supreme pride.",
+    "audio_hint": "Hamaar poorvajon ko amar itihaas hamro gaurav chha."
+  },
+  {
+    "category": "language",
+    "garhwali": "कुमाऊँनी बोलि हमैरि मां जसि मीठ छ।",
+    "hindi": "कुमाऊँनी बोली हमारी माँ के समान मधुर है।",
+    "english": "The Kumaoni language is as sweet and nurturing as a mother's embrace.",
+    "audio_hint": "Kumaoni boli hamairi maan jasi meeth chha."
+  },
+  {
+    "category": "culture",
+    "garhwali": "कौतिक म जाईबेर झोड़ा-चाँचरी नाचणो भौत आनंदाज्यूयक हुंण छ।",
+    "hindi": "मेले में जाकर झोड़ा-चाँचरी नाचना अत्यंत आनंददायक होता है।",
+    "english": "Going to the hill fair and dancing the Jhora-Chanchari brings boundless joy.",
+    "audio_hint": "Kautik ma jaaibaer jhora-chaanchari naachano bhaut aananddaayak hunn chha."
+  },
+  {
+    "category": "conversation",
+    "garhwali": "तुज भेटक बढ़िया लागो।",
+    "hindi": "आपसे मिलकर बहुत अच्छा लगा।",
+    "english": "Nice to meet you.",
+    "audio_hint": "Tuj bhetak badhiya lago."
+  },
+  {
+    "category": "daily_conversation",
+    "garhwali": "एथर आ।",
+    "hindi": "यहाँ आओ / इधर आओ।",
+    "english": "Come here.",
+    "audio_hint": "Ethar aa."
+  },
+  {
+    "category": "daily_conversation",
+    "garhwali": "उथर जा।",
+    "hindi": "वहाँ जाओ / उधर जाओ।",
+    "english": "Go there.",
+    "audio_hint": "Uthar ja."
+  },
+  {
+    "category": "daily_conversation",
+    "garhwali": "उठ जा।",
+    "hindi": "उठ जाओ / खड़े हो जाओ।",
+    "english": "Stand up / Get up.",
+    "audio_hint": "Uth ja."
+  },
+  {
+    "category": "daily_conversation",
+    "garhwali": "धीरे बोल।",
+    "hindi": "धीरे बोलो / आहिस्ता बोलो।",
+    "english": "Speak slowly.",
+    "audio_hint": "Dheere bol."
+  },
+  {
+    "category": "daily_conversation",
+    "garhwali": "थोड़ी देर रूकी।",
+    "hindi": "थोड़ी देर रुको / प्रतीक्षा करो।",
+    "english": "Wait for a while.",
+    "audio_hint": "Thodi der ruki."
+  },
+  {
+    "category": "daily_conversation",
+    "garhwali": "चाल, जालुं।",
+    "hindi": "चलो, चलते हैं।",
+    "english": "Let's go.",
+    "audio_hint": "Chal, jalun."
+  },
+  {
+    "category": "travel",
+    "garhwali": "यो ठाऊँ कहाँ छे?",
+    "hindi": "यह जगह कहाँ है?",
+    "english": "Where is this place?",
+    "audio_hint": "Yo thaun kahan che?"
+  },
+  {
+    "category": "travel",
+    "garhwali": "यो ठाऊँ कति दूर छे?",
+    "hindi": "यह जगह कितनी दूर है?",
+    "english": "How far is this place?",
+    "audio_hint": "Yo thaun kati door che?"
+  },
+  {
+    "category": "travel",
+    "garhwali": "मैं कुन बाट जालुं?",
+    "hindi": "मुझे किस रास्ते से जाना चाहिए?",
+    "english": "Which way should I go?",
+    "audio_hint": "Main kun baat jalun?"
+  },
+  {
+    "category": "travel",
+    "garhwali": "आगै जा।",
+    "hindi": "आगे बढ़ो / आगे जाओ।",
+    "english": "Move forward / Go ahead.",
+    "audio_hint": "Aage ja."
   }
 ]

@@ -14,6 +14,78 @@ GARHWALI_CONSONANTS = [
     "क्ष", "त्र", "ज्ञ", "ड़", "ढ़"
 ]
 
+from enum import Enum
+from typing import Dict, List, Optional
+
+
+# ISO and Linguistic Metadata
+ISO_639_3 = "gbm"
+ISO_639_NAME = "Garhwali"
+NATIVE_NAME = "गढ़वाली"
+
+# Calendar Constants
+DAYS_OF_WEEK = [
+    "ऐतबार / आईतबार",   # Sunday
+    "सोमबार",            # Monday
+    "मंगलबार",           # Tuesday
+    "बुधबार",            # Wednesday
+    "बिपै / बृहस्पतबार", # Thursday
+    "सुक्रबार",          # Friday
+    "सनिच्चर / सनीबार",  # Saturday
+]
+
+
+class Gender(str, Enum):
+    """Grammatical gender in Garhwali."""
+    MASCULINE = "m"
+    FEMININE = "f"
+    NEUTER = "n"
+
+
+class GrammaticalNumber(str, Enum):
+    """Grammatical number in Garhwali."""
+    SINGULAR = "sg"
+    PLURAL = "pl"
+
+
+class Tense(str, Enum):
+    """Grammatical tenses in Garhwali."""
+    PRESENT = "present"
+    PAST = "past"
+    FUTURE = "future"
+    CONTINUOUS = "continuous"
+    PERFECT = "perfect"
+
+
+class PartOfSpeech(str, Enum):
+    """Part-of-Speech categories."""
+    NOUN = "noun"
+    PRONOUN = "pronoun"
+    VERB = "verb"
+    ADJECTIVE = "adjective"
+    ADVERB = "adverb"
+    POSTPOSITION = "postposition"
+    CONJUNCTION = "conjunction"
+    INTERJECTION = "interjection"
+    PARTICLE = "particle"
+
+
+class Script(str, Enum):
+    """Supported scripts for Garhwali."""
+    DEVANAGARI = "devanagari"
+    LATIN = "latin"
+
+
+class Dialect(str, Enum):
+    """Dialect zones of the Garhwali language."""
+    SRINAGARIYA = "srinagariya"          # Standard Pauri Garhwal
+    RATHWALI = "rathwali"                # Eastern Pauri / Rath region
+    TEHRI = "tehri"                      # Tehri Garhwal & Bhagirathi Valley
+    SALANI = "salani"                    # Southern Pauri / Kotdwar
+    BADHANI = "badhani"                  # Chamoli / Alaknanda Valley
+    JAUNSARI_BORDER = "jaunsari_border"  # Uttarkashi / Rawalti affinity
+
+
 GARHWALI_DIALECTS = {
     "srinagariya": "Srinagariya (Standard Pauri Garhwal)",
     "rathwali": "Rathwali (Eastern Pauri / Tehri border)",

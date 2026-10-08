@@ -44,6 +44,116 @@ class GarhwaliNoun:
             forms["vocative_sg"] = "हे " + forms["oblique_sg"] + "े"
         return forms
 
+
+def pluralize(noun: str, gender: Optional[Union[str, Any]] = None) -> str:
+    """
+    Pluralizes a Garhwali noun according to authentic morphological rules:
+    - Masculine ending in 'ो' (-o) or 'ु' (-u) changes to 'ा' (-a): घ्वड़ो -> घ्वड़ा, नौनू -> नौना
+    - Feminine ending in 'ी' (-ee) or 'ि' (-i) adds 'यां' (-yan): नौनी -> नौनियां, डाली -> डालियां
+    - Consonant-ending nouns generally remain invariant in direct nominative or add '-न': घर -> घर / घरन
+    """
+    if not noun:
+        return ""
+    w = noun.strip()
+    if w.endswith("ो") or w.endswith("ु"):
+        return w[:-1] + "ा"
+    if w.endswith("ी"):
+        return w[:-1] + "ियां"
+    if w.endswith("ि"):
+        return w[:-1] + "ियां"
+    if w.endswith("ा"):
+        return w  # Many -a masculine nouns are invariant or pluralized via context
+    # Consonant ending direct plural
+    return w
+
+
+def to_feminine(noun: str) -> str:
+    """
+    Converts masculine Garhwali noun to feminine form:
+    - Ending in 'ो' (-o) or 'ा' (-a) changes to 'ी' (-i): बकरो -> बकरी, छोरो -> छोरी, नौना -> नौनी
+    - Consonants often take 'णी' or 'इ': बामण -> बामणी, स्यार -> स्यारणि
+    """
+    if not noun:
+        return ""
+    w = noun.strip()
+    if w.endswith("ो") or w.endswith("ा") or w.endswith("ु"):
+        return w[:-1] + "ी"
+    if w.endswith("ल") or w.endswith("र") or w.endswith("ण") or w.endswith("न"):
+        return w + "णी"
+    return w + "ी"
+
+
+def to_masculine(noun: str) -> str:
+    """
+    Converts feminine Garhwali noun to masculine base form:
+    - Ending in 'ी' (-i) changes to 'ो' (-o) or 'ा' (-a): बकरी -> बकरो, छोरी -> छोरो, नौनी -> नौना
+    """
+    if not noun:
+        return ""
+    w = noun.strip()
+    if w.endswith("णी"):
+        return w[:-2]
+    if w.endswith("ी"):
+        return w[:-1] + "ो"
+    return w
+
+
+def to_oblique(noun: str, number: str = "sg") -> str:
+    """
+    Generates the oblique stem of a Garhwali noun before postposition attachment:
+    - Masculine in 'ो'/'ु' becomes 'ा': घ्वड़ो -> घ्वड़ा (घ्वड़ा मा)
+    - Plural oblique adds 'ौं' / 'न': घर -> घरौं, घ्वड़ा -> घ्वड़ौं
+    """
+    if not noun:
+        return ""
+    w = noun.strip()
+    is_pl = str(number).lower() in ("pl", "plural", "2")
+    if is_pl:
+        if w.endswith("ी"):
+            return w[:-1] + "ियौं"
+        if w.endswith("ा") or w.endswith("ो") or w.endswith("ु"):
+            return w[:-1] + "ौं"
+        return w + "ौं"
+    else:
+        if w.endswith("ो") or w.endswith("ु"):
+            return w[:-1] + "ा"
+        return w
+
+
+def make_diminutive(noun: str) -> str:
+    """Generates affectionate/diminutive form (नौन -> नौनू, डाली -> डालुली, छ्वटो -> छ्वटू)."""
+    if not noun:
+        return ""
+    w = noun.strip()
+    if w.endswith("ो") or w.endswith("ा"):
+        return w[:-1] + "ू"
+    if w.endswith("ी"):
+        return w[:-1] + "ुली"
+    return w + "ू"
+
+
+def make_augmentative(noun: str) -> str:
+    """Generates augmentative/crude form (डांडा -> डांडट, ढुंगो -> ढुंगोट)."""
+    if not noun:
+        return ""
+    w = noun.strip()
+    if w.endswith("ो") or w.endswith("ा"):
+        return w[:-1] + "ोट"
+    return w + "ा"
+
+
+def decline_noun(
+    noun: str,
+    gender: Optional[Union[str, Any]] = "m",
+    number: Optional[Union[str, Any]] = "sg"
+) -> Dict[str, str]:
+    """
+    Declines any Garhwali noun across all 8 grammatical cases.
+    """
+    g_str = "f" if str(gender).lower() in ("f", "feminine", "gender.feminine") else "m"
+    n_obj = GarhwaliNoun(noun, gender=g_str)
+    return n_obj.declensions()
+
 CORE_GARHWALI_NOUNS = [
     GarhwaliNoun("नौन", "m", english="boy", hindi="लड़का"),
     GarhwaliNoun("नौनी", "f", english="girl", hindi="लड़की"),

@@ -1,0 +1,51 @@
+[
+  {
+    "id": "SRC-001",
+    "source": "Uttarakhand Open University Digital Repository",
+    "what_it_provides": "Digitized textbooks, curriculum modules, and scholarly monographs on Garhwali grammar, history, and literature (AECC, CGL-101 to 104)",
+    "url": "https://uou.ac.in/",
+    "preservation_status": "Active institutional academic repository"
+  },
+  {
+    "id": "SRC-002",
+    "source": "Internet Archive - Central Himalayan & Garhwali Collection",
+    "what_it_provides": "Primary historical monographs by Govind Chatak, Haridatta Bhatt, Gunanand Juyal, Ganga Datt Upreti, and George Grierson Linguistic Survey of India Vol IX",
+    "url": "https://archive.org/details/in.ernet.dli.2015.485121",
+    "preservation_status": "Public domain global digital archive"
+  },
+  {
+    "id": "SRC-003",
+    "source": "Sahitya Akademi National Literary Archives",
+    "what_it_provides": "Anthologies of modern Garhwali poetry, plays, short stories, and translated works of bards like Chandra Kunwar Bartwal and Abodh Bandhu Bahuguna",
+    "url": "https://sahitya-akademi.gov.in/",
+    "preservation_status": "National literary archive"
+  },
+  {
+    "id": "SRC-004",
+    "source": "Doordarshan Kendra Dehradun Folk Archive",
+    "what_it_provides": "Audio-visual master recordings of Dhol Sagar percussive repertoires, Pandav Nritya, Jagar invocations, and historical bards (Narendra Singh Negi, Pritam Bhartwan)",
+    "url": "https://prasarbharati.gov.in/",
+    "preservation_status": "Broadcast cultural heritage archive"
+  },
+  {
+    "id": "SRC-005",
+    "source": "Garhwal Sabha Cultural Heritage Repository",
+    "what_it_provides": "Community manuscripts, folk theater scripts, Ramman records of Saloor Dungra, and oral history recordings",
+    "url": "https://garhwalbhasha.org/",
+    "preservation_status": "Living linguistic preservation trust"
+  },
+  {
+    "id": "SRC-006",
+    "source": "G.B. Pant National Institute of Himalayan Environment",
+    "what_it_provides": "Ethnobotanical surveys of sacred groves, alpine medicinal plants of Chamoli, and biodiversity conservation in Kedarkhand",
+    "url": "https://gbpihed.gov.in/",
+    "preservation_status": "Environmental scientific research repository"
+  },
+  {
+    "id": "SRC-007",
+    "source": "Uttarakhand Sanskrit Academy & Bhasha Sansthan",
+    "what_it_provides": "Linguistic documentation of Pahari dialects, etymological roots, and script preservation of Central Himalayan languages",
+    "url": "https://sanskritacademy.uk.gov.in/",
+    "preservation_status": "State language academy"
+  }
+]

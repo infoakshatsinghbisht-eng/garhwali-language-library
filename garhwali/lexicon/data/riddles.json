@@ -28,5 +28,45 @@
     "aana": "कटोरी मा कटोरी, बेटा बाप से भी गोरी।",
     "solution": "नारियल (Coconut)",
     "english_hint": "Outer shell is dark and rough, inner kernel is white."
+  },
+  {
+    "aana": "लाल बछड़ी, काठ खांदी, पाणी पींदा मरी जांदी।",
+    "solution": "आग (Fire)",
+    "english_hint": "Red heifer that consumes dry wood ravenously, but perishes the moment it drinks water."
+  },
+  {
+    "aana": "हरियो कोट, लाल मुखड़ा, डाळी मा बैठि बोले मीठा।",
+    "solution": "तोता / सुवा (Parrot)",
+    "english_hint": "Wears a green coat and red beak, perched upon mountain boughs chanting sweet tunes."
+  },
+  {
+    "aana": "एक रुप्या मा पूरा कमरा भरि ग्यो।",
+    "solution": "दीपक की लौ / उजाला (Earthen Lamp Light)",
+    "english_hint": "Costing barely a coin, its radiant glow fills the entire room."
+  },
+  {
+    "aana": "पैर न पंख, पर उड़ी जांदु दूर-दूर।",
+    "solution": "हवा / बादल (Wind / Cloud)",
+    "english_hint": "Has neither feet nor wings, yet roams effortlessly across distant Himalayan peaks."
+  },
+  {
+    "aana": "पेट मा दाना, माथे ते टोपी, खेत मा लहलहाए।",
+    "solution": "मक्का / भुट्टा (Corn Cob)",
+    "english_hint": "Golden grains inside its belly, wearing a tassel hat on its head in terraced slopes."
+  },
+  {
+    "aana": "कालो बामण, दिन मा सोवे, रात मा जागे।",
+    "solution": "चमगादड़ / उल्लू (Owl / Bat)",
+    "english_hint": "Dark creature resting through the sunny day, awake watching the mountain night."
+  },
+  {
+    "aana": "छाती मा घाव, सिर मा ताज, राजा कु नौकर।",
+    "solution": "सिक्का / मोहर (Coin / Royal Seal)",
+    "english_hint": "Bearing an insignia upon its head, it travels in service of sovereign power."
+  },
+  {
+    "aana": "दो भाई संगे-संगे चलनि, कभ्यी मिलनि नी।",
+    "solution": "गाड़ी का पहिया / आँखें (Eyes / Wheels)",
+    "english_hint": "Two brothers walking together in unison throughout life, yet never touching."
   }
 ]

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library id="garhwali" version="1.2.0">
+    <metadata>
+        <name>garhwali</name>
+        <alternate_names>
+            <name>garhwaali</name>
+            <name>गढ़वाली</name>
+            <name>गढ़वाळी</name>
+            <name>Central Pahari</name>
+        </alternate_names>
+        <iso_639_3>gbm</iso_639_3>
+        <description>Standard Python library for Garhwali language processing, morphology, universal translation, linguistics, and Himalayan oral culture.</description>
+        <license>MIT</license>
+        <pypi_package>garhwali</pypi_package>
+        <install_command>pip install garhwali</install_command>
+        <repository>https://github.com/infoakshatsinghbisht-eng/garhwali-language-library</repository>
+        <python_requires>&gt;=3.8</python_requires>
+        <zero_dependencies_core>true</zero_dependencies_core>
+    </metadata>
+
+    <quickstart>
+        <code><![CDATA[
+import garhwali
+
+# 1. Translation
+result = garhwali.translate("Where are you going?", source="en", dialect="srinagariya")
+print(result.text)       # 'तुमु कख जाणा छा?'
+print(result.romanized)  # 'Tumu kakh jaana chha?'
+
+# 2. Voice Translation & Speech Synthesis
+v_res = garhwali.voice_translate("Hello, how are you?", generate_audio=True)
+print(v_res.translated_text)   # 'तुमु कना छा?'
+print(v_res.syllables)         # ['तु', 'मु', 'क', 'ना', 'छा']
+print(v_res.ssml)              # Speech synthesis markup
+
+# 3. Dictionary & 2.39M+ Inflections Engine
+word = garhwali.lookup("डांडा")
+print(word.english)      # 'mountain ridge / summit ridge'
+print(garhwali.pluralize("डांडा"))   # 'डांडा'
+
+# 4. Verb Conjugation
+conj = garhwali.conjugate("खाणु", tense=garhwali.Tense.PRESENT, person=3, gender=garhwali.Gender.MASCULINE)
+print(conj)              # 'खान्दू' / 'खाद च'
+
+# 5. Numbers & Fractions
+print(garhwali.num_to_words(25))    # 'बीस पाँच'
+print(garhwali.fraction("डेढ़"))      # 1.5
+print(garhwali.words_to_num("पच्चीस")) # 25
+
+# 6. Classical Holi Songs & Folklore
+holi_songs = garhwali.FolkloreTreasury.list_holi_songs()
+print(f"Loaded {len(holi_songs)} classical Baithki & Khadi Holi compositions")
+
+# 7. Digitized Historical Books (3,076 pages)
+books = garhwali.list_digital_books()
+page = garhwali.read_book_page(books[0]['id'], page_number=1)
+print(page.text[:100])
+]]></code>
+    </quickstart>
+
+    <modules>
+        <module name="garhwali.translator">
+            <description>Universal multi-tier translation routing: rule-based patterns, multi-lingual pivot bridge, and LLM neural adapters.</description>
+            <functions>
+                <function>
+                    <signature>translate(text: str, source: str = "auto", target: str = "garhwali", dialect: str = "srinagariya", method: str = "auto", api_key: Optional[str] = None) -> TranslationResult</signature>
+                    <description>Translates text from English, Hindi, Hinglish, or any foreign language into authentic Garhwali across 5 dialects.</description>
+                </function>
+                <function>
+                    <signature>pivot_translate(text: str, source_lang: str = "auto", target_lang: str = "garhwali", dialect: str = "srinagariya") -> PivotTranslationResult</signature>
+                    <description>Free multi-language pivot bridge translating 100+ global languages via English/Hindi intermediate pivot.</description>
+                </function>
+                <function>
+                    <signature>translate_with_llm(text: str, source_lang: str = "English", dialect: str = "srinagariya", provider: str = "auto") -> Dict[str, Any]</signature>
+                    <description>Neural LLM adapter with zero external dependencies supporting Gemini, OpenAI, Claude, and Ollama.</description>
+                </function>
+            </functions>
+        </module>
+
+        <module name="garhwali.voice">
+            <description>Spoken voice translation, phonetic syllable extraction, SSML generation, and PCM WAV synthesis.</description>
+            <functions>
+                <function>
+                    <signature>voice_translate(text: str, source_lang: str = "auto", method: str = "auto", generate_audio: bool = False, api_key: Optional[str] = None) -> VoiceTranslationResult</signature>
+                    <description>One-line voice translation producing Garhwali text, romanization, syllables, SSML, audio WAV bytes, and situation category.</description>
+                </function>
+            </functions>
+        </module>
+
+        <module name="garhwali.grammar">
+            <description>Functional Central Pahari grammar engine: rule registry with linguistic citations, noun/pronoun morphology, case attachments, full 18-form verb paradigms, modals, and comprehensive syntactic builders.</description>
+            <functions>
+                <function><signature>get_rules(category: Optional[str] = None) -> List[GrammarRule]</signature></function>
+                <function><signature>explain_rule(rule_id: str) -> Optional[GrammarRule]</signature></function>
+                <function><signature>search_rules(query: str) -> List[GrammarRule]</signature></function>
+                <function><signature>pluralize(noun: str) -> str</signature></function>
+                <function><signature>to_feminine(noun_or_adj: str) -> str</signature></function>
+                <function><signature>to_masculine(noun_or_adj: str) -> str</signature></function>
+                <function><signature>to_oblique(noun: str, number: str = "singular") -> str</signature></function>
+                <function><signature>make_diminutive(noun: str) -> str</signature></function>
+                <function><signature>make_augmentative(noun: str) -> str</signature></function>
+                <function><signature>decline_noun(noun: str, gender: str = "M") -> Dict[str, Dict[str, str]]</signature></function>
+                <function><signature>decline_pronoun(pronoun_lemma: str) -> Dict[str, str]</signature></function>
+                <function><signature>attach_case(noun: str, case_name: str, number: str = "singular", dialect: str = "srinagariya") -> str</signature></function>
+                <function><signature>extract_root(verb_infinitive: str) -> str</signature></function>
+                <function><signature>conjugate_to_be(person: int = 3, number: str = "singular", tense: str = "present", dialect: str = "srinagariya") -> str</signature></function>
+                <function><signature>conjugate(verb: str, tense: Union[Tense, str] = Tense.PRESENT, person: int = 3, gender: Union[Gender, str] = Gender.MASCULINE, number: Union[GrammaticalNumber, str] = GrammaticalNumber.SINGULAR, dialect: str = "srinagariya") -> str</signature></function>
+                <function><signature>conjugate_full_paradigm(verb: str, tense: Union[Tense, str] = Tense.PRESENT, dialect: str = "srinagariya") -> Dict[str, Dict[str, str]]</signature></function>
+                <function><signature>habitual_past(verb: str, person: int = 3, gender: str = "M", number: str = "singular") -> str</signature></function>
+                <function><signature>progressive(verb: str, person: int = 3, gender: str = "M", tense: str = "present") -> str</signature></function>
+                <function><signature>subjunctive(verb: str, person: int = 3, number: str = "singular") -> str</signature></function>
+                <function><signature>inceptive(verb: str, person: int = 3, gender: str = "M") -> str</signature></function>
+                <function><signature>completive(verb: str, person: int = 3, gender: str = "M") -> str</signature></function>
+                <function><signature>conjunctive_participle(verb: str) -> str</signature></function>
+                <function><signature>causative(verb: str, grade: int = 1) -> str</signature></function>
+                <function><signature>passive(verb: str) -> str</signature></function>
+                <function><signature>medio_passive_inability(verb: str, subject_agent: str, dialect: str = "srinagariya") -> str</signature></function>
+                <function><signature>compound_verb(main_verb: str, vector_verb: str) -> str</signature></function>
+                <function><signature>conditional(condition_clause: str, consequence_clause: str) -> str</signature></function>
+                <function><signature>imperative(verb: str, honorific: bool = False, plural: bool = False) -> str</signature></function>
+                <function><signature>prohibitive(verb: str, honorific: bool = False) -> str</signature></function>
+                <function><signature>modal_ability(verb: str, person: int = 3, gender: str = "M", tense: str = "present") -> str</signature></function>
+                <function><signature>modal_obligation(verb: str, subject: str, urgency: str = "need") -> str</signature></function>
+                <function><signature>modal_desiderative(verb: str, subject: str, tense: str = "present") -> str</signature></function>
+                <function><signature>build_sentence(subject: str, direct_object: Optional[str] = None, indirect_object: Optional[str] = None, verb: str = "खाणु", tense: Union[Tense, str] = Tense.PRESENT, person: int = 3, gender: Union[Gender, str] = Gender.MASCULINE, negative: bool = False) -> str</signature></function>
+                <function><signature>build_compound_sentence(clause1: str, clause2: str, coordinator: str = "अर") -> str</signature></function>
+                <function><signature>build_conditional_sentence(condition: str, consequence: str, condition_type: str = "real") -> str</signature></function>
+                <function><signature>build_causal_sentence(result_clause: str, reason_clause: str, causal_marker: str = "किलैकि") -> str</signature></function>
+                <function><signature>build_purposive_sentence(action_clause: str, purpose_clause: str) -> str</signature></function>
+                <function><signature>build_concessive_sentence(subordinate_clause: str, main_clause: str) -> str</signature></function>
+                <function><signature>build_passive_sentence(patient: str, verb: str, agent: Optional[str] = None) -> str</signature></function>
+                <function><signature>build_inability_sentence(subject: str, verb: str, dialect: str = "srinagariya") -> str</signature></function>
+                <function><signature>build_imperative_sentence(verb: str, honorific: bool = False, plural: bool = False, object_noun: Optional[str] = None, negative: bool = False) -> str</signature></function>
+                <function><signature>validate_agreement(adjective: str, noun: str, gender: str = "M", number: str = "singular") -> Dict[str, Any]</signature></function>
+                <function><signature>analyze_sentence(sentence: str) -> Dict[str, Any]</signature></function>
+                <function><signature>interrogative_sentence(sentence: str, question_type: str = "polar", question_word: Optional[str] = None) -> str</signature></function>
+                <function><signature>relative_correlative(relative_clause: str, correlative_clause: str, marker_pair: str = "जो...सो") -> str</signature></function>
+                <function><signature>echo_word(word: str) -> str</signature></function>
+            </functions>
+        </module>
+
+        <module name="garhwali.numbers">
+            <description>Cardinal numbers, reverse parsing, Devanagari numerals, ordinals, and Himalayan fraction terminology.</description>
+            <functions>
+                <function><signature>num_to_words(n: int, script: str = "devanagari") -> str</signature></function>
+                <function><signature>words_to_num(text: str) -> int</signature></function>
+                <function><signature>to_devanagari_numerals(n: int) -> str</signature></function>
+                <function><signature>from_devanagari_numerals(text: str) -> str</signature></function>
+                <function><signature>ordinal(n: int) -> str</signature></function>
+                <function><signature>fraction(name: str) -> Union[float, str, None]</signature></function>
+            </functions>
+        </module>
+
+        <module name="garhwali.culture">
+            <description>Master digital library (13 books, 3,076 pages), 45 complete folk songs, 20 classical Holi songs, 40+ sacred shrines, 158+ catalogued bibliography records, deities, and clan lineages.</description>
+            <facades>
+                <facade name="FolkloreTreasury">Methods: list_songs, get_song, search_songs, list_holi_songs, get_holi_song, search_holi_songs, get_jagar_songs, get_mangal_geet, get_pawada_songs, get_khudei_songs, get_dance_songs, get_ritu_geet, list_sources, stats</facade>
+                <facade name="BooksCorpus">Methods: read_book_page, list_digital_books, get_digital_book, search_digital_books</facade>
+                <facade name="BibliographyTreasury">Methods: get_bibliography, search_books, get_book_by_id, get_works_in_garhwali, get_grammar_books</facade>
+                <facade name="PlacesTreasury">Methods: get_place, list_places, search_places</facade>
+                <facade name="DeitiesTreasury">Methods: get_deity, list_deities, search_deities</facade>
+                <facade name="SurnamesTreasury">Methods: get_surname, list_surnames, search_surnames</facade>
+                <facade name="FloraTreasury">Methods: get_plant, list_plants, search_plants</facade>
+                <facade name="RitualsTreasury">Methods: get_item, list_items, search_items</facade>
+            </facades>
+        </module>
+
+        <module name="garhwali.corpus">
+            <description>20-Pillar Computational Corpus taxonomy, annotated sentence pairs, and curated idioms.</description>
+            <facades>
+                <facade name="CorpusTaxonomy">Methods: get_corpus_taxonomy, list_corpus_pillars, get_pillar</facade>
+                <facade name="SentenceCorpus">Methods: get_sentence_corpus, search_sentences, get_annotated_sentence</facade>
+                <facade name="IdiomCorpus">Methods: get_idiom_corpus, search_idioms, random_idiom, list_proverbs</facade>
+            </facades>
+        </module>
+
+        <module name="garhwali.web">
+            <description>Lightweight, zero-dependency Developer Playground and REST API server using Python's http.server.</description>
+            <functions>
+                <function><signature>run_server(port: int = 8080)</signature></function>
+            </functions>
+        </module>
+    </modules>
+
+    <cli>
+        <command name="garhwali translate">Translate text into Garhwali across dialects</command>
+        <command name="garhwali lookup">Look up words in the 3,107-entry lexicon</command>
+        <command name="garhwali conjugate">Conjugate verbs across tenses, aspects, and full paradigms</command>
+        <command name="garhwali numbers">Convert integers to Garhwali words and Devanagari numerals</command>
+        <command name="garhwali culture">Explore festivals, classical songs, literature, and proverbs</command>
+    </cli>
+</library>

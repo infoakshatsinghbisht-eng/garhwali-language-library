@@ -1,0 +1,823 @@
+/* ==========================================================================
+   GARHWALI LANGUAGE PLAYGROUND — MODERN STYLING
+   Aesthetic: Himalayan Alpine Midnight, Alaknanda Cyan & Emerald Glow
+   ========================================================================== */
+
+:root {
+  --bg-primary: #0a0f1d;
+  --bg-secondary: #111827;
+  --bg-card: rgba(17, 24, 39, 0.75);
+  --bg-card-hover: rgba(31, 41, 55, 0.85);
+  --border-color: rgba(255, 255, 255, 0.08);
+  --border-glow: rgba(6, 182, 212, 0.3);
+  
+  --text-main: #f3f4f6;
+  --text-muted: #9ca3af;
+  --text-dim: #6b7280;
+  
+  --cyan-primary: #06b6d4;
+  --cyan-hover: #0891b2;
+  --emerald-accent: #10b981;
+  --gold-accent: #f59e0b;
+  --purple-accent: #8b5cf6;
+  
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-pill: 9999px;
+  
+  --shadow-sm: 0 2px 4px rgba(0,0,0,0.3);
+  --shadow-md: 0 4px 16px rgba(0,0,0,0.4);
+  --shadow-glow: 0 0 24px rgba(6, 182, 212, 0.18);
+  
+  --transition-fast: 0.15s ease;
+  --transition-normal: 0.25s ease;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-main);
+  background-image: 
+    radial-gradient(circle at 15% 20%, rgba(6, 182, 212, 0.08) 0%, transparent 40%),
+    radial-gradient(circle at 85% 75%, rgba(16, 185, 129, 0.06) 0%, transparent 40%),
+    radial-gradient(circle at 50% 50%, rgba(139, 92, 246, 0.04) 0%, transparent 60%);
+  min-height: 100vh;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+.app-container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 24px 20px 48px;
+}
+
+/* Header */
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--border-color);
+  margin-bottom: 24px;
+}
+
+.logo-group {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.logo-badge {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  background: linear-gradient(135deg, var(--cyan-primary), var(--emerald-accent));
+  padding: 10px 16px;
+  border-radius: var(--radius-md);
+  box-shadow: 0 4px 12px rgba(6, 182, 212, 0.3);
+  font-family: 'Noto Sans Devanagari', sans-serif;
+}
+
+.logo-title {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  background: linear-gradient(90deg, #ffffff 40%, var(--cyan-primary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.logo-subtitle {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+.header-badges {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.pill-badge {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 5px 12px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-pill);
+  color: var(--cyan-primary);
+}
+
+/* Navigation Tabs */
+.tabs-nav {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding-bottom: 8px;
+  margin-bottom: 24px;
+  scrollbar-width: none;
+}
+
+.tabs-nav::-webkit-scrollbar {
+  display: none;
+}
+
+.nav-btn {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  color: var(--text-muted);
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px 18px;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+  transition: all var(--transition-fast);
+}
+
+.nav-btn:hover {
+  background: var(--bg-card-hover);
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.nav-btn.active {
+  background: linear-gradient(135deg, rgba(6, 182, 212, 0.2), rgba(16, 185, 129, 0.15));
+  color: #fff;
+  border-color: var(--cyan-primary);
+  box-shadow: 0 0 12px rgba(6, 182, 212, 0.25);
+  font-weight: 600;
+}
+
+/* Cards & Glassmorphism */
+.card {
+  background: var(--bg-card);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  padding: 24px;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--border-color);
+  margin-bottom: 20px;
+}
+
+.card-header h2 {
+  font-size: 19px;
+  font-weight: 600;
+  color: #fff;
+}
+
+/* Tab Switching */
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Controls */
+.controls-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+label {
+  font-size: 13px;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.select-input, .text-input {
+  background: rgba(10, 15, 29, 0.7);
+  border: 1px solid var(--border-color);
+  color: var(--text-main);
+  padding: 8px 12px;
+  border-radius: var(--radius-sm);
+  font-family: inherit;
+  font-size: 14px;
+  outline: none;
+  transition: border-color var(--transition-fast);
+}
+
+.select-input:focus, .text-input:focus, .text-area:focus {
+  border-color: var(--cyan-primary);
+  box-shadow: 0 0 0 2px rgba(6, 182, 212, 0.2);
+}
+
+/* Buttons */
+.btn {
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: var(--radius-sm);
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: all var(--transition-fast);
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, var(--cyan-primary), var(--cyan-hover));
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(6, 182, 212, 0.3);
+}
+
+.btn-primary:hover {
+  filter: brightness(1.1);
+  box-shadow: 0 4px 14px rgba(6, 182, 212, 0.45);
+}
+
+.btn-secondary {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--text-main);
+  border: 1px solid var(--border-color);
+}
+
+.btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.btn-accent {
+  background: linear-gradient(135deg, var(--emerald-accent), #059669);
+  color: #fff;
+}
+
+.btn-accent:hover {
+  filter: brightness(1.1);
+}
+
+/* Grids */
+.grid-2col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+@media (max-width: 840px) {
+  .grid-2col {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Translator Pane */
+.text-area {
+  width: 100%;
+  height: 160px;
+  background: rgba(10, 15, 29, 0.7);
+  border: 1px solid var(--border-color);
+  color: var(--text-main);
+  padding: 14px;
+  border-radius: var(--radius-md);
+  font-family: inherit;
+  font-size: 15px;
+  resize: vertical;
+  outline: none;
+  line-height: 1.6;
+}
+
+.action-bar {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.output-box {
+  background: rgba(10, 15, 29, 0.85);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 16px;
+  min-height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.output-text {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  font-family: 'Noto Sans Devanagari', sans-serif;
+  line-height: 1.6;
+}
+
+.output-roman {
+  font-size: 14px;
+  color: var(--cyan-primary);
+  font-style: italic;
+  margin-top: 8px;
+}
+
+.output-meta {
+  font-size: 12px;
+  color: var(--text-dim);
+  border-top: 1px solid rgba(255,255,255,0.06);
+  padding-top: 8px;
+  margin-top: 12px;
+}
+
+.quick-examples {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.label-hint {
+  font-size: 12px;
+  color: var(--text-dim);
+}
+
+.chip-btn {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border-color);
+  color: var(--text-muted);
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: var(--radius-pill);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.chip-btn:hover {
+  background: rgba(6, 182, 212, 0.15);
+  color: var(--cyan-primary);
+  border-color: var(--cyan-primary);
+}
+
+/* Voice Pane */
+.voice-input-row {
+  display: flex;
+  gap: 10px;
+  margin: 14px 0;
+}
+
+.voice-input-row .text-input {
+  flex: 1;
+}
+
+.voice-result-box {
+  background: rgba(10, 15, 29, 0.85);
+  border: 1px solid var(--border-glow);
+  border-radius: var(--radius-md);
+  padding: 18px;
+  margin-top: 16px;
+  animation: fadeIn 0.3s ease;
+}
+
+.devanagari-large {
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+  font-family: 'Noto Sans Devanagari', sans-serif;
+}
+
+.roman-pronounce {
+  font-size: 14px;
+  color: var(--cyan-primary);
+  font-style: italic;
+  margin-top: 4px;
+}
+
+.audio-controls-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 14px 0;
+}
+
+.audio-status {
+  font-size: 12px;
+  color: var(--emerald-accent);
+}
+
+.syllable-chips {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin: 10px 0;
+}
+
+.syl-chip {
+  background: rgba(139, 92, 246, 0.15);
+  border: 1px solid rgba(139, 92, 246, 0.3);
+  color: #c4b5fd;
+  font-size: 13px;
+  padding: 2px 8px;
+  border-radius: var(--radius-sm);
+  font-family: 'Noto Sans Devanagari', sans-serif;
+}
+
+.ssml-details {
+  margin-top: 14px;
+  font-size: 13px;
+  color: var(--text-dim);
+}
+
+.ssml-details summary {
+  cursor: pointer;
+  color: var(--text-muted);
+}
+
+.ssml-details pre {
+  margin-top: 8px;
+  padding: 10px;
+  background: #000;
+  border-radius: var(--radius-sm);
+  overflow-x: auto;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  color: #38bdf8;
+}
+
+.phrases-scroller {
+  max-height: 380px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-right: 4px;
+}
+
+.phrase-card {
+  background: rgba(10, 15, 29, 0.6);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 12px 14px;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.phrase-card:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--cyan-primary);
+  transform: translateX(2px);
+}
+
+.phrase-gbm {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  font-family: 'Noto Sans Devanagari', sans-serif;
+}
+
+.phrase-en {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+.phrase-cat {
+  font-size: 11px;
+  color: var(--cyan-primary);
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 4px;
+}
+
+/* Dictionary */
+.search-bar-row {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+
+.search-bar-row .text-input {
+  flex: 1;
+}
+
+.results-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+  max-height: 520px;
+  overflow-y: auto;
+  padding-right: 6px;
+}
+
+.word-card {
+  background: rgba(10, 15, 29, 0.6);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 14px;
+  transition: all var(--transition-fast);
+}
+
+.word-card:hover {
+  border-color: var(--cyan-primary);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.word-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.word-lemma {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  font-family: 'Noto Sans Devanagari', sans-serif;
+}
+
+.word-pos {
+  font-size: 11px;
+  color: var(--emerald-accent);
+  text-transform: uppercase;
+  font-weight: 600;
+  background: rgba(16, 185, 129, 0.1);
+  padding: 2px 6px;
+  border-radius: var(--radius-sm);
+}
+
+.word-en {
+  font-size: 14px;
+  color: var(--text-main);
+  margin-top: 4px;
+  font-weight: 500;
+}
+
+.word-hi {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-top: 2px;
+  font-family: 'Noto Sans Devanagari', sans-serif;
+}
+
+.word-cat {
+  font-size: 11px;
+  color: var(--cyan-primary);
+  margin-top: 8px;
+}
+
+/* Verb Conjugator */
+.conjugate-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: flex-end;
+}
+
+.control-item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 140px;
+}
+
+.conjugation-result-box {
+  background: rgba(10, 15, 29, 0.85);
+  border: 1px solid var(--border-glow);
+  border-radius: var(--radius-md);
+  padding: 24px;
+  margin-top: 24px;
+  text-align: center;
+}
+
+.res-title {
+  font-size: 13px;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.res-value {
+  font-size: 32px;
+  font-weight: 700;
+  color: #fff;
+  font-family: 'Noto Sans Devanagari', sans-serif;
+  margin: 10px 0;
+}
+
+.res-sub {
+  font-size: 14px;
+  color: var(--cyan-primary);
+}
+
+/* Numbers */
+.number-controls {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  max-width: 440px;
+  margin-bottom: 24px;
+}
+
+.numbers-display-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.num-card {
+  background: rgba(10, 15, 29, 0.7);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.num-card-label {
+  font-size: 12px;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.num-card-val {
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+  font-family: 'Noto Sans Devanagari', sans-serif;
+}
+
+.fractions-section {
+  margin-top: 32px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border-color);
+}
+
+.fractions-section h3 {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.fractions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+}
+
+.fraction-item {
+  background: rgba(255, 255, 255, 0.04);
+  padding: 10px 14px;
+  border-radius: var(--radius-sm);
+  font-size: 13px;
+  color: var(--text-main);
+}
+
+/* Folklore & Holi */
+.proverb-banner {
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.15), rgba(6, 182, 212, 0.1));
+  border: 1px solid rgba(245, 158, 11, 0.3);
+  border-radius: var(--radius-md);
+  padding: 16px 20px;
+  margin-bottom: 20px;
+  animation: fadeIn 0.3s ease;
+}
+
+.prov-pakhana {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fef08a;
+  font-family: 'Noto Sans Devanagari', sans-serif;
+}
+
+.prov-meaning {
+  font-size: 14px;
+  color: var(--text-main);
+  margin-top: 4px;
+}
+
+.songs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 16px;
+  max-height: 520px;
+  overflow-y: auto;
+}
+
+.song-card {
+  background: rgba(10, 15, 29, 0.6);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 16px;
+}
+
+.song-title {
+  font-size: 17px;
+  font-weight: 700;
+  color: #fff;
+  font-family: 'Noto Sans Devanagari', sans-serif;
+}
+
+.song-meta-row {
+  display: flex;
+  gap: 8px;
+  margin: 6px 0 10px;
+}
+
+.badge-tag {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: var(--radius-sm);
+  background: rgba(6, 182, 212, 0.15);
+  color: var(--cyan-primary);
+}
+
+.song-verse {
+  font-size: 13px;
+  color: var(--text-main);
+  line-height: 1.6;
+  font-family: 'Noto Sans Devanagari', sans-serif;
+}
+
+.song-transl {
+  font-size: 12px;
+  color: var(--text-muted);
+  font-style: italic;
+  margin-top: 8px;
+  border-top: 1px dashed rgba(255, 255, 255, 0.08);
+  padding-top: 6px;
+}
+
+/* Digital Reader */
+.page-input {
+  width: 80px;
+}
+
+.reader-view-container {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.reader-meta {
+  font-size: 13px;
+  color: var(--cyan-primary);
+  font-weight: 500;
+}
+
+.reader-page-paper {
+  background: #0f172a;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 24px;
+  min-height: 340px;
+  max-height: 480px;
+  overflow-y: auto;
+  font-size: 15px;
+  line-height: 1.8;
+  color: #e2e8f0;
+  font-family: 'Noto Sans Devanagari', Georgia, serif;
+  white-space: pre-wrap;
+  box-shadow: inset 0 2px 8px rgba(0,0,0,0.4);
+}
+
+.reader-nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+/* Footer */
+.app-footer {
+  text-align: center;
+  padding-top: 32px;
+  color: var(--text-dim);
+  font-size: 13px;
+}

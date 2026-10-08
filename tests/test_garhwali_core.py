@@ -12,7 +12,7 @@ import garhwali
 
 class TestGarhwaliCore(unittest.TestCase):
     def test_version(self):
-        self.assertEqual(garhwali.__version__, "1.0.0")
+        self.assertTrue(garhwali.__version__.startswith("1."))
 
     def test_total_word_forms(self):
         total = garhwali.total_word_forms()

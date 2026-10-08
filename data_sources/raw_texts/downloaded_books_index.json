@@ -1,0 +1,102 @@
+[
+  {
+    "id": "ezqp-garhwali-bhasha-aur-uska-sahitya-by-haridatta-bhat",
+    "short": "haridatta_bhatt_garhwali_bhasha_aur_sahitya_1976",
+    "title": "Garhwali Bhasha Aur Uska Sahitya",
+    "author": "Dr. Haridatta Bhatta Shailesh",
+    "year": 1976,
+    "local_file": "C:\\Users\\digit_lgfi273\\OneDrive\\Desktop\\garhwali-language-library\\data_sources\\raw_texts\\haridatta_bhatt_garhwali_bhasha_aur_sahitya_1976.txt",
+    "file_size": 1367985,
+    "file_type": ".txt"
+  },
+  {
+    "id": "in.ernet.dli.2015.263968",
+    "short": "govind_chatak_garhwali_bhasha_1959",
+    "title": "Garhwali Bhasha",
+    "author": "Dr. Govind Chatak",
+    "year": 1959,
+    "local_file": "C:\\Users\\digit_lgfi273\\OneDrive\\Desktop\\garhwali-language-library\\data_sources\\raw_texts\\govind_chatak_garhwali_bhasha_1959.txt",
+    "file_size": 480640,
+    "file_type": ".txt"
+  },
+  {
+    "id": "dli.ernet.426855",
+    "short": "govind_chatak_gadwali_lok_gathayen_1958",
+    "title": "Gadwali Lok Gathayen",
+    "author": "Dr. Govind Chatak",
+    "year": 1958,
+    "local_file": "C:\\Users\\digit_lgfi273\\OneDrive\\Desktop\\garhwali-language-library\\data_sources\\raw_texts\\govind_chatak_gadwali_lok_gathayen_1958.txt",
+    "file_size": 582698,
+    "file_type": ".txt"
+  },
+  {
+    "id": "in.ernet.dli.2015.481404",
+    "short": "govind_chatak_garhwali_lok_geet_1956",
+    "title": "Garhwali Lok Geet",
+    "author": "Govind Chatak",
+    "year": 1956,
+    "local_file": "C:\\Users\\digit_lgfi273\\OneDrive\\Desktop\\garhwali-language-library\\data_sources\\raw_texts\\govind_chatak_garhwali_lok_geet_1956.txt",
+    "file_size": 1436,
+    "file_type": ".txt"
+  },
+  {
+    "id": "in.ernet.dli.2015.426866",
+    "short": "shyam_chand_negi_gadwali_sahitya_1954",
+    "title": "Gadwali Sahitya Ki Bhumika",
+    "author": "Shyam Chand Negi",
+    "year": 1954,
+    "local_file": "C:\\Users\\digit_lgfi273\\OneDrive\\Desktop\\garhwali-language-library\\data_sources\\raw_texts\\shyam_chand_negi_gadwali_sahitya_1954.txt",
+    "file_size": 218567,
+    "file_type": ".txt"
+  },
+  {
+    "id": "in.ernet.dli.2015.481134",
+    "short": "shanti_chaudhary_garhwali_lokkala_1994",
+    "title": "Garhwali Lokkala Aur Loksahitya Ka Tulnatmak Anusilan",
+    "author": "Shanti Chaudhary",
+    "year": 1994,
+    "local_file": "C:\\Users\\digit_lgfi273\\OneDrive\\Desktop\\garhwali-language-library\\data_sources\\raw_texts\\shanti_chaudhary_garhwali_lokkala_1994.txt",
+    "file_size": 1112602,
+    "file_type": ".txt"
+  },
+  {
+    "id": "ycbf_madhya-pahadi-bhasha-garhwali-kumauni-ka-anushilan-aur-uska-hindi-se-samban",
+    "short": "gunanand_juyal_madhya_pahadi_bhasha_1967",
+    "title": "Madhya Pahadi Bhasha Garhwali Kumauni Ka Anushilan",
+    "author": "Dr. Gunanand Juyal",
+    "year": 1967,
+    "local_file": "C:\\Users\\digit_lgfi273\\OneDrive\\Desktop\\garhwali-language-library\\data_sources\\raw_texts\\gunanand_juyal_madhya_pahadi_bhasha_1967.txt",
+    "file_size": 736174,
+    "file_type": ".txt"
+  },
+  {
+    "id": "cu31924089930774",
+    "short": "upreti_proverbs_folklore_garhwal_1894",
+    "title": "Proverbs & Folklore of Kumaun and Garhwal",
+    "author": "Pandit Ganga Datt Upreti",
+    "year": 1894,
+    "local_file": "C:\\Users\\digit_lgfi273\\OneDrive\\Desktop\\garhwali-language-library\\data_sources\\raw_texts\\upreti_proverbs_folklore_garhwal_1894.txt",
+    "file_size": 806654,
+    "file_type": ".txt"
+  },
+  {
+    "id": "in.ernet.dli.2015.32110",
+    "short": "grierson_lsi_vol9_pt4_garhwal_1916",
+    "title": "Linguistic Survey of India: Central Pahari / Garhwali",
+    "author": "Sir George Abraham Grierson",
+    "year": 1916,
+    "local_file": "C:\\Users\\digit_lgfi273\\OneDrive\\Desktop\\garhwali-language-library\\data_sources\\raw_texts\\grierson_lsi_vol9_pt4_garhwal_1916.txt",
+    "file_size": 2105702,
+    "file_type": ".txt"
+  },
+  {
+    "id": "in.ernet.dli.2015.532407",
+    "short": "oakley_gairola_himalayan_folklore_1935",
+    "title": "Himalayan Folklore",
+    "author": "Rev. E.S. Oakley and Tara Dutt Gairola",
+    "year": 1935,
+    "local_file": "C:\\Users\\digit_lgfi273\\OneDrive\\Desktop\\garhwali-language-library\\data_sources\\raw_texts\\oakley_gairola_himalayan_folklore_1935.txt",
+    "file_size": 537761,
+    "file_type": ".txt"
+  }
+]

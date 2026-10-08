@@ -6,12 +6,12 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="garhwali",
-    version="1.0.0",
+    version="1.2.0",
     author="Akshat Singh Bisht",
     author_email="infoakshatsinghbisht@gmail.com",
     maintainer="Akshat Singh Bisht",
     maintainer_email="infoakshatsinghbisht@gmail.com",
-    description="Garhwali (गढ़वाली) Language Library: 2.3M+ Inflections, Multi-dialect Translation, NLP Toolkit, and Himalayan Culture",
+    description="Garhwali (गढ़वाली) Language Library: 2.39M+ Inflections, Multi-dialect Translation, NLP Toolkit, and Himalayan Culture",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/infoakshatsinghbisht-eng/garhwali-language-library",
@@ -26,7 +26,10 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     package_data={
-        "garhwali.lexicon": ["data/*.json"]
+        "garhwali.lexicon": ["data/*.json"],
+        "garhwali.culture": ["data/*.json", "data/books/*.json"],
+        "garhwali.corpus": ["data/*.json"],
+        "garhwali.web": ["static/*"],
     },
     classifiers=[
         "Programming Language :: Python :: 3",

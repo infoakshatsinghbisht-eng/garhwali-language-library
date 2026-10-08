@@ -1,0 +1,145 @@
+[
+  {
+    "id": "grierson_1916_central_pahari",
+    "title": "Linguistic Survey of India: Central Pahari / Garhwali",
+    "author": "Sir George Abraham Grierson",
+    "year": 1916,
+    "language": "Garhwali & English",
+    "category": "grammar_and_linguistics",
+    "description": "Exhaustive linguistic and grammatical survey of Garhwali and Central Pahari dialects with comparative vocabularies, noun declensions, verb matrices, and specimen folk texts.",
+    "total_pages": 977,
+    "json_file": "grierson_1916_central_pahari.json"
+  },
+  {
+    "id": "upreti_1894_proverbs_folklore",
+    "title": "Proverbs & Folklore of Kumaun and Garhwal",
+    "author": "Pandit Ganga Datt Upreti",
+    "year": 1894,
+    "language": "Garhwali, Kumauni & English",
+    "category": "folklore_and_proverbs",
+    "description": "Extensive collection of authentic Garhwali and Kumauni proverbs, rural riddles, idioms, and cultural folk customs with translations and critical commentaries.",
+    "total_pages": 398,
+    "json_file": "upreti_1894_proverbs_folklore.json"
+  },
+  {
+    "id": "oakley_gairola_1935_folklore",
+    "title": "Himalayan Folklore",
+    "author": "Rev. E.S. Oakley and Tara Dutt Gairola",
+    "year": 1935,
+    "language": "Garhwali Folklore in English & Vernacular",
+    "category": "folklore_and_epics",
+    "description": "Seminal collection of classical Garhwali folk epics, legends of brave warriors (Bhads), deities, and Himalayan ghost tales.",
+    "total_pages": 313,
+    "json_file": "oakley_gairola_1935_folklore.json"
+  },
+  {
+    "id": "chatak_1959_garhwali_bhasha",
+    "title": "Garhwali Bhasha: Ek Bhashashastriya Adhyayan",
+    "author": "Dr. Govind Chatak",
+    "year": 1959,
+    "language": "Garhwali & Hindi",
+    "category": "grammar_and_linguistics",
+    "description": "Authoritative linguistic, phonetic, and morphological treatise on the structure of the Garhwali language and its dialect variations.",
+    "total_pages": 102,
+    "json_file": "chatak_1959_garhwali_bhasha.json"
+  },
+  {
+    "id": "chatak_1958_lok_gathayen",
+    "title": "Gadwali Lok Gathayen (Pawada & Jagar Epics)",
+    "author": "Dr. Govind Chatak",
+    "year": 1958,
+    "language": "Garhwali & Hindi",
+    "category": "folklore_and_epics",
+    "description": "Complete collection of traditional Garhwali oral ballads, warrior epics (Pawadas), and temple Jagar invocations.",
+    "total_pages": 114,
+    "json_file": "chatak_1958_lok_gathayen.json"
+  },
+  {
+    "id": "bhatt_1976_garhwali_sahitya",
+    "title": "Garhwali Bhasha Aur Uska Sahitya",
+    "author": "Dr. Haridatta Bhatt 'Shailesh'",
+    "year": 1976,
+    "language": "Garhwali & Hindi",
+    "category": "literature_and_history",
+    "description": "Comprehensive history of Garhwali literature, canonical authors, folk forms, dialectology, and cultural traditions.",
+    "total_pages": 301,
+    "json_file": "bhatt_1976_garhwali_sahitya.json"
+  },
+  {
+    "id": "juyal_1967_madhya_pahadi",
+    "title": "Madhya Pahadi Bhasha (Garhwali-Kumauni) Ka Anushilan",
+    "author": "Dr. Gunanand Juyal",
+    "year": 1967,
+    "language": "Garhwali & Hindi",
+    "category": "grammar_and_linguistics",
+    "description": "Comparative scholarly linguistic study of Central Pahari dialects (Garhwali and Kumaoni) and their phonetic relationship with Sanskrit and Prakrit.",
+    "total_pages": 161,
+    "json_file": "juyal_1967_madhya_pahadi.json"
+  },
+  {
+    "id": "negi_1954_sahitya_bhumika",
+    "title": "Gadwali Sahitya Ki Bhumika",
+    "author": "Shyam Chand Negi",
+    "year": 1954,
+    "language": "Garhwali & Hindi",
+    "category": "literature_and_history",
+    "description": "Pioneering critical introduction to classical and modern Garhwali literary traditions, plays, and poetry.",
+    "total_pages": 46,
+    "json_file": "negi_1954_sahitya_bhumika.json"
+  },
+  {
+    "id": "chaudhary_1994_lokkala",
+    "title": "Garhwali Lokkala Aur Loksahitya Ka Tulnatmak Anusilan",
+    "author": "Shanti Chaudhary",
+    "year": 1994,
+    "language": "Garhwali & Hindi",
+    "category": "culture_and_arts",
+    "description": "Comparative research on Garhwali folk arts, Aipan designs, woodcraft, and oral literary traditions.",
+    "total_pages": 231,
+    "json_file": "chaudhary_1994_lokkala.json"
+  },
+  {
+    "id": "uou_cgl_102_garhwali_prose",
+    "title": "Chayanit Garhwali Gadya (Selected Garhwali Prose)",
+    "author": "Uttarakhand Open University",
+    "year": 2020,
+    "language": "Garhwali & Hindi",
+    "category": "open_courseware_and_education",
+    "description": "University textbook of selected Garhwali short stories, essays, plays, and autobiographical sketches.",
+    "total_pages": 98,
+    "json_file": "uou_cgl_102_garhwali_prose.json"
+  },
+  {
+    "id": "uou_cgl_103_garhwali_poetry",
+    "title": "Chayanit Garhwali Kavya (Selected Garhwali Poetry)",
+    "author": "Uttarakhand Open University",
+    "year": 2020,
+    "language": "Garhwali & Hindi",
+    "category": "open_courseware_and_education",
+    "description": "University textbook of canonical and modern Garhwali poetry, songs, and metrical analysis.",
+    "total_pages": 104,
+    "json_file": "uou_cgl_103_garhwali_poetry.json"
+  },
+  {
+    "id": "uou_cgl_104_grammar",
+    "title": "Garhwali Bhasha, Vyakaran Evam Lipi (Language, Grammar & Script)",
+    "author": "Uttarakhand Open University",
+    "year": 2020,
+    "language": "Garhwali & Hindi",
+    "category": "grammar_and_linguistics",
+    "description": "Official university textbook on Garhwali phonetics, grammar rules, cases, tenses, and Devanagari script writing.",
+    "total_pages": 126,
+    "json_file": "uou_cgl_104_grammar.json"
+  },
+  {
+    "id": "uou_aecc_101_general",
+    "title": "Garhwali Bhasha Adhyayan (General Garhwali Studies)",
+    "author": "Uttarakhand Open University",
+    "year": 2020,
+    "language": "Garhwali & Hindi",
+    "category": "open_courseware_and_education",
+    "description": "Foundation university courseware on Garhwali communication, cultural idioms, and regional literature.",
+    "total_pages": 105,
+    "json_file": "uou_aecc_101_general.json"
+  }
+]

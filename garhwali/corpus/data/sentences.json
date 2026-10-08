@@ -1,0 +1,4475 @@
+[
+  {
+    "id": "sent_001",
+    "text": "एक बेटा गजे, एक कुलो मलेथे, डांडा काटी पानी ल्याए माधो भंडारी मलेथे।",
+    "language": "garhwali",
+    "source": "गढ़वाली लोकगाथाएँ (माधो सिंह भंडारी पवाड़ा)",
+    "author": "गोविन्द चातक",
+    "genre": "folk_epic",
+    "year": 1958,
+    "region": "Maletha, Tehri Garhwal",
+    "translation_hi": "एक बेटा गजे का बलिदान दिया, एक नहर मलेथा को दी, पहाड़ काटकर पानी लाए माधो भंडारी मलेथा में।",
+    "translation_en": "One son Gajai was sacrificed, one water canal dug for Maletha; cutting through the mountain ridge, Madho Bhandari brought water to Maletha.",
+    "tokens": [
+      "एक",
+      "बेटा",
+      "गजे",
+      ",",
+      "एक",
+      "कुलो",
+      "मलेथे",
+      ",",
+      "डांडा",
+      "काटी",
+      "पानी",
+      "ल्याए",
+      "माधो",
+      "भंडारी",
+      "मलेथे",
+      "।"
+    ],
+    "pos": [
+      "NUM",
+      "NOUN",
+      "PROPN",
+      "PUNCT",
+      "NUM",
+      "NOUN",
+      "PROPN",
+      "PUNCT",
+      "NOUN",
+      "VERB",
+      "NOUN",
+      "VERB",
+      "PROPN",
+      "PROPN",
+      "PROPN",
+      "PUNCT"
+    ],
+    "morphology": [
+      {
+        "token": "एक",
+        "lemma": "एक",
+        "pos": "NUM",
+        "feats": {
+          "NumType": "Card"
+        }
+      },
+      {
+        "token": "बेटा",
+        "lemma": "बेटा",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Nom"
+        }
+      },
+      {
+        "token": "गजे",
+        "lemma": "गजाई",
+        "pos": "PROPN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Nom"
+        }
+      },
+      {
+        "token": ",",
+        "lemma": ",",
+        "pos": "PUNCT",
+        "feats": {}
+      },
+      {
+        "token": "एक",
+        "lemma": "एक",
+        "pos": "NUM",
+        "feats": {
+          "NumType": "Card"
+        }
+      },
+      {
+        "token": "कुलो",
+        "lemma": "कूल",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Fem",
+          "Number": "Sing",
+          "Case": "Nom"
+        }
+      },
+      {
+        "token": "मलेथे",
+        "lemma": "मलेथा",
+        "pos": "PROPN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Dat"
+        }
+      },
+      {
+        "token": ",",
+        "lemma": ",",
+        "pos": "PUNCT",
+        "feats": {}
+      },
+      {
+        "token": "डांडा",
+        "lemma": "डांडा",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Acc"
+        }
+      },
+      {
+        "token": "काटी",
+        "lemma": "काटण",
+        "pos": "VERB",
+        "feats": {
+          "VerbForm": "Conv",
+          "Aspect": "Perf"
+        }
+      },
+      {
+        "token": "पानी",
+        "lemma": "पानी",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Acc"
+        }
+      },
+      {
+        "token": "ल्याए",
+        "lemma": "ल्यांण",
+        "pos": "VERB",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Tense": "Past",
+          "Person": "3"
+        }
+      },
+      {
+        "token": "माधो",
+        "lemma": "माधो",
+        "pos": "PROPN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Nom"
+        }
+      },
+      {
+        "token": "भंडारी",
+        "lemma": "भंडारी",
+        "pos": "PROPN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Nom"
+        }
+      },
+      {
+        "token": "मलेथे",
+        "lemma": "मलेथा",
+        "pos": "PROPN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Loc"
+        }
+      },
+      {
+        "token": "।",
+        "lemma": "।",
+        "pos": "PUNCT",
+        "feats": {}
+      }
+    ],
+    "source_page": 42
+  },
+  {
+    "id": "sent_002",
+    "text": "बाँसुरी बजै जीतू बगड़वाल खैत का डांडा, आंछरियों का मन मोह्या रूप का उजाला।",
+    "language": "garhwali",
+    "source": "गढ़वाली लोकगाथाएँ (जीतू बगड़वाल गाथा)",
+    "author": "गोविन्द चातक",
+    "genre": "folk_epic",
+    "year": 1958,
+    "region": "Bagodi, Rudraprayag / Tehri",
+    "translation_hi": "जीतू बगड़वाल ने खैत के शिखर पर बाँसुरी बजाई, रूप के तेज से वनदेवियों का मन मोह लिया।",
+    "translation_en": "Jeetu Bagdwal played his flute on the ridge of Khait; with his radiant grace he enchanted the mountain fairies.",
+    "tokens": [
+      "बाँसुरी",
+      "बजै",
+      "जीतू",
+      "बगड़वाल",
+      "खैत",
+      "का",
+      "डांडा",
+      ",",
+      "आंछरियों",
+      "का",
+      "मन",
+      "मोह्या",
+      "रूप",
+      "का",
+      "उजाला",
+      "।"
+    ],
+    "pos": [
+      "NOUN",
+      "VERB",
+      "PROPN",
+      "PROPN",
+      "PROPN",
+      "ADP",
+      "NOUN",
+      "PUNCT",
+      "NOUN",
+      "ADP",
+      "NOUN",
+      "VERB",
+      "NOUN",
+      "ADP",
+      "NOUN",
+      "PUNCT"
+    ],
+    "morphology": [
+      {
+        "token": "बाँसुरी",
+        "lemma": "बाँसुरी",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Fem",
+          "Number": "Sing",
+          "Case": "Acc"
+        }
+      },
+      {
+        "token": "बजै",
+        "lemma": "बजाण",
+        "pos": "VERB",
+        "feats": {
+          "Tense": "Past",
+          "Person": "3"
+        }
+      },
+      {
+        "token": "जीतू",
+        "lemma": "जीतू",
+        "pos": "PROPN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Erg"
+        }
+      },
+      {
+        "token": "बगड़वाल",
+        "lemma": "बगड़वाल",
+        "pos": "PROPN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Erg"
+        }
+      },
+      {
+        "token": "खैत",
+        "lemma": "खैत",
+        "pos": "PROPN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "का",
+        "lemma": "को",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Gen"
+        }
+      },
+      {
+        "token": "डांडा",
+        "lemma": "डांडा",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Loc"
+        }
+      },
+      {
+        "token": ",",
+        "lemma": ",",
+        "pos": "PUNCT",
+        "feats": {}
+      },
+      {
+        "token": "आंछरियों",
+        "lemma": "आंछरी",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Fem",
+          "Number": "Plur",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "का",
+        "lemma": "को",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Gen"
+        }
+      },
+      {
+        "token": "मन",
+        "lemma": "मन",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Acc"
+        }
+      },
+      {
+        "token": "मोह्या",
+        "lemma": "मोहण",
+        "pos": "VERB",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Tense": "Past"
+        }
+      },
+      {
+        "token": "रूप",
+        "lemma": "रूप",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "का",
+        "lemma": "को",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Gen"
+        }
+      },
+      {
+        "token": "उजाला",
+        "lemma": "उजाला",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Ins"
+        }
+      },
+      {
+        "token": "।",
+        "lemma": "।",
+        "pos": "PUNCT",
+        "feats": {}
+      }
+    ],
+    "source_page": 88
+  },
+  {
+    "id": "sent_003",
+    "text": "काफल पाको चैता, मिन नी चाख्यो भैता!",
+    "language": "garhwali",
+    "source": "काफल पाको",
+    "author": "चन्द्रकुंवर बर्त्वाल",
+    "genre": "poetry",
+    "year": 1942,
+    "region": "Rudraprayag / Chamoli",
+    "translation_hi": "चैत्र मास में काफल पक गए, मैंने नहीं चखे भैया!",
+    "translation_en": "The bayberries ripened in spring, but I did not taste them, dear brother!",
+    "tokens": [
+      "काफल",
+      "पाको",
+      "चैता",
+      ",",
+      "मिन",
+      "नी",
+      "चाख्यो",
+      "भैता",
+      "!"
+    ],
+    "pos": [
+      "NOUN",
+      "VERB",
+      "NOUN",
+      "PUNCT",
+      "PRON",
+      "PART",
+      "VERB",
+      "NOUN",
+      "PUNCT"
+    ],
+    "morphology": [
+      {
+        "token": "काफल",
+        "lemma": "काफल",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Nom"
+        }
+      },
+      {
+        "token": "पाको",
+        "lemma": "पाकण",
+        "pos": "VERB",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Aspect": "Perf",
+          "Tense": "Past"
+        }
+      },
+      {
+        "token": "चैता",
+        "lemma": "चैत",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Loc"
+        }
+      },
+      {
+        "token": ",",
+        "lemma": ",",
+        "pos": "PUNCT",
+        "feats": {}
+      },
+      {
+        "token": "मिन",
+        "lemma": "मैं",
+        "pos": "PRON",
+        "feats": {
+          "Number": "Sing",
+          "Person": "1",
+          "Case": "Erg"
+        }
+      },
+      {
+        "token": "नी",
+        "lemma": "नी",
+        "pos": "PART",
+        "feats": {
+          "Polarity": "Neg"
+        }
+      },
+      {
+        "token": "चाख्यो",
+        "lemma": "चाखण",
+        "pos": "VERB",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Tense": "Past"
+        }
+      },
+      {
+        "token": "भैता",
+        "lemma": "भाई",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Voc"
+        }
+      },
+      {
+        "token": "!",
+        "lemma": "!",
+        "pos": "PUNCT",
+        "feats": {}
+      }
+    ],
+    "source_page": 14
+  },
+  {
+    "id": "sent_004",
+    "text": "घुघुती न बासा बासा अमरा की डाली, मन की बिथा क्य जाणी दूर परदेशी।",
+    "language": "garhwali",
+    "source": "गढ़वाली लोकगीत",
+    "author": "गोविन्द चातक",
+    "genre": "folk_song",
+    "year": 2000,
+    "region": "Garhwal Himalayas",
+    "translation_hi": "हे घुघुती पक्षी! आम की डाल पर मत कूक, दूर परदेसी मेरे मन की व्यथा क्या जाने।",
+    "translation_en": "O spotted dove, do not coo on the mango bough; what would a far-away wanderer know of the sorrow in my heart.",
+    "tokens": [
+      "घुघुती",
+      "न",
+      "बासा",
+      "बासा",
+      "अमरा",
+      "की",
+      "डाली",
+      ",",
+      "मन",
+      "की",
+      "बिथा",
+      "क्य",
+      "जाणी",
+      "दूर",
+      "परदेशी",
+      "।"
+    ],
+    "pos": [
+      "NOUN",
+      "PART",
+      "VERB",
+      "VERB",
+      "NOUN",
+      "ADP",
+      "NOUN",
+      "PUNCT",
+      "NOUN",
+      "ADP",
+      "NOUN",
+      "PRON",
+      "VERB",
+      "ADV",
+      "NOUN",
+      "PUNCT"
+    ],
+    "morphology": [
+      {
+        "token": "घुघुती",
+        "lemma": "घुघुती",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Fem",
+          "Number": "Sing",
+          "Case": "Voc"
+        }
+      },
+      {
+        "token": "न",
+        "lemma": "न",
+        "pos": "PART",
+        "feats": {
+          "Polarity": "Neg"
+        }
+      },
+      {
+        "token": "बासा",
+        "lemma": "बासण",
+        "pos": "VERB",
+        "feats": {
+          "Mood": "Imp",
+          "Person": "2"
+        }
+      },
+      {
+        "token": "बासा",
+        "lemma": "बासण",
+        "pos": "VERB",
+        "feats": {
+          "Mood": "Imp",
+          "Person": "2"
+        }
+      },
+      {
+        "token": "अमरा",
+        "lemma": "अमर",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "की",
+        "lemma": "को",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Gen",
+          "Gender": "Fem"
+        }
+      },
+      {
+        "token": "डाली",
+        "lemma": "डाली",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Fem",
+          "Number": "Sing",
+          "Case": "Loc"
+        }
+      },
+      {
+        "token": ",",
+        "lemma": ",",
+        "pos": "PUNCT",
+        "feats": {}
+      },
+      {
+        "token": "मन",
+        "lemma": "मन",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "की",
+        "lemma": "को",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Gen",
+          "Gender": "Fem"
+        }
+      },
+      {
+        "token": "बिथा",
+        "lemma": "व्यथा",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Fem",
+          "Number": "Sing",
+          "Case": "Acc"
+        }
+      },
+      {
+        "token": "क्य",
+        "lemma": "क्य",
+        "pos": "PRON",
+        "feats": {
+          "PronType": "Int"
+        }
+      },
+      {
+        "token": "जाणी",
+        "lemma": "जाणण",
+        "pos": "VERB",
+        "feats": {
+          "Mood": "Pot",
+          "Tense": "Pres"
+        }
+      },
+      {
+        "token": "दूर",
+        "lemma": "दूर",
+        "pos": "ADV",
+        "feats": {}
+      },
+      {
+        "token": "परदेशी",
+        "lemma": "परदेशी",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Nom"
+        }
+      },
+      {
+        "token": "।",
+        "lemma": "।",
+        "pos": "PUNCT",
+        "feats": {}
+      }
+    ],
+    "source_page": 112
+  },
+  {
+    "id": "sent_005",
+    "text": "सांझ पड्दा ही गौं का सब ब्वारी-सयाणी धार पर पाणी भरणा खातिर बटुलि गैन।",
+    "language": "garhwali",
+    "source": "कथा-कुमुद",
+    "author": "अबोधबंधु बहुगुणा",
+    "genre": "short_story",
+    "year": 1999,
+    "region": "Srinagar / Pauri",
+    "translation_hi": "शाम ढलते ही गाँव की सभी बहुएं और बुजुर्ग महिलाएं पानी भरने के लिए प्राकृतिक जलस्रोत पर इकट्ठी हो गईं।",
+    "translation_en": "As evening fell, all the daughters-in-law and elder women of the village gathered at the spring ridge to draw water.",
+    "tokens": [
+      "सांझ",
+      "पड्दा",
+      "ही",
+      "गौं",
+      "का",
+      "सब",
+      "ब्वारी-सयाणी",
+      "धार",
+      "पर",
+      "पाणी",
+      "भरणा",
+      "खातिर",
+      "बटुलि",
+      "गैन",
+      "।"
+    ],
+    "pos": [
+      "NOUN",
+      "VERB",
+      "PART",
+      "NOUN",
+      "ADP",
+      "DET",
+      "NOUN",
+      "NOUN",
+      "ADP",
+      "NOUN",
+      "VERB",
+      "ADP",
+      "VERB",
+      "AUX",
+      "PUNCT"
+    ],
+    "morphology": [
+      {
+        "token": "सांझ",
+        "lemma": "सांझ",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Fem",
+          "Number": "Sing",
+          "Case": "Nom"
+        }
+      },
+      {
+        "token": "पड्दा",
+        "lemma": "पडण",
+        "pos": "VERB",
+        "feats": {
+          "VerbForm": "Part",
+          "Aspect": "Impf"
+        }
+      },
+      {
+        "token": "ही",
+        "lemma": "ही",
+        "pos": "PART",
+        "feats": {
+          "Emphatic": "Yes"
+        }
+      },
+      {
+        "token": "गौं",
+        "lemma": "गाँव",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "का",
+        "lemma": "को",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Gen"
+        }
+      },
+      {
+        "token": "सब",
+        "lemma": "सब",
+        "pos": "DET",
+        "feats": {}
+      },
+      {
+        "token": "ब्वारी-सयाणी",
+        "lemma": "ब्वारी-सयाणी",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Fem",
+          "Number": "Plur",
+          "Case": "Nom"
+        }
+      },
+      {
+        "token": "धार",
+        "lemma": "धार",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Fem",
+          "Number": "Sing",
+          "Case": "Loc"
+        }
+      },
+      {
+        "token": "पर",
+        "lemma": "पर",
+        "pos": "ADP",
+        "feats": {}
+      },
+      {
+        "token": "पाणी",
+        "lemma": "पानी",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Acc"
+        }
+      },
+      {
+        "token": "भरणा",
+        "lemma": "भरण",
+        "pos": "VERB",
+        "feats": {
+          "VerbForm": "Inf"
+        }
+      },
+      {
+        "token": "खातिर",
+        "lemma": "खातिर",
+        "pos": "ADP",
+        "feats": {}
+      },
+      {
+        "token": "बटुलि",
+        "lemma": "बटुळण",
+        "pos": "VERB",
+        "feats": {
+          "VerbForm": "Conv"
+        }
+      },
+      {
+        "token": "गैन",
+        "lemma": "जाण",
+        "pos": "AUX",
+        "feats": {
+          "Gender": "Fem",
+          "Number": "Plur",
+          "Tense": "Past"
+        }
+      },
+      {
+        "token": "।",
+        "lemma": "।",
+        "pos": "PUNCT",
+        "feats": {}
+      }
+    ],
+    "source_page": 28
+  },
+  {
+    "id": "sent_006",
+    "text": "पहाड़ा का नौजवान जब शहर जांदन, त उनूं का मन मा हमेश आपणु घर-बौंड अर मैत-माटी याद रान्दी।",
+    "language": "garhwali",
+    "source": "भुगत्यूं भविष्य",
+    "author": "अबोधबंधु बहुगुणा",
+    "genre": "novel",
+    "year": 1997,
+    "region": "Tehri / Pauri",
+    "translation_hi": "पहाड़ के नौजवान जब शहर जाते हैं, तो उनके मन में हमेशा अपना घर-आँगन और मातृभूमि की मिट्टी याद रहती है।",
+    "translation_en": "When Himalayan youth migrate to cities, their ancestral hearth and native mountain soil remain forever alive in their hearts.",
+    "tokens": [
+      "पहाड़ा",
+      "का",
+      "नौजवान",
+      "जब",
+      "शहर",
+      "जांदन",
+      ",",
+      "त",
+      "उनूं",
+      "का",
+      "मन",
+      "मा",
+      "हमेश",
+      "आपणु",
+      "घर-बौंड",
+      "अर",
+      "मैत-माटी",
+      "याद",
+      "रान्दी",
+      "।"
+    ],
+    "pos": [
+      "NOUN",
+      "ADP",
+      "NOUN",
+      "SCONJ",
+      "NOUN",
+      "VERB",
+      "PUNCT",
+      "CCONJ",
+      "PRON",
+      "ADP",
+      "NOUN",
+      "ADP",
+      "ADV",
+      "PRON",
+      "NOUN",
+      "CCONJ",
+      "NOUN",
+      "NOUN",
+      "VERB",
+      "PUNCT"
+    ],
+    "morphology": [
+      {
+        "token": "पहाड़ा",
+        "lemma": "पहाड़",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "का",
+        "lemma": "को",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Gen"
+        }
+      },
+      {
+        "token": "नौजवान",
+        "lemma": "नौजवान",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Plur",
+          "Case": "Nom"
+        }
+      },
+      {
+        "token": "जब",
+        "lemma": "जब",
+        "pos": "SCONJ",
+        "feats": {}
+      },
+      {
+        "token": "शहर",
+        "lemma": "शहर",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Acc"
+        }
+      },
+      {
+        "token": "जांदन",
+        "lemma": "जाण",
+        "pos": "VERB",
+        "feats": {
+          "Number": "Plur",
+          "Tense": "Pres",
+          "Person": "3"
+        }
+      },
+      {
+        "token": ",",
+        "lemma": ",",
+        "pos": "PUNCT",
+        "feats": {}
+      },
+      {
+        "token": "त",
+        "lemma": "त",
+        "pos": "CCONJ",
+        "feats": {}
+      },
+      {
+        "token": "उनूं",
+        "lemma": "उ",
+        "pos": "PRON",
+        "feats": {
+          "Number": "Plur",
+          "Person": "3",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "का",
+        "lemma": "को",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Gen"
+        }
+      },
+      {
+        "token": "मन",
+        "lemma": "मन",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "मा",
+        "lemma": "मा",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Loc"
+        }
+      },
+      {
+        "token": "हमेश",
+        "lemma": "हमेशा",
+        "pos": "ADV",
+        "feats": {}
+      },
+      {
+        "token": "आपणु",
+        "lemma": "आपु",
+        "pos": "PRON",
+        "feats": {
+          "Poss": "Yes"
+        }
+      },
+      {
+        "token": "घर-बौंड",
+        "lemma": "घर-बौंड",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Nom"
+        }
+      },
+      {
+        "token": "अर",
+        "lemma": "अर",
+        "pos": "CCONJ",
+        "feats": {}
+      },
+      {
+        "token": "मैत-माटी",
+        "lemma": "मैत-माटी",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Fem",
+          "Number": "Sing",
+          "Case": "Nom"
+        }
+      },
+      {
+        "token": "याद",
+        "lemma": "याद",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Fem",
+          "Number": "Sing",
+          "Case": "Nom"
+        }
+      },
+      {
+        "token": "रान्दी",
+        "lemma": "रौण",
+        "pos": "VERB",
+        "feats": {
+          "Gender": "Fem",
+          "Number": "Sing",
+          "Tense": "Pres",
+          "Aspect": "Hab"
+        }
+      },
+      {
+        "token": "।",
+        "lemma": "।",
+        "pos": "PUNCT",
+        "feats": {}
+      }
+    ],
+    "source_page": 53
+  },
+  {
+    "id": "sent_007",
+    "text": "बौजी न जब चूला मा झंगोरा की खीर धरी, त पुरा घर मा सुगन्ध फैलि गे।",
+    "language": "garhwali",
+    "source": "निरबिजु",
+    "author": "उमेश चमोला",
+    "genre": "novel",
+    "year": 2012,
+    "region": "Pauri Garhwal",
+    "translation_hi": "भाभी ने जब चूल्हे पर झंगोरे की खीर पकाई, तो पूरे घर में खुशबू फैल गई।",
+    "translation_en": "When sister-in-law placed the barnyard millet pudding on the hearth, its sweet aroma filled the entire house.",
+    "tokens": [
+      "बौजी",
+      "न",
+      "जब",
+      "चूला",
+      "मा",
+      "झंगोरा",
+      "की",
+      "खीर",
+      "धरी",
+      ",",
+      "त",
+      "पुरा",
+      "घर",
+      "मा",
+      "सुगन्ध",
+      "फैलि",
+      "गे",
+      "।"
+    ],
+    "pos": [
+      "NOUN",
+      "ADP",
+      "SCONJ",
+      "NOUN",
+      "ADP",
+      "NOUN",
+      "ADP",
+      "NOUN",
+      "VERB",
+      "PUNCT",
+      "CCONJ",
+      "ADJ",
+      "NOUN",
+      "ADP",
+      "NOUN",
+      "VERB",
+      "AUX",
+      "PUNCT"
+    ],
+    "morphology": [
+      {
+        "token": "बौजी",
+        "lemma": "बौजी",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Fem",
+          "Number": "Sing",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "न",
+        "lemma": "न",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Erg"
+        }
+      },
+      {
+        "token": "जब",
+        "lemma": "जब",
+        "pos": "SCONJ",
+        "feats": {}
+      },
+      {
+        "token": "चूला",
+        "lemma": "चूल्हा",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "मा",
+        "lemma": "मा",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Loc"
+        }
+      },
+      {
+        "token": "झंगोरा",
+        "lemma": "झंगोरा",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "की",
+        "lemma": "को",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Gen",
+          "Gender": "Fem"
+        }
+      },
+      {
+        "token": "खीर",
+        "lemma": "खीर",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Fem",
+          "Number": "Sing",
+          "Case": "Acc"
+        }
+      },
+      {
+        "token": "धरी",
+        "lemma": "धरणा",
+        "pos": "VERB",
+        "feats": {
+          "Gender": "Fem",
+          "Number": "Sing",
+          "Aspect": "Perf",
+          "Tense": "Past"
+        }
+      },
+      {
+        "token": ",",
+        "lemma": ",",
+        "pos": "PUNCT",
+        "feats": {}
+      },
+      {
+        "token": "त",
+        "lemma": "त",
+        "pos": "CCONJ",
+        "feats": {}
+      },
+      {
+        "token": "पुरा",
+        "lemma": "पूरा",
+        "pos": "ADJ",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing"
+        }
+      },
+      {
+        "token": "घर",
+        "lemma": "घर",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "मा",
+        "lemma": "मा",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Loc"
+        }
+      },
+      {
+        "token": "सुगन्ध",
+        "lemma": "सुगन्ध",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Fem",
+          "Number": "Sing",
+          "Case": "Nom"
+        }
+      },
+      {
+        "token": "फैलि",
+        "lemma": "फैलण",
+        "pos": "VERB",
+        "feats": {
+          "VerbForm": "Conv"
+        }
+      },
+      {
+        "token": "गे",
+        "lemma": "जाण",
+        "pos": "AUX",
+        "feats": {
+          "Gender": "Fem",
+          "Number": "Sing",
+          "Tense": "Past"
+        }
+      },
+      {
+        "token": "।",
+        "lemma": "।",
+        "pos": "PUNCT",
+        "feats": {}
+      }
+    ],
+    "source_page": 11
+  },
+  {
+    "id": "sent_008",
+    "text": "हे बणद्यौ! तू चिट्ठी मा क्य लिख्या छै, हमारि जंगल का झाड़-बूटा क्य बचला?",
+    "language": "garhwali",
+    "source": "बणद्यौ कि चिट्ठी",
+    "author": "उमेश चमोला",
+    "genre": "drama",
+    "year": 2018,
+    "region": "Pauri / Dehradun",
+    "translation_hi": "हे वनदेवता! तुमने पत्र में क्या लिखा है, क्या हमारे जंगल के पेड़-पौधे बच पाएंगे?",
+    "translation_en": "O Forest Spirit! What have you written in the letter; will the trees and medicinal plants of our jungle be saved?",
+    "tokens": [
+      "हे",
+      "बणद्यौ",
+      "!",
+      "तू",
+      "चिट्ठी",
+      "मा",
+      "क्य",
+      "लिख्या",
+      "छै",
+      ",",
+      "हमारि",
+      "जंगल",
+      "का",
+      "झाड़-बूटा",
+      "क्य",
+      "बचला",
+      "?"
+    ],
+    "pos": [
+      "INTJ",
+      "PROPN",
+      "PUNCT",
+      "PRON",
+      "NOUN",
+      "ADP",
+      "PRON",
+      "VERB",
+      "AUX",
+      "PUNCT",
+      "PRON",
+      "NOUN",
+      "ADP",
+      "NOUN",
+      "PART",
+      "VERB",
+      "PUNCT"
+    ],
+    "morphology": [
+      {
+        "token": "हे",
+        "lemma": "हे",
+        "pos": "INTJ",
+        "feats": {}
+      },
+      {
+        "token": "बणद्यौ",
+        "lemma": "बणद्यौ",
+        "pos": "PROPN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Voc"
+        }
+      },
+      {
+        "token": "!",
+        "lemma": "!",
+        "pos": "PUNCT",
+        "feats": {}
+      },
+      {
+        "token": "तू",
+        "lemma": "तू",
+        "pos": "PRON",
+        "feats": {
+          "Number": "Sing",
+          "Person": "2",
+          "Case": "Nom"
+        }
+      },
+      {
+        "token": "चिट्ठी",
+        "lemma": "चिट्ठी",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Fem",
+          "Number": "Sing",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "मा",
+        "lemma": "मा",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Loc"
+        }
+      },
+      {
+        "token": "क्य",
+        "lemma": "क्य",
+        "pos": "PRON",
+        "feats": {
+          "PronType": "Int"
+        }
+      },
+      {
+        "token": "लिख्या",
+        "lemma": "लिखण",
+        "pos": "VERB",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Aspect": "Perf"
+        }
+      },
+      {
+        "token": "छै",
+        "lemma": "छण",
+        "pos": "AUX",
+        "feats": {
+          "Person": "2",
+          "Tense": "Pres"
+        }
+      },
+      {
+        "token": ",",
+        "lemma": ",",
+        "pos": "PUNCT",
+        "feats": {}
+      },
+      {
+        "token": "हमारि",
+        "lemma": "हमारो",
+        "pos": "PRON",
+        "feats": {
+          "Poss": "Yes"
+        }
+      },
+      {
+        "token": "जंगल",
+        "lemma": "जंगल",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "का",
+        "lemma": "को",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Gen"
+        }
+      },
+      {
+        "token": "झाड़-बूटा",
+        "lemma": "झाड़-बूटा",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Plur",
+          "Case": "Nom"
+        }
+      },
+      {
+        "token": "क्य",
+        "lemma": "क्य",
+        "pos": "PART",
+        "feats": {
+          "PartType": "Int"
+        }
+      },
+      {
+        "token": "बचला",
+        "lemma": "बचण",
+        "pos": "VERB",
+        "feats": {
+          "Number": "Plur",
+          "Tense": "Fut",
+          "Person": "3"
+        }
+      },
+      {
+        "token": "?",
+        "lemma": "?",
+        "pos": "PUNCT",
+        "feats": {}
+      }
+    ],
+    "source_page": 19
+  },
+  {
+    "id": "sent_009",
+    "text": "घास काटी ल्यायीं डांडा बिटी, बाजूबन्द बजी गे छम-छम डांडा मा।",
+    "language": "garhwali",
+    "source": "बाजूबन्द : घसियारियों के गीत",
+    "author": "महीपाल सिंह नेगी",
+    "genre": "folk_song",
+    "year": 2017,
+    "region": "Tehri / Chamoli",
+    "translation_hi": "पहाड़ की चोटी से घास काटकर ले आई, पहाड़ के शिखर पर बाजूबन्द छम-छम बज उठा।",
+    "translation_en": "I brought cut grass down from the mountain crest, as my armlet chimed melodiously along the high ridge.",
+    "tokens": [
+      "घास",
+      "काटी",
+      "ल्यायीं",
+      "डांडा",
+      "बिटी",
+      ",",
+      "बाजूबन्द",
+      "बजी",
+      "गे",
+      "छम-छम",
+      "डांडा",
+      "मा",
+      "।"
+    ],
+    "pos": [
+      "NOUN",
+      "VERB",
+      "VERB",
+      "NOUN",
+      "ADP",
+      "PUNCT",
+      "NOUN",
+      "VERB",
+      "AUX",
+      "ADV",
+      "NOUN",
+      "ADP",
+      "PUNCT"
+    ],
+    "morphology": [
+      {
+        "token": "घास",
+        "lemma": "घास",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Fem",
+          "Number": "Sing",
+          "Case": "Acc"
+        }
+      },
+      {
+        "token": "काटी",
+        "lemma": "काटण",
+        "pos": "VERB",
+        "feats": {
+          "VerbForm": "Conv"
+        }
+      },
+      {
+        "token": "ल्यायीं",
+        "lemma": "ल्यांण",
+        "pos": "VERB",
+        "feats": {
+          "Gender": "Fem",
+          "Number": "Sing",
+          "Person": "1",
+          "Tense": "Past"
+        }
+      },
+      {
+        "token": "डांडा",
+        "lemma": "डांडा",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "बिटी",
+        "lemma": "बिटी",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Abl"
+        }
+      },
+      {
+        "token": ",",
+        "lemma": ",",
+        "pos": "PUNCT",
+        "feats": {}
+      },
+      {
+        "token": "बाजूबन्द",
+        "lemma": "बाजूबन्द",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Nom"
+        }
+      },
+      {
+        "token": "बजी",
+        "lemma": "बजण",
+        "pos": "VERB",
+        "feats": {
+          "VerbForm": "Conv"
+        }
+      },
+      {
+        "token": "गे",
+        "lemma": "जाण",
+        "pos": "AUX",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Tense": "Past"
+        }
+      },
+      {
+        "token": "छम-छम",
+        "lemma": "छम-छम",
+        "pos": "ADV",
+        "feats": {}
+      },
+      {
+        "token": "डांडा",
+        "lemma": "डांडा",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "मा",
+        "lemma": "मा",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Loc"
+        }
+      },
+      {
+        "token": "।",
+        "lemma": "।",
+        "pos": "PUNCT",
+        "feats": {}
+      }
+    ],
+    "source_page": 34
+  },
+  {
+    "id": "sent_010",
+    "text": "हे मेघ! त्वीं अलकापुरी जाईक मेरो सन्देश मेरि प्यारी ते दै।",
+    "language": "garhwali",
+    "source": "मेघदूत (गढ़वाली पद्यानुवाद)",
+    "author": "धर्मानंद जमलोकी",
+    "genre": "translation",
+    "year": 1971,
+    "region": "Ukhimath, Rudraprayag",
+    "translation_hi": "हे बादल! तुम अलकापुरी जाकर मेरा संदेश मेरी प्रियतमा को देना।",
+    "translation_en": "O Cloud Messenger! Journey to Alakapuri and deliver my tender message to my beloved.",
+    "tokens": [
+      "हे",
+      "मेघ",
+      "!",
+      "त्वीं",
+      "अलकापुरी",
+      "जाईक",
+      "मेरो",
+      "सन्देश",
+      "मेरि",
+      "प्यारी",
+      "ते",
+      "दै",
+      "।"
+    ],
+    "pos": [
+      "INTJ",
+      "NOUN",
+      "PUNCT",
+      "PRON",
+      "PROPN",
+      "VERB",
+      "PRON",
+      "NOUN",
+      "PRON",
+      "NOUN",
+      "ADP",
+      "VERB",
+      "PUNCT"
+    ],
+    "morphology": [
+      {
+        "token": "हे",
+        "lemma": "हे",
+        "pos": "INTJ",
+        "feats": {}
+      },
+      {
+        "token": "मेघ",
+        "lemma": "मेघ",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Voc"
+        }
+      },
+      {
+        "token": "!",
+        "lemma": "!",
+        "pos": "PUNCT",
+        "feats": {}
+      },
+      {
+        "token": "त्वीं",
+        "lemma": "तू",
+        "pos": "PRON",
+        "feats": {
+          "Number": "Sing",
+          "Person": "2",
+          "Case": "Nom"
+        }
+      },
+      {
+        "token": "अलकापुरी",
+        "lemma": "अलकापुरी",
+        "pos": "PROPN",
+        "feats": {
+          "Gender": "Fem",
+          "Number": "Sing",
+          "Case": "Acc"
+        }
+      },
+      {
+        "token": "जाईक",
+        "lemma": "जाण",
+        "pos": "VERB",
+        "feats": {
+          "VerbForm": "Conv"
+        }
+      },
+      {
+        "token": "मेरो",
+        "lemma": "मेरो",
+        "pos": "PRON",
+        "feats": {
+          "Poss": "Yes",
+          "Gender": "Masc"
+        }
+      },
+      {
+        "token": "सन्देश",
+        "lemma": "सन्देश",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Acc"
+        }
+      },
+      {
+        "token": "मेरि",
+        "lemma": "मेरो",
+        "pos": "PRON",
+        "feats": {
+          "Poss": "Yes",
+          "Gender": "Fem"
+        }
+      },
+      {
+        "token": "प्यारी",
+        "lemma": "प्यारी",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Fem",
+          "Number": "Sing",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "ते",
+        "lemma": "ते",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Dat"
+        }
+      },
+      {
+        "token": "दै",
+        "lemma": "देण",
+        "pos": "VERB",
+        "feats": {
+          "Mood": "Imp",
+          "Person": "2"
+        }
+      },
+      {
+        "token": "।",
+        "lemma": "।",
+        "pos": "PUNCT",
+        "feats": {}
+      }
+    ],
+    "source_page": 17
+  },
+  {
+    "id": "sent_011",
+    "text": "कर्म करण मा तेरो अधिकार च, फल मा कभी नि, फल की इच्छा छोड़िक धर्म कु पालन कर।",
+    "language": "garhwali",
+    "source": "श्रीमद्भगवद्गीता (गढ़वाली काव्यानुवाद)",
+    "author": "गोपाल दत्त मिश्र 'बंगथल'",
+    "genre": "translation",
+    "year": 2015,
+    "region": "Garhwal",
+    "translation_hi": "कर्म करने में ही तुम्हारा अधिकार है, फल में कभी नहीं; फल की इच्छा त्यागकर धर्म का पालन करो।",
+    "translation_en": "Thy right is to work alone, never to its fruits; letting go of the fruits, perform thy righteous duty.",
+    "tokens": [
+      "कर्म",
+      "करण",
+      "मा",
+      "तेरो",
+      "अधिकार",
+      "च",
+      ",",
+      "फल",
+      "मा",
+      "कभी",
+      "नि",
+      ",",
+      "फल",
+      "की",
+      "इच्छा",
+      "छोड़िक",
+      "धर्म",
+      "कु",
+      "पालन",
+      "कर",
+      "।"
+    ],
+    "pos": [
+      "NOUN",
+      "VERB",
+      "ADP",
+      "PRON",
+      "NOUN",
+      "AUX",
+      "PUNCT",
+      "NOUN",
+      "ADP",
+      "ADV",
+      "PART",
+      "PUNCT",
+      "NOUN",
+      "ADP",
+      "NOUN",
+      "VERB",
+      "NOUN",
+      "ADP",
+      "NOUN",
+      "VERB",
+      "PUNCT"
+    ],
+    "morphology": [
+      {
+        "token": "कर्म",
+        "lemma": "कर्म",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Acc"
+        }
+      },
+      {
+        "token": "करण",
+        "lemma": "करण",
+        "pos": "VERB",
+        "feats": {
+          "VerbForm": "Inf"
+        }
+      },
+      {
+        "token": "मा",
+        "lemma": "मा",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Loc"
+        }
+      },
+      {
+        "token": "तेरो",
+        "lemma": "तेरो",
+        "pos": "PRON",
+        "feats": {
+          "Poss": "Yes"
+        }
+      },
+      {
+        "token": "अधिकार",
+        "lemma": "अधिकार",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Nom"
+        }
+      },
+      {
+        "token": "च",
+        "lemma": "छण",
+        "pos": "AUX",
+        "feats": {
+          "Person": "3",
+          "Tense": "Pres"
+        }
+      },
+      {
+        "token": ",",
+        "lemma": ",",
+        "pos": "PUNCT",
+        "feats": {}
+      },
+      {
+        "token": "फल",
+        "lemma": "फल",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "मा",
+        "lemma": "मा",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Loc"
+        }
+      },
+      {
+        "token": "कभी",
+        "lemma": "कभी",
+        "pos": "ADV",
+        "feats": {}
+      },
+      {
+        "token": "नि",
+        "lemma": "नि",
+        "pos": "PART",
+        "feats": {
+          "Polarity": "Neg"
+        }
+      },
+      {
+        "token": ",",
+        "lemma": ",",
+        "pos": "PUNCT",
+        "feats": {}
+      },
+      {
+        "token": "फल",
+        "lemma": "फल",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "की",
+        "lemma": "को",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Gen",
+          "Gender": "Fem"
+        }
+      },
+      {
+        "token": "इच्छा",
+        "lemma": "इच्छा",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Fem",
+          "Number": "Sing",
+          "Case": "Acc"
+        }
+      },
+      {
+        "token": "छोड़िक",
+        "lemma": "छोडण",
+        "pos": "VERB",
+        "feats": {
+          "VerbForm": "Conv"
+        }
+      },
+      {
+        "token": "धर्म",
+        "lemma": "धर्म",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "कु",
+        "lemma": "को",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Gen"
+        }
+      },
+      {
+        "token": "पालन",
+        "lemma": "पालन",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Acc"
+        }
+      },
+      {
+        "token": "कर",
+        "lemma": "करण",
+        "pos": "VERB",
+        "feats": {
+          "Mood": "Imp",
+          "Person": "2"
+        }
+      },
+      {
+        "token": "।",
+        "lemma": "।",
+        "pos": "PUNCT",
+        "feats": {}
+      }
+    ],
+    "source_page": 48
+  },
+  {
+    "id": "sent_012",
+    "text": "ठंडो रे ठंडो मेरो पहाड़ को पाणी, ठंडी-ठंडी हवा छै सुहाणी।",
+    "language": "garhwali",
+    "source": "गाण्यूं कि गंगा स्याण्यूं का समोदर",
+    "author": "नरेंद्र सिंह नेगी",
+    "genre": "poetry",
+    "year": 1999,
+    "region": "Pauri Garhwal",
+    "translation_hi": "ठंडा है ठंडा मेरे पहाड़ का पानी, और ठंडी-ठंडी हवा अत्यंत सुहावनी है।",
+    "translation_en": "Pure and cool is the water of my mountains, and delightfully gentle is the mountain breeze.",
+    "tokens": [
+      "ठंडो",
+      "रे",
+      "ठंडो",
+      "मेरो",
+      "पहाड़",
+      "को",
+      "पाणी",
+      ",",
+      "ठंडी-ठंडी",
+      "हवा",
+      "छै",
+      "सुहाणी",
+      "।"
+    ],
+    "pos": [
+      "ADJ",
+      "PART",
+      "ADJ",
+      "PRON",
+      "NOUN",
+      "ADP",
+      "NOUN",
+      "PUNCT",
+      "ADJ",
+      "NOUN",
+      "AUX",
+      "ADJ",
+      "PUNCT"
+    ],
+    "morphology": [
+      {
+        "token": "ठंडो",
+        "lemma": "ठंडो",
+        "pos": "ADJ",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing"
+        }
+      },
+      {
+        "token": "रे",
+        "lemma": "रे",
+        "pos": "PART",
+        "feats": {}
+      },
+      {
+        "token": "ठंडो",
+        "lemma": "ठंडो",
+        "pos": "ADJ",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing"
+        }
+      },
+      {
+        "token": "मेरो",
+        "lemma": "मेरो",
+        "pos": "PRON",
+        "feats": {
+          "Poss": "Yes"
+        }
+      },
+      {
+        "token": "पहाड़",
+        "lemma": "पहाड़",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "को",
+        "lemma": "को",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Gen"
+        }
+      },
+      {
+        "token": "पाणी",
+        "lemma": "पानी",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Nom"
+        }
+      },
+      {
+        "token": ",",
+        "lemma": ",",
+        "pos": "PUNCT",
+        "feats": {}
+      },
+      {
+        "token": "ठंडी-ठंडी",
+        "lemma": "ठंडी-ठंडी",
+        "pos": "ADJ",
+        "feats": {
+          "Gender": "Fem",
+          "Number": "Sing"
+        }
+      },
+      {
+        "token": "हवा",
+        "lemma": "हवा",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Fem",
+          "Number": "Sing",
+          "Case": "Nom"
+        }
+      },
+      {
+        "token": "छै",
+        "lemma": "छण",
+        "pos": "AUX",
+        "feats": {
+          "Person": "3",
+          "Tense": "Pres"
+        }
+      },
+      {
+        "token": "सुहाणी",
+        "lemma": "सुहाणी",
+        "pos": "ADJ",
+        "feats": {
+          "Gender": "Fem",
+          "Number": "Sing"
+        }
+      },
+      {
+        "token": "।",
+        "lemma": "।",
+        "pos": "PUNCT",
+        "feats": {}
+      }
+    ],
+    "source_page": 24
+  },
+  {
+    "id": "sent_013",
+    "text": "सदेई का आँसू डांडा का पत्थर बि पिघलाण बैठि गैन।",
+    "language": "garhwali",
+    "source": "सदेई",
+    "author": "तारा दत्त गैरोला",
+    "genre": "poetry",
+    "year": 1921,
+    "region": "Dehradun / Pauri",
+    "translation_hi": "सदेई के आँसू पहाड़ के पत्थरों को भी पिघलाने लगे।",
+    "translation_en": "Sadei's tears began to melt even the hard stones of the mountain cliffs.",
+    "tokens": [
+      "सदेई",
+      "का",
+      "आँसू",
+      "डांडा",
+      "का",
+      "पत्थर",
+      "बि",
+      "पिघलाण",
+      "बैठि",
+      "गैन",
+      "।"
+    ],
+    "pos": [
+      "PROPN",
+      "ADP",
+      "NOUN",
+      "NOUN",
+      "ADP",
+      "NOUN",
+      "PART",
+      "VERB",
+      "AUX",
+      "AUX",
+      "PUNCT"
+    ],
+    "morphology": [
+      {
+        "token": "सदेई",
+        "lemma": "सदेई",
+        "pos": "PROPN",
+        "feats": {
+          "Gender": "Fem",
+          "Number": "Sing",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "का",
+        "lemma": "को",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Gen"
+        }
+      },
+      {
+        "token": "आँसू",
+        "lemma": "आँसू",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Plur",
+          "Case": "Nom"
+        }
+      },
+      {
+        "token": "डांडा",
+        "lemma": "डांडा",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "का",
+        "lemma": "को",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Gen"
+        }
+      },
+      {
+        "token": "पत्थर",
+        "lemma": "पत्थर",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Plur",
+          "Case": "Acc"
+        }
+      },
+      {
+        "token": "बि",
+        "lemma": "बि",
+        "pos": "PART",
+        "feats": {}
+      },
+      {
+        "token": "पिघलाण",
+        "lemma": "पिघलाण",
+        "pos": "VERB",
+        "feats": {
+          "VerbForm": "Inf"
+        }
+      },
+      {
+        "token": "बैठि",
+        "lemma": "बैठण",
+        "pos": "AUX",
+        "feats": {
+          "VerbForm": "Conv"
+        }
+      },
+      {
+        "token": "गैन",
+        "lemma": "जाण",
+        "pos": "AUX",
+        "feats": {
+          "Number": "Plur",
+          "Tense": "Past"
+        }
+      },
+      {
+        "token": "।",
+        "lemma": "।",
+        "pos": "PUNCT",
+        "feats": {}
+      }
+    ],
+    "source_page": 31
+  },
+  {
+    "id": "sent_014",
+    "text": "एक मनखि का दुई बेटा छया, अर ल्हटु बेटा न बाबू ते बोलि कि मेरो बाँटो मिते दै।",
+    "language": "garhwali",
+    "source": "Linguistic Survey of India: Central Pahari / Srinagariya",
+    "author": "Sir George Abraham Grierson",
+    "genre": "grammar_specimen",
+    "year": 1916,
+    "region": "Srinagar Garhwal",
+    "translation_hi": "एक आदमी के दो बेटे थे, और छोटे बेटे ने पिता से कहा कि मेरा हिस्सा मुझे दे दो।",
+    "translation_en": "A certain man had two sons; and the younger of them said to his father, give me the portion of goods that falleth to me.",
+    "tokens": [
+      "एक",
+      "मनखि",
+      "का",
+      "दुई",
+      "बेटा",
+      "छया",
+      ",",
+      "अर",
+      "ल्हटु",
+      "बेटा",
+      "न",
+      "बाबू",
+      "ते",
+      "बोलि",
+      "कि",
+      "मेरो",
+      "बाँटो",
+      "मिते",
+      "दै",
+      "।"
+    ],
+    "pos": [
+      "NUM",
+      "NOUN",
+      "ADP",
+      "NUM",
+      "NOUN",
+      "AUX",
+      "PUNCT",
+      "CCONJ",
+      "ADJ",
+      "NOUN",
+      "ADP",
+      "NOUN",
+      "ADP",
+      "VERB",
+      "SCONJ",
+      "PRON",
+      "NOUN",
+      "PRON",
+      "VERB",
+      "PUNCT"
+    ],
+    "morphology": [
+      {
+        "token": "एक",
+        "lemma": "एक",
+        "pos": "NUM",
+        "feats": {
+          "NumType": "Card"
+        }
+      },
+      {
+        "token": "मनखि",
+        "lemma": "मनखि",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "का",
+        "lemma": "को",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Gen"
+        }
+      },
+      {
+        "token": "दुई",
+        "lemma": "दुई",
+        "pos": "NUM",
+        "feats": {
+          "NumType": "Card"
+        }
+      },
+      {
+        "token": "बेटा",
+        "lemma": "बेटा",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Plur",
+          "Case": "Nom"
+        }
+      },
+      {
+        "token": "छया",
+        "lemma": "छण",
+        "pos": "AUX",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Plur",
+          "Tense": "Past"
+        }
+      },
+      {
+        "token": ",",
+        "lemma": ",",
+        "pos": "PUNCT",
+        "feats": {}
+      },
+      {
+        "token": "अर",
+        "lemma": "अर",
+        "pos": "CCONJ",
+        "feats": {}
+      },
+      {
+        "token": "ल्हटु",
+        "lemma": "ल्हटु",
+        "pos": "ADJ",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing"
+        }
+      },
+      {
+        "token": "बेटा",
+        "lemma": "बेटा",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "न",
+        "lemma": "न",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Erg"
+        }
+      },
+      {
+        "token": "बाबू",
+        "lemma": "बाबू",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "ते",
+        "lemma": "ते",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Dat"
+        }
+      },
+      {
+        "token": "बोलि",
+        "lemma": "बोलण",
+        "pos": "VERB",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Tense": "Past"
+        }
+      },
+      {
+        "token": "कि",
+        "lemma": "कि",
+        "pos": "SCONJ",
+        "feats": {}
+      },
+      {
+        "token": "मेरो",
+        "lemma": "मेरो",
+        "pos": "PRON",
+        "feats": {
+          "Poss": "Yes"
+        }
+      },
+      {
+        "token": "बाँटो",
+        "lemma": "बाँटो",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Acc"
+        }
+      },
+      {
+        "token": "मिते",
+        "lemma": "मैं",
+        "pos": "PRON",
+        "feats": {
+          "Person": "1",
+          "Case": "Dat"
+        }
+      },
+      {
+        "token": "दै",
+        "lemma": "देण",
+        "pos": "VERB",
+        "feats": {
+          "Mood": "Imp",
+          "Person": "2"
+        }
+      },
+      {
+        "token": "।",
+        "lemma": "।",
+        "pos": "PUNCT",
+        "feats": {}
+      }
+    ],
+    "source_page": 128
+  },
+  {
+    "id": "sent_015",
+    "text": "हे वीर गढ़वाळियो! उठो अर आपणि मातृभूमि की रक्षा खातिर कटिबद्ध ह्वै जावा।",
+    "language": "garhwali",
+    "source": "सिंहनाद",
+    "author": "भजन सिंह 'सिंह'",
+    "genre": "poetry",
+    "year": 1932,
+    "region": "Kotdwar / Pauri",
+    "translation_hi": "हे वीर गढ़वालियो! उठो और अपनी मातृभूमि की रक्षा के लिए कटिबद्ध हो जाओ।",
+    "translation_en": "O valiant Garhwalis! Rise and dedicate yourselves steadfastly to the defense of your motherland.",
+    "tokens": [
+      "हे",
+      "वीर",
+      "गढ़वाळियो",
+      "!",
+      "उठो",
+      "अर",
+      "आपणि",
+      "मातृभूमि",
+      "की",
+      "रक्षा",
+      "खातिर",
+      "कटिबद्ध",
+      "ह्वै",
+      "जावा",
+      "।"
+    ],
+    "pos": [
+      "INTJ",
+      "ADJ",
+      "NOUN",
+      "PUNCT",
+      "VERB",
+      "CCONJ",
+      "PRON",
+      "NOUN",
+      "ADP",
+      "NOUN",
+      "ADP",
+      "ADJ",
+      "VERB",
+      "AUX",
+      "PUNCT"
+    ],
+    "morphology": [
+      {
+        "token": "हे",
+        "lemma": "हे",
+        "pos": "INTJ",
+        "feats": {}
+      },
+      {
+        "token": "वीर",
+        "lemma": "वीर",
+        "pos": "ADJ",
+        "feats": {}
+      },
+      {
+        "token": "गढ़वाळियो",
+        "lemma": "गढ़वाली",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Plur",
+          "Case": "Voc"
+        }
+      },
+      {
+        "token": "!",
+        "lemma": "!",
+        "pos": "PUNCT",
+        "feats": {}
+      },
+      {
+        "token": "उठो",
+        "lemma": "उठण",
+        "pos": "VERB",
+        "feats": {
+          "Mood": "Imp",
+          "Number": "Plur",
+          "Person": "2"
+        }
+      },
+      {
+        "token": "अर",
+        "lemma": "अर",
+        "pos": "CCONJ",
+        "feats": {}
+      },
+      {
+        "token": "आपणि",
+        "lemma": "आपु",
+        "pos": "PRON",
+        "feats": {
+          "Poss": "Yes",
+          "Gender": "Fem"
+        }
+      },
+      {
+        "token": "मातृभूमि",
+        "lemma": "मातृभूमि",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Fem",
+          "Number": "Sing",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "की",
+        "lemma": "को",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Gen",
+          "Gender": "Fem"
+        }
+      },
+      {
+        "token": "रक्षा",
+        "lemma": "रक्षा",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Fem",
+          "Number": "Sing",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "खातिर",
+        "lemma": "खातिर",
+        "pos": "ADP",
+        "feats": {}
+      },
+      {
+        "token": "कटिबद्ध",
+        "lemma": "कटिबद्ध",
+        "pos": "ADJ",
+        "feats": {}
+      },
+      {
+        "token": "ह्वै",
+        "lemma": "होण",
+        "pos": "VERB",
+        "feats": {
+          "VerbForm": "Conv"
+        }
+      },
+      {
+        "token": "जावा",
+        "lemma": "जाण",
+        "pos": "AUX",
+        "feats": {
+          "Mood": "Imp",
+          "Number": "Plur",
+          "Person": "2"
+        }
+      },
+      {
+        "token": "।",
+        "lemma": "।",
+        "pos": "PUNCT",
+        "feats": {}
+      }
+    ],
+    "source_page": 5
+  },
+  {
+    "id": "sent_016",
+    "text": "सेरा का खेत मा कोदा अर झंगोरा बोईक किसान बरखा की बाट हेरणा छन।",
+    "language": "garhwali",
+    "source": "मध्य पहाड़ी भाषा का अनुशीलन",
+    "author": "डॉ० गुणानन्द जुयाल",
+    "genre": "grammar_specimen",
+    "year": 1967,
+    "region": "Tehri / Pauri",
+    "translation_hi": "सिंचित खेतों में कोदा और झंगोरा बोकर किसान बारिश की राह देख रहे हैं।",
+    "translation_en": "Having sown finger millet and barnyard millet in the terraced fields, the farmers are watching for the arrival of rains.",
+    "tokens": [
+      "सेरा",
+      "का",
+      "खेत",
+      "मा",
+      "कोदा",
+      "अर",
+      "झंगोरा",
+      "बोईक",
+      "किसान",
+      "बरखा",
+      "की",
+      "बाट",
+      "हेरणा",
+      "छन",
+      "।"
+    ],
+    "pos": [
+      "ADJ",
+      "ADP",
+      "NOUN",
+      "ADP",
+      "NOUN",
+      "CCONJ",
+      "NOUN",
+      "VERB",
+      "NOUN",
+      "NOUN",
+      "ADP",
+      "NOUN",
+      "VERB",
+      "AUX",
+      "PUNCT"
+    ],
+    "morphology": [
+      {
+        "token": "सेरा",
+        "lemma": "सेरा",
+        "pos": "ADJ",
+        "feats": {}
+      },
+      {
+        "token": "का",
+        "lemma": "को",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Gen"
+        }
+      },
+      {
+        "token": "खेत",
+        "lemma": "खेत",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "मा",
+        "lemma": "मा",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Loc"
+        }
+      },
+      {
+        "token": "कोदा",
+        "lemma": "कोदा",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Acc"
+        }
+      },
+      {
+        "token": "अर",
+        "lemma": "अर",
+        "pos": "CCONJ",
+        "feats": {}
+      },
+      {
+        "token": "झंगोरा",
+        "lemma": "झंगोरा",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Acc"
+        }
+      },
+      {
+        "token": "बोईक",
+        "lemma": "बोण",
+        "pos": "VERB",
+        "feats": {
+          "VerbForm": "Conv"
+        }
+      },
+      {
+        "token": "किसान",
+        "lemma": "किसान",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Plur",
+          "Case": "Nom"
+        }
+      },
+      {
+        "token": "बरखा",
+        "lemma": "बरखा",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Fem",
+          "Number": "Sing",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "की",
+        "lemma": "को",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Gen",
+          "Gender": "Fem"
+        }
+      },
+      {
+        "token": "बाट",
+        "lemma": "बाट",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Fem",
+          "Number": "Sing",
+          "Case": "Acc"
+        }
+      },
+      {
+        "token": "हेरणा",
+        "lemma": "हेरणा",
+        "pos": "VERB",
+        "feats": {
+          "VerbForm": "Part",
+          "Aspect": "Impf"
+        }
+      },
+      {
+        "token": "छन",
+        "lemma": "छण",
+        "pos": "AUX",
+        "feats": {
+          "Number": "Plur",
+          "Person": "3",
+          "Tense": "Pres"
+        }
+      },
+      {
+        "token": "।",
+        "lemma": "।",
+        "pos": "PUNCT",
+        "feats": {}
+      }
+    ],
+    "source_page": 84
+  },
+  {
+    "id": "sent_017",
+    "text": "आज गौं मा कुल की पूजा च, सयाणी न कंडाली को साग अर मंडुवे की रोटी बणाई।",
+    "language": "garhwali",
+    "source": "गढ़वाली-हिंदी शब्दकोश",
+    "author": "अरविंद पुरोहित एवं बीना बेंजवाल",
+    "genre": "short_story",
+    "year": 2007,
+    "region": "Pauri Garhwal",
+    "translation_hi": "आज गाँव में कुलदेवता की पूजा है, बुजुर्ग माताजी ने बिच्छू घास का साग और रागी की रोटी बनाई।",
+    "translation_en": "Today is the ancestral clan worship in the village; the elder grandmother prepared nettle greens and finger millet flatbread.",
+    "tokens": [
+      "आज",
+      "गौं",
+      "मा",
+      "कुल",
+      "की",
+      "पूजा",
+      "च",
+      ",",
+      "सयाणी",
+      "न",
+      "कंडाली",
+      "को",
+      "साग",
+      "अर",
+      "मंडुवे",
+      "की",
+      "रोटी",
+      "बणाई",
+      "।"
+    ],
+    "pos": [
+      "ADV",
+      "NOUN",
+      "ADP",
+      "NOUN",
+      "ADP",
+      "NOUN",
+      "AUX",
+      "PUNCT",
+      "NOUN",
+      "ADP",
+      "NOUN",
+      "ADP",
+      "NOUN",
+      "CCONJ",
+      "NOUN",
+      "ADP",
+      "NOUN",
+      "VERB",
+      "PUNCT"
+    ],
+    "morphology": [
+      {
+        "token": "आज",
+        "lemma": "आज",
+        "pos": "ADV",
+        "feats": {}
+      },
+      {
+        "token": "गौं",
+        "lemma": "गाँव",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "मा",
+        "lemma": "मा",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Loc"
+        }
+      },
+      {
+        "token": "कुल",
+        "lemma": "कुल",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "की",
+        "lemma": "को",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Gen",
+          "Gender": "Fem"
+        }
+      },
+      {
+        "token": "पूजा",
+        "lemma": "पूजा",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Fem",
+          "Number": "Sing",
+          "Case": "Nom"
+        }
+      },
+      {
+        "token": "च",
+        "lemma": "छण",
+        "pos": "AUX",
+        "feats": {
+          "Person": "3",
+          "Tense": "Pres"
+        }
+      },
+      {
+        "token": ",",
+        "lemma": ",",
+        "pos": "PUNCT",
+        "feats": {}
+      },
+      {
+        "token": "सयाणी",
+        "lemma": "सयाणी",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Fem",
+          "Number": "Sing",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "न",
+        "lemma": "न",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Erg"
+        }
+      },
+      {
+        "token": "कंडाली",
+        "lemma": "कंडाली",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Fem",
+          "Number": "Sing",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "को",
+        "lemma": "को",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Gen"
+        }
+      },
+      {
+        "token": "साग",
+        "lemma": "साग",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Acc"
+        }
+      },
+      {
+        "token": "अर",
+        "lemma": "अर",
+        "pos": "CCONJ",
+        "feats": {}
+      },
+      {
+        "token": "मंडुवे",
+        "lemma": "मंडुआ",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "की",
+        "lemma": "को",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Gen",
+          "Gender": "Fem"
+        }
+      },
+      {
+        "token": "रोटी",
+        "lemma": "रोटी",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Fem",
+          "Number": "Sing",
+          "Case": "Acc"
+        }
+      },
+      {
+        "token": "बणाई",
+        "lemma": "बणाण",
+        "pos": "VERB",
+        "feats": {
+          "Gender": "Fem",
+          "Number": "Sing",
+          "Tense": "Past"
+        }
+      },
+      {
+        "token": "।",
+        "lemma": "।",
+        "pos": "PUNCT",
+        "feats": {}
+      }
+    ],
+    "source_page": 115
+  },
+  {
+    "id": "sent_018",
+    "text": "भागीरथी अर अलकनन्दा का संगम पर पवित्र देवप्रयाग तीर्थ राज विराजमान च।",
+    "language": "garhwali",
+    "source": "गढ़वाली भाषा और उसका साहित्य",
+    "author": "हरिदत्त भट्ट 'शैलेश'",
+    "genre": "prose",
+    "year": 2007,
+    "region": "Devprayag, Tehri / Pauri",
+    "translation_hi": "भागीरथी और अलकनन्दा के संगम पर पवित्र देवप्रयाग तीर्थ राज सुशोभित है।",
+    "translation_en": "At the confluence of Bhagirathi and Alaknanda reigns supreme the sacred pilgrimage city of Devprayag.",
+    "tokens": [
+      "भागीरथी",
+      "अर",
+      "अलकनन्दा",
+      "का",
+      "संगम",
+      "पर",
+      "पवित्र",
+      "देवप्रयाग",
+      "तीर्थ",
+      "राज",
+      "विराजमान",
+      "च",
+      "।"
+    ],
+    "pos": [
+      "PROPN",
+      "CCONJ",
+      "PROPN",
+      "ADP",
+      "NOUN",
+      "ADP",
+      "ADJ",
+      "PROPN",
+      "NOUN",
+      "NOUN",
+      "ADJ",
+      "AUX",
+      "PUNCT"
+    ],
+    "morphology": [
+      {
+        "token": "भागीरथी",
+        "lemma": "भागीरथी",
+        "pos": "PROPN",
+        "feats": {
+          "Gender": "Fem",
+          "Number": "Sing",
+          "Case": "Nom"
+        }
+      },
+      {
+        "token": "अर",
+        "lemma": "अर",
+        "pos": "CCONJ",
+        "feats": {}
+      },
+      {
+        "token": "अलकनन्दा",
+        "lemma": "अलकनन्दा",
+        "pos": "PROPN",
+        "feats": {
+          "Gender": "Fem",
+          "Number": "Sing",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "का",
+        "lemma": "को",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Gen"
+        }
+      },
+      {
+        "token": "संगम",
+        "lemma": "संगम",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "पर",
+        "lemma": "पर",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Loc"
+        }
+      },
+      {
+        "token": "पवित्र",
+        "lemma": "पवित्र",
+        "pos": "ADJ",
+        "feats": {}
+      },
+      {
+        "token": "देवप्रयाग",
+        "lemma": "देवप्रयाग",
+        "pos": "PROPN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Nom"
+        }
+      },
+      {
+        "token": "तीर्थ",
+        "lemma": "तीर्थ",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Nom"
+        }
+      },
+      {
+        "token": "राज",
+        "lemma": "राज",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Nom"
+        }
+      },
+      {
+        "token": "विराजमान",
+        "lemma": "विराजमान",
+        "pos": "ADJ",
+        "feats": {}
+      },
+      {
+        "token": "च",
+        "lemma": "छण",
+        "pos": "AUX",
+        "feats": {
+          "Person": "3",
+          "Tense": "Pres"
+        }
+      },
+      {
+        "token": "।",
+        "lemma": "।",
+        "pos": "PUNCT",
+        "feats": {}
+      }
+    ],
+    "source_page": 204
+  },
+  {
+    "id": "sent_019",
+    "text": "ब्वारी न सासु जी ते आदर ले पाणी को लोटा द्यै अर पांई छुए।",
+    "language": "garhwali",
+    "source": "ब्वारी (कथा संग्रह)",
+    "author": "दुर्गाप्रसाद घिल्डियाल",
+    "genre": "short_story",
+    "year": 1987,
+    "region": "Kotdwar, Pauri",
+    "translation_hi": "बहू ने सास जी को आदर सहित पानी का लोटा दिया और चरण स्पर्श किए।",
+    "translation_en": "The daughter-in-law respectfully gave a vessel of fresh water to her mother-in-law and touched her feet in reverence.",
+    "tokens": [
+      "ब्वारी",
+      "न",
+      "सासु",
+      "जी",
+      "ते",
+      "आदर",
+      "ले",
+      "पाणी",
+      "को",
+      "लोटा",
+      "द्यै",
+      "अर",
+      "पांई",
+      "छुए",
+      "।"
+    ],
+    "pos": [
+      "NOUN",
+      "ADP",
+      "NOUN",
+      "PART",
+      "ADP",
+      "NOUN",
+      "ADP",
+      "NOUN",
+      "ADP",
+      "NOUN",
+      "VERB",
+      "CCONJ",
+      "NOUN",
+      "VERB",
+      "PUNCT"
+    ],
+    "morphology": [
+      {
+        "token": "ब्वारी",
+        "lemma": "ब्वारी",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Fem",
+          "Number": "Sing",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "न",
+        "lemma": "न",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Erg"
+        }
+      },
+      {
+        "token": "सासु",
+        "lemma": "सासु",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Fem",
+          "Number": "Sing",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "जी",
+        "lemma": "जी",
+        "pos": "PART",
+        "feats": {
+          "Honorific": "Yes"
+        }
+      },
+      {
+        "token": "ते",
+        "lemma": "ते",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Dat"
+        }
+      },
+      {
+        "token": "आदर",
+        "lemma": "आदर",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "ले",
+        "lemma": "ले",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Ins"
+        }
+      },
+      {
+        "token": "पाणी",
+        "lemma": "पानी",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "को",
+        "lemma": "को",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Gen"
+        }
+      },
+      {
+        "token": "लोटा",
+        "lemma": "लोटा",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Acc"
+        }
+      },
+      {
+        "token": "द्यै",
+        "lemma": "देण",
+        "pos": "VERB",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Tense": "Past"
+        }
+      },
+      {
+        "token": "अर",
+        "lemma": "अर",
+        "pos": "CCONJ",
+        "feats": {}
+      },
+      {
+        "token": "पांई",
+        "lemma": "पांई",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Plur",
+          "Case": "Acc"
+        }
+      },
+      {
+        "token": "छुए",
+        "lemma": "छूणा",
+        "pos": "VERB",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Plur",
+          "Tense": "Past"
+        }
+      },
+      {
+        "token": "।",
+        "lemma": "।",
+        "pos": "PUNCT",
+        "feats": {}
+      }
+    ],
+    "source_page": 22
+  },
+  {
+    "id": "sent_020",
+    "text": "बसंत ऋतु औंदा ही डांडू-कांठू पर बुरांश का लाल फूल खिली जांदन।",
+    "language": "garhwali",
+    "source": "चक्रचाल",
+    "author": "चन्द्रकुंवर बर्त्वाल",
+    "genre": "poetry",
+    "year": 1951,
+    "region": "Rudraprayag",
+    "translation_hi": "बसंत ऋतु के आते ही पर्वत-शिखरों पर बुरांश के लाल फूल खिल उठते हैं।",
+    "translation_en": "As spring arrives, the crimson rhododendron flowers blossom all across the mountain ridges.",
+    "tokens": [
+      "बसंत",
+      "ऋतु",
+      "औंदा",
+      "ही",
+      "डांडू-कांठू",
+      "पर",
+      "बुरांश",
+      "का",
+      "लाल",
+      "फूल",
+      "खिली",
+      "जांदन",
+      "।"
+    ],
+    "pos": [
+      "NOUN",
+      "NOUN",
+      "VERB",
+      "PART",
+      "NOUN",
+      "ADP",
+      "NOUN",
+      "ADP",
+      "ADJ",
+      "NOUN",
+      "VERB",
+      "AUX",
+      "PUNCT"
+    ],
+    "morphology": [
+      {
+        "token": "बसंत",
+        "lemma": "बसंत",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Nom"
+        }
+      },
+      {
+        "token": "ऋतु",
+        "lemma": "ऋतु",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Fem",
+          "Number": "Sing",
+          "Case": "Nom"
+        }
+      },
+      {
+        "token": "औंदा",
+        "lemma": "औण",
+        "pos": "VERB",
+        "feats": {
+          "VerbForm": "Part",
+          "Aspect": "Impf"
+        }
+      },
+      {
+        "token": "ही",
+        "lemma": "ही",
+        "pos": "PART",
+        "feats": {}
+      },
+      {
+        "token": "डांडू-कांठू",
+        "lemma": "डांडू-कांठू",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Plur",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "पर",
+        "lemma": "पर",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Loc"
+        }
+      },
+      {
+        "token": "बुरांश",
+        "lemma": "बुरांश",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "का",
+        "lemma": "को",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Gen"
+        }
+      },
+      {
+        "token": "लाल",
+        "lemma": "लाल",
+        "pos": "ADJ",
+        "feats": {}
+      },
+      {
+        "token": "फूल",
+        "lemma": "फूल",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Plur",
+          "Case": "Nom"
+        }
+      },
+      {
+        "token": "खिली",
+        "lemma": "खिलण",
+        "pos": "VERB",
+        "feats": {
+          "VerbForm": "Conv"
+        }
+      },
+      {
+        "token": "जांदन",
+        "lemma": "जाण",
+        "pos": "AUX",
+        "feats": {
+          "Number": "Plur",
+          "Person": "3",
+          "Tense": "Pres"
+        }
+      },
+      {
+        "token": "।",
+        "lemma": "।",
+        "pos": "PUNCT",
+        "feats": {}
+      }
+    ],
+    "source_page": 9
+  },
+  {
+    "id": "sent_021",
+    "text": "बद्रीनाथ धाम का कपाट खुल्दा ही हजारूं तीर्थयात्री जय बद्रीविशाल को जयकारा लगौंदन।",
+    "language": "garhwali",
+    "source": "गढ़वाली लोक साहित्य का संदर्भ : मध्य हिमालय",
+    "author": "गोविन्द चातक",
+    "genre": "prose",
+    "year": 1996,
+    "region": "Chamoli / Badrinath",
+    "translation_hi": "बद्रीनाथ धाम के कपाट खुलते ही हजारों तीर्थयात्री जय बद्रीविशाल का जयकारा लगाते हैं।",
+    "translation_en": "As the sacred portals of Badrinath Dham open, thousands of pilgrims raise shouts of victory to Lord Badri Vishal.",
+    "tokens": [
+      "बद्रीनाथ",
+      "धाम",
+      "का",
+      "कपाट",
+      "खुल्दा",
+      "ही",
+      "हजारूं",
+      "तीर्थयात्री",
+      "जय",
+      "बद्रीविशाल",
+      "को",
+      "जयकारा",
+      "लगौंदन",
+      "।"
+    ],
+    "pos": [
+      "PROPN",
+      "NOUN",
+      "ADP",
+      "NOUN",
+      "VERB",
+      "PART",
+      "NUM",
+      "NOUN",
+      "NOUN",
+      "PROPN",
+      "ADP",
+      "NOUN",
+      "VERB",
+      "PUNCT"
+    ],
+    "morphology": [
+      {
+        "token": "बद्रीनाथ",
+        "lemma": "बद्रीनाथ",
+        "pos": "PROPN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Nom"
+        }
+      },
+      {
+        "token": "धाम",
+        "lemma": "धाम",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "का",
+        "lemma": "को",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Gen"
+        }
+      },
+      {
+        "token": "कपाट",
+        "lemma": "कपाट",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Plur",
+          "Case": "Nom"
+        }
+      },
+      {
+        "token": "खुल्दा",
+        "lemma": "खुलण",
+        "pos": "VERB",
+        "feats": {
+          "VerbForm": "Part",
+          "Aspect": "Impf"
+        }
+      },
+      {
+        "token": "ही",
+        "lemma": "ही",
+        "pos": "PART",
+        "feats": {}
+      },
+      {
+        "token": "हजारूं",
+        "lemma": "हजार",
+        "pos": "NUM",
+        "feats": {
+          "NumType": "Card"
+        }
+      },
+      {
+        "token": "तीर्थयात्री",
+        "lemma": "तीर्थयात्री",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Plur",
+          "Case": "Nom"
+        }
+      },
+      {
+        "token": "जय",
+        "lemma": "जय",
+        "pos": "NOUN",
+        "feats": {
+          "Case": "Nom"
+        }
+      },
+      {
+        "token": "बद्रीविशाल",
+        "lemma": "बद्रीविशाल",
+        "pos": "PROPN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "को",
+        "lemma": "को",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Gen"
+        }
+      },
+      {
+        "token": "जयकारा",
+        "lemma": "जयकारा",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Acc"
+        }
+      },
+      {
+        "token": "लगौंदन",
+        "lemma": "लगौण",
+        "pos": "VERB",
+        "feats": {
+          "Number": "Plur",
+          "Person": "3",
+          "Tense": "Pres"
+        }
+      },
+      {
+        "token": "।",
+        "lemma": "।",
+        "pos": "PUNCT",
+        "feats": {}
+      }
+    ],
+    "source_page": 76
+  },
+  {
+    "id": "sent_022",
+    "text": "कण्डारी अर बिष्ट थोकदार राजा का दरबार मा सेना की अगुवाई कन्ना छया।",
+    "language": "garhwali",
+    "source": "गढ़वाल का इतिहास",
+    "author": "पं० हरिकृष्ण रतूड़ी",
+    "genre": "history_prose",
+    "year": 1928,
+    "region": "Srinagar / Tehri",
+    "translation_hi": "कण्डारी और बिष्ट सरदार राजा के दरबार में सेना का नेतृत्व करते थे।",
+    "translation_en": "The Kandari and Bisht chieftains led the army in the royal court of the Garhwal Kingdom.",
+    "tokens": [
+      "कण्डारी",
+      "अर",
+      "बिष्ट",
+      "थोकदार",
+      "राजा",
+      "का",
+      "दरबार",
+      "मा",
+      "सेना",
+      "की",
+      "अगुवाई",
+      "कन्ना",
+      "छया",
+      "।"
+    ],
+    "pos": [
+      "PROPN",
+      "CCONJ",
+      "PROPN",
+      "NOUN",
+      "NOUN",
+      "ADP",
+      "NOUN",
+      "ADP",
+      "NOUN",
+      "ADP",
+      "NOUN",
+      "VERB",
+      "AUX",
+      "PUNCT"
+    ],
+    "morphology": [
+      {
+        "token": "कण्डारी",
+        "lemma": "कण्डारी",
+        "pos": "PROPN",
+        "feats": {
+          "Case": "Nom"
+        }
+      },
+      {
+        "token": "अर",
+        "lemma": "अर",
+        "pos": "CCONJ",
+        "feats": {}
+      },
+      {
+        "token": "बिष्ट",
+        "lemma": "बिष्ट",
+        "pos": "PROPN",
+        "feats": {
+          "Case": "Nom"
+        }
+      },
+      {
+        "token": "थोकदार",
+        "lemma": "थोकदार",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Plur",
+          "Case": "Nom"
+        }
+      },
+      {
+        "token": "राजा",
+        "lemma": "राजा",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "का",
+        "lemma": "को",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Gen"
+        }
+      },
+      {
+        "token": "दरबार",
+        "lemma": "दरबार",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "मा",
+        "lemma": "मा",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Loc"
+        }
+      },
+      {
+        "token": "सेना",
+        "lemma": "सेना",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Fem",
+          "Number": "Sing",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "की",
+        "lemma": "को",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Gen",
+          "Gender": "Fem"
+        }
+      },
+      {
+        "token": "अगुवाई",
+        "lemma": "अगुवाई",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Fem",
+          "Number": "Sing",
+          "Case": "Acc"
+        }
+      },
+      {
+        "token": "कन्ना",
+        "lemma": "करण",
+        "pos": "VERB",
+        "feats": {
+          "VerbForm": "Part",
+          "Aspect": "Impf"
+        }
+      },
+      {
+        "token": "छया",
+        "lemma": "छण",
+        "pos": "AUX",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Plur",
+          "Tense": "Past"
+        }
+      },
+      {
+        "token": "।",
+        "lemma": "।",
+        "pos": "PUNCT",
+        "feats": {}
+      }
+    ],
+    "source_page": 164
+  },
+  {
+    "id": "sent_023",
+    "text": "बाखळी का पुरणा घर मा देवदार की सुन्दर नक्काशीदार तिबारी बणी च।",
+    "language": "garhwali",
+    "source": "गढ़वाली भाषा और उसका लोक-साहित्य",
+    "author": "जनार्दन प्रसाद काला",
+    "genre": "prose",
+    "year": 2012,
+    "region": "Pauri Garhwal",
+    "translation_hi": "पहाड़ी बस्ती के पुराने घर में देवदार की सुंदर नक्काशीदार बालकनी/तिवारी बनी है।",
+    "translation_en": "In the ancestral mountain hamlet house, a graceful balcony crafted from ornately carved deodar wood stands tall.",
+    "tokens": [
+      "बाखळी",
+      "का",
+      "पुरणा",
+      "घर",
+      "मा",
+      "देवदार",
+      "की",
+      "सुन्दर",
+      "नक्काशीदार",
+      "तिबारी",
+      "बणी",
+      "च",
+      "।"
+    ],
+    "pos": [
+      "NOUN",
+      "ADP",
+      "ADJ",
+      "NOUN",
+      "ADP",
+      "NOUN",
+      "ADP",
+      "ADJ",
+      "ADJ",
+      "NOUN",
+      "VERB",
+      "AUX",
+      "PUNCT"
+    ],
+    "morphology": [
+      {
+        "token": "बाखळी",
+        "lemma": "बाखळी",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Fem",
+          "Number": "Sing",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "का",
+        "lemma": "को",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Gen"
+        }
+      },
+      {
+        "token": "पुरणा",
+        "lemma": "पुरणो",
+        "pos": "ADJ",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing"
+        }
+      },
+      {
+        "token": "घर",
+        "lemma": "घर",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "मा",
+        "lemma": "मा",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Loc"
+        }
+      },
+      {
+        "token": "देवदार",
+        "lemma": "देवदार",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "की",
+        "lemma": "को",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Gen",
+          "Gender": "Fem"
+        }
+      },
+      {
+        "token": "सुन्दर",
+        "lemma": "सुन्दर",
+        "pos": "ADJ",
+        "feats": {}
+      },
+      {
+        "token": "नक्काशीदार",
+        "lemma": "नक्काशीदार",
+        "pos": "ADJ",
+        "feats": {}
+      },
+      {
+        "token": "तिबारी",
+        "lemma": "तिबारी",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Fem",
+          "Number": "Sing",
+          "Case": "Nom"
+        }
+      },
+      {
+        "token": "बणी",
+        "lemma": "बणण",
+        "pos": "VERB",
+        "feats": {
+          "Gender": "Fem",
+          "Number": "Sing",
+          "Aspect": "Perf"
+        }
+      },
+      {
+        "token": "च",
+        "lemma": "छण",
+        "pos": "AUX",
+        "feats": {
+          "Person": "3",
+          "Tense": "Pres"
+        }
+      },
+      {
+        "token": "।",
+        "lemma": "।",
+        "pos": "PUNCT",
+        "feats": {}
+      }
+    ],
+    "source_page": 89
+  },
+  {
+    "id": "sent_024",
+    "text": "पंवार राजा जगतपाल को देवप्रयाग शिलालेख १५३५ ईस्वी को ऐतिहासिक प्रमाण च।",
+    "language": "garhwali",
+    "source": "गढ़वाली गद्य परंपरा",
+    "author": "अनिल डबराल",
+    "genre": "history_prose",
+    "year": 2007,
+    "region": "Devprayag, Tehri",
+    "translation_hi": "पंवार नरेश जगतपाल का देवप्रयाग शिलालेख १५३५ ईस्वी का प्रामाणिक ऐतिहासिक साक्ष्य है।",
+    "translation_en": "The Devprayag temple rock inscription of King Jagatpal stands as authentic historical evidence from 1535 CE.",
+    "tokens": [
+      "पंवार",
+      "राजा",
+      "जगतपाल",
+      "को",
+      "देवप्रयाग",
+      "शिलालेख",
+      "१५३५",
+      "ईस्वी",
+      "को",
+      "ऐतिहासिक",
+      "प्रमाण",
+      "च",
+      "।"
+    ],
+    "pos": [
+      "PROPN",
+      "NOUN",
+      "PROPN",
+      "ADP",
+      "PROPN",
+      "NOUN",
+      "NUM",
+      "NOUN",
+      "ADP",
+      "ADJ",
+      "NOUN",
+      "AUX",
+      "PUNCT"
+    ],
+    "morphology": [
+      {
+        "token": "पंवार",
+        "lemma": "पंवार",
+        "pos": "PROPN",
+        "feats": {}
+      },
+      {
+        "token": "राजा",
+        "lemma": "राजा",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "जगतपाल",
+        "lemma": "जगतपाल",
+        "pos": "PROPN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "को",
+        "lemma": "को",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Gen"
+        }
+      },
+      {
+        "token": "देवप्रयाग",
+        "lemma": "देवप्रयाग",
+        "pos": "PROPN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Nom"
+        }
+      },
+      {
+        "token": "शिलालेख",
+        "lemma": "शिलालेख",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Nom"
+        }
+      },
+      {
+        "token": "१५३५",
+        "lemma": "१५३५",
+        "pos": "NUM",
+        "feats": {
+          "NumType": "Card"
+        }
+      },
+      {
+        "token": "ईस्वी",
+        "lemma": "ईस्वी",
+        "pos": "NOUN",
+        "feats": {
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "को",
+        "lemma": "को",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Gen"
+        }
+      },
+      {
+        "token": "ऐतिहासिक",
+        "lemma": "ऐतिहासिक",
+        "pos": "ADJ",
+        "feats": {}
+      },
+      {
+        "token": "प्रमाण",
+        "lemma": "प्रमाण",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Nom"
+        }
+      },
+      {
+        "token": "च",
+        "lemma": "छण",
+        "pos": "AUX",
+        "feats": {
+          "Person": "3",
+          "Tense": "Pres"
+        }
+      },
+      {
+        "token": "।",
+        "lemma": "।",
+        "pos": "PUNCT",
+        "feats": {}
+      }
+    ],
+    "source_page": 51
+  },
+  {
+    "id": "sent_025",
+    "text": "दैया हे नारायण! आज लाडली बेटी को ब्या च, सुहागिन नारियों मङ्गल गीत गावां।",
+    "language": "garhwali",
+    "source": "गढ़वाली मांगळ",
+    "author": "तोताराम ढौंडियाल",
+    "genre": "folk_song",
+    "year": 2009,
+    "region": "Garhwal Himalayas",
+    "translation_hi": "हे ईश्वर नारायण! आज लाडली बेटी का विवाह है, सुहागिन स्त्रियो मांगलिक गीत गाओ।",
+    "translation_en": "O Divine Lord Narayana! Today is the wedding of our beloved daughter; auspicious women, sing the sacred wedding hymns.",
+    "tokens": [
+      "दैया",
+      "हे",
+      "नारायण",
+      "!",
+      "आज",
+      "लाडली",
+      "बेटी",
+      "को",
+      "ब्या",
+      "च",
+      ",",
+      "सुहागिन",
+      "नारियों",
+      "मङ्गल",
+      "गीत",
+      "गावां",
+      "।"
+    ],
+    "pos": [
+      "NOUN",
+      "INTJ",
+      "PROPN",
+      "PUNCT",
+      "ADV",
+      "ADJ",
+      "NOUN",
+      "ADP",
+      "NOUN",
+      "AUX",
+      "PUNCT",
+      "ADJ",
+      "NOUN",
+      "ADJ",
+      "NOUN",
+      "VERB",
+      "PUNCT"
+    ],
+    "morphology": [
+      {
+        "token": "दैया",
+        "lemma": "देव",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Voc"
+        }
+      },
+      {
+        "token": "हे",
+        "lemma": "हे",
+        "pos": "INTJ",
+        "feats": {}
+      },
+      {
+        "token": "नारायण",
+        "lemma": "नारायण",
+        "pos": "PROPN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Voc"
+        }
+      },
+      {
+        "token": "!",
+        "lemma": "!",
+        "pos": "PUNCT",
+        "feats": {}
+      },
+      {
+        "token": "आज",
+        "lemma": "आज",
+        "pos": "ADV",
+        "feats": {}
+      },
+      {
+        "token": "लाडली",
+        "lemma": "लाडली",
+        "pos": "ADJ",
+        "feats": {
+          "Gender": "Fem"
+        }
+      },
+      {
+        "token": "बेटी",
+        "lemma": "बेटी",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Fem",
+          "Number": "Sing",
+          "Case": "Obl"
+        }
+      },
+      {
+        "token": "को",
+        "lemma": "को",
+        "pos": "ADP",
+        "feats": {
+          "Case": "Gen"
+        }
+      },
+      {
+        "token": "ब्या",
+        "lemma": "ब्या",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Case": "Nom"
+        }
+      },
+      {
+        "token": "च",
+        "lemma": "छण",
+        "pos": "AUX",
+        "feats": {
+          "Person": "3",
+          "Tense": "Pres"
+        }
+      },
+      {
+        "token": ",",
+        "lemma": ",",
+        "pos": "PUNCT",
+        "feats": {}
+      },
+      {
+        "token": "सुहागिन",
+        "lemma": "सुहागिन",
+        "pos": "ADJ",
+        "feats": {
+          "Gender": "Fem"
+        }
+      },
+      {
+        "token": "नारियों",
+        "lemma": "नारी",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Fem",
+          "Number": "Plur",
+          "Case": "Voc"
+        }
+      },
+      {
+        "token": "मङ्गल",
+        "lemma": "मङ्गल",
+        "pos": "ADJ",
+        "feats": {}
+      },
+      {
+        "token": "गीत",
+        "lemma": "गीत",
+        "pos": "NOUN",
+        "feats": {
+          "Gender": "Masc",
+          "Number": "Plur",
+          "Case": "Acc"
+        }
+      },
+      {
+        "token": "गावां",
+        "lemma": "गाण",
+        "pos": "VERB",
+        "feats": {
+          "Mood": "Imp",
+          "Number": "Plur",
+          "Person": "2"
+        }
+      },
+      {
+        "token": "।",
+        "lemma": "।",
+        "pos": "PUNCT",
+        "feats": {}
+      }
+    ],
+    "source_page": 12
+  }
+]

@@ -1,0 +1,21 @@
+TITLE: गाड़ी छम-छम जाली - मोटर बाटा (Gadi Chham Chham Jali) (Gadi Chham-Chham Jali)
+ID: GSN-0040
+ARTIST: Narendra Singh Negi
+GENRE: Modern Folk Transition Song / Travel Ballad
+CORPUS: Contemporary Himalayan Social History
+THEME: Arrival of motor roads, travel to pilgrimage shrines, and changing village lifestyles
+SOURCE: https://archive.org/details/gadi_chham_chham_jali
+
+=== CULTURAL CONTEXT ===
+Chronicles the dramatic transition from walking mountain trails to the advent of motor roads connecting pilgrimage hubs.
+
+=== DEVANGARI LYRICS ===
+गाड़ी छम-छम जाली मोटर बाटा मा,
+कोटद्वार बटी श्रीनगर पौड़ी का घाटा मा!
+ड्राइवर भैजी धीरे चला, घुमावदार मोड़ छन!
+खिड़कियों बटी दिखनी अलकनंदा की धार,
+जय बदरी-केदार बोलिक चलिगे सवार!
+गाड़ी छम-छम जाली मोटर बाटा मा!
+
+=== ENGLISH TRANSLATION ===
+The bus rolls smoothly along the mountain motor road, winding from Kotdwar to Srinagar through the ridges of Pauri! O driver brother, drive gently along these curving bends!

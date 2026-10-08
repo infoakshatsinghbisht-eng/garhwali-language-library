@@ -1,0 +1,648 @@
+[
+  {
+    "pillar_number": 1,
+    "id": "novels",
+    "icon": "📚",
+    "name_en": "Garhwali Novels",
+    "name_garhwali": "गढ़वाली उपन्यास",
+    "description": "Extended narrative prose literature in the Garhwali language depicting social realism, migration, agrarian life, and Himalayan cultural conflicts across sustained chapters.",
+    "subcategories": [
+      "Social realism novels",
+      "Historical novels",
+      "Agrarian life novellas",
+      "Contemporary rural life"
+    ],
+    "canonical_sources": [
+      "भुगत्यूं भविष्य — अबोधबंधु बहुगुणा (1997, 347 pp.)",
+      "निरबिजु — उमेश चमोला (2012, 25 pp.)",
+      "कचाकि — उमेश चमोला (2014, 63 pp.)",
+      "पार्वती — महावीर प्रसाद गैरोला (1982, 142 pp.)",
+      "निमाणी — नित्यानंद मैठाणी (1988, 128 pp.)"
+    ],
+    "lexical_mappings": [
+      "social_life",
+      "village_governance",
+      "psychology_emotions",
+      "dialogue_discourse"
+    ],
+    "computational_applications": [
+      "Long-context language model evaluation",
+      "Narrative coreference resolution",
+      "Complex syntactic parsing and discourse analysis",
+      "Machine translation of continuous literary prose"
+    ]
+  },
+  {
+    "pillar_number": 2,
+    "id": "short_stories",
+    "icon": "📖",
+    "name_en": "Short-Story Collections",
+    "name_garhwali": "गढ़वाली कहानी संग्रह / कथा साहित्य",
+    "description": "Modern short story collections showcasing authentic colloquial dialogues, conversational syntax, humor, idiomatic expressions, and rural Garhwal village interactions.",
+    "subcategories": [
+      "Modern realistic stories",
+      "Village hearth narratives",
+      "Satirical short stories",
+      "Psychological & domestic tales"
+    ],
+    "canonical_sources": [
+      "कथा-कुमुद — अबोधबंधु बहुगुणा (1999, 92 pp.)",
+      "बसुमती — उमेश चन्द्र नैथानी (2006, 45 pp.)",
+      "कुरेड़ी फटगे — प्रताप शिखर (1989, 84 pp.)",
+      "गारी — दुर्गाप्रसाद घिल्डियाल (1984, 92 pp.)",
+      "म्वारी — दुर्गाप्रसाद घिल्डियाल (1986, 76 pp.)",
+      "ब्वारी — दुर्गाप्रसाद घिल्डियाल (1987, 88 pp.)",
+      "गैत्री की ब्वे — सुदामा प्रसाद 'प्रेमी' (1985, 80 pp.)",
+      "मेरी पुफू — ओम प्रकाश सेमवाल (2004, 90 pp.)"
+    ],
+    "lexical_mappings": [
+      "household",
+      "relationships",
+      "conversational_particles",
+      "emotions"
+    ],
+    "computational_applications": [
+      "Dialogue act classification",
+      "Colloquial POS tagging",
+      "Conversational speech synthesis text corpus",
+      "Garhwali ↔ Hindi parallel sentence extraction"
+    ]
+  },
+  {
+    "pillar_number": 3,
+    "id": "poetry",
+    "icon": "📝",
+    "name_en": "Poetry Collections",
+    "name_garhwali": "गढ़वाली कविता संग्रह / काव्य एवं खंडकाव्य",
+    "description": "Rhymed, metrical, and modern free-verse poetry representing high literary Garhwali, romantic imagery of Himalayan flora/fauna, philosophical reflection, and social satire.",
+    "subcategories": [
+      "Mahakavya & Khandakavya (Epics & Cantos)",
+      "Romantic-mystic nature lyrics",
+      "Social satire & political verse",
+      "Children's poetry"
+    ],
+    "canonical_sources": [
+      "सिंहनाद — भजन सिंह 'सिंह' (1932, 148 pp.)",
+      "सदेई — तारा दत्त गैरोला (1921, 64 pp.)",
+      "काफल पाको / कंकण / चक्रचाल — चन्द्रकुंवर बर्त्वाल",
+      "भूम्याळ / घोल / कणखिला / दैसत — अबोधबंधु बहुगुणा",
+      "कमेड़ा आखर — बीना बेंजवाल (1996, 80 pp.)",
+      "पड़्वा बळ्द — उमेश चमोला (2015, 58 pp.)",
+      "उमाळ — प्रेमलाल भट्ट (1979) / उमेश चमोला (2006)",
+      "गाण्यूं कि गंगा स्याण्यूं का समोदर — नरेंद्र सिंह नेगी (1999, 80 pp.)"
+    ],
+    "lexical_mappings": [
+      "poetic_imagery",
+      "nature_metaphors",
+      "emotional_registers",
+      "archaic_inflections"
+    ],
+    "computational_applications": [
+      "Meter and prosody classification",
+      "Metaphor and figurative language detection",
+      "Poetic generation and rhyme scheme modeling",
+      "Historical morphological change tracking"
+    ]
+  },
+  {
+    "pillar_number": 4,
+    "id": "drama",
+    "icon": "🎭",
+    "name_en": "Plays and Drama",
+    "name_garhwali": "गढ़वाली नाटक, एकांकी एवं प्रहसन",
+    "description": "Theatrical scripts, one-act plays, radio plays, and satirical farces reflecting authentic turn-taking conversational Garhwali and societal discourse.",
+    "subcategories": [
+      "Full-length social dramas",
+      "One-act plays (एकांकी)",
+      "Children's drama (बाल नाटक)",
+      "Satirical skits and farces (प्रहसन)"
+    ],
+    "canonical_sources": [
+      "बणद्यौ कि चिट्ठी — उमेश चमोला (2018, 39 pp.)",
+      "प्रहलाद — भवानी दत्त थपलियाल (1914)",
+      "जीतू बगड़वाल नाटक — पारम्परिक रंगमंच रूपांतरण",
+      "गढ़वाली एकांकी संग्रह — गढ़वाल साहित्य मंडल"
+    ],
+    "lexical_mappings": [
+      "conversational_idioms",
+      "interjections",
+      "honorifics",
+      "imperatives"
+    ],
+    "computational_applications": [
+      "Multi-speaker conversational modelling",
+      "Speaker diarization text ground-truth",
+      "Imperative and question-answering systems",
+      "Colloquial tokenization benchmarking"
+    ]
+  },
+  {
+    "pillar_number": 5,
+    "id": "folk_songs",
+    "icon": "🎵",
+    "name_en": "Folk-Song Books",
+    "name_garhwali": "गढ़वाली लोकगीत संग्रह",
+    "description": "Comprehensive anthologies of traditional musical genres reflecting seasonal rhythms, agricultural labor, romantic yearning, and pastoral life.",
+    "subcategories": [
+      "Thadya (थड्या) & Chaunphula (चौंफुला) festive dance songs",
+      "Khuded Geet (खुदेड़ गीत) separation & nostalgia songs",
+      "Bajuband (बाजूबन्द) pasture & grass-cutter forest duets",
+      "Chaita Ki Chaitwali (चैता की चैतवाली) spring visitation songs",
+      "Mangal Geet (मांगल गीत) sacred Vedic-folk wedding hymns"
+    ],
+    "canonical_sources": [
+      "गढ़वाली लोकगीत — गोविन्द चातक (2000 Sahitya Akademi, 419 pp.; 1968 ed., 320 pp.)",
+      "गढ़वाल के लोकगीत — गोविन्द चातक (1954, 436 pp.)",
+      "बाजूबन्द : घसियारियों के गीत — महीपाल सिंह नेगी (2017, समय साक्ष्य)",
+      "गढ़वाली मांगळ — तोताराम ढौंडियाल (2009, 68 pp.)",
+      "गढ़वाळि मांगळ संग्रह — शांति प्रकाश 'जिज्ञासु' (2019, 112 pp.)",
+      "गीत गौं का — वीरेन्द्र पंवार (2014, 92 pp.)"
+    ],
+    "lexical_mappings": [
+      "musical_terms",
+      "seasonal_rites",
+      "herbal_flora",
+      "sentimental_lexemes"
+    ],
+    "computational_applications": [
+      "Audio-text alignment for folk music preservation",
+      "Rhyme and assonance analysis",
+      "Sentiment and mood classification in regional verse",
+      "Cultural entity recognition"
+    ]
+  },
+  {
+    "pillar_number": 6,
+    "id": "folk_epics",
+    "icon": "🪕",
+    "name_en": "Folk Epics & Jagars",
+    "name_garhwali": "लोकगाथा संग्रह (पवाड़े, जागर एवं महाभारत अनुष्ठान)",
+    "description": "Heroic ballads (पवाड़े) and shamanic invocation epics (जागर) preserving ancient historical phonology, archaic verbal paradigms, and tribal-feudal heroic lore.",
+    "subcategories": [
+      "Pawaada (वीर पवाड़े) martial heroic epics",
+      "Jagar (जागर) spirit invocation ceremonies & pantheon chants",
+      "Pandav Nritya / Pandav Leela ritual dance epics",
+      "Nagaraja & Shaktipeeth awakening epics"
+    ],
+    "canonical_sources": [
+      "गढ़वाली लोकगाथाएँ — गोविन्द चातक (1958, मोहनी प्रकाशन, 238 pp.)",
+      "धुयांळ — अबोधबंधु बहुगुणा (1983, 82 pp.)",
+      "माधो सिंह भंडारी पवाड़ा (मलेथा की गूल)",
+      "जीतू बगड़वाल पवाड़ा (खैत पर्वत की आंछरियां)",
+      "काफू कुंवर एवं रानू रौत गाथा"
+    ],
+    "lexical_mappings": [
+      "martial_weaponry",
+      "feudal_titles",
+      "shamanic_rites",
+      "divine_invocations"
+    ],
+    "computational_applications": [
+      "Historical linguistics and morphosyntactic evolution",
+      "Archaic entity extraction (warriors, garhs, battles)",
+      "Oral epic structure parsing",
+      "Knowledge graph of Himalayan chieftaincies"
+    ]
+  },
+  {
+    "pillar_number": 7,
+    "id": "proverbs_idioms",
+    "icon": "🗣️",
+    "name_en": "Proverbs and Idioms",
+    "name_garhwali": "गढ़वाली कहावतें (अखाण/पखाणा) एवं मुहावरे",
+    "description": "Distilled wisdom, metaphors, sardonic observations, and figurative phrases encoding Himalayan ecological and social survival knowledge.",
+    "subcategories": [
+      "Pakhana (पखाणा) — traditional situational proverbs",
+      "Akhaan (अखाण) — moral sayings and maxims",
+      "Muhavare (मुहावरे) — idiomatic verbal phrases",
+      "Aana (आणा) — traditional folk riddles"
+    ],
+    "canonical_sources": [
+      "गढ़वाली मुहावरों-कहावतों का वृहद् संग्रह — पुष्कर सिंह कण्डारी (2016 Vani Prakashan, 392 pp.)",
+      "गढ़वाली पखाणा — शालीग्राम वैष्णव (1930, 193 pp.)",
+      "Proverbs & Folklore of Kumaun and Garhwal — Ganga Datt Upreti (1894, 398 pp.)"
+    ],
+    "lexical_mappings": [
+      "figurative_phrases",
+      "metaphorical_verbs",
+      "satire",
+      "agricultural_proverbs"
+    ],
+    "computational_applications": [
+      "Non-literal language and figurative phrase detection",
+      "Cross-lingual idiom translation and semantic equivalence",
+      "Paraphrase generation",
+      "Proverb recommendation engines"
+    ]
+  },
+  {
+    "pillar_number": 8,
+    "id": "folk_tales",
+    "icon": "🏔️",
+    "name_en": "Folk Tales and Myths",
+    "name_garhwali": "गढ़वाली लोककथाएँ एवं पौराणिक आख्यान",
+    "description": "Folk narratives passed across generations by elders beside village hearths (घुर), explaining mountain origins, magical fairies (आंछरियां), and animal fables.",
+    "subcategories": [
+      "Fairy and mountain spirit tales (आंछरी-मातृ कथा)",
+      "Moral and trickster fables (घंडियाल-स्यार कथा)",
+      "Demon and ghost lore (भूत-पिशाच, ऐड़ी-मसान)",
+      "Origin myths of peaks, rivers, and shrines"
+    ],
+    "canonical_sources": [
+      "गढ़वाली भाषा की दन्त कथाएं — चक्रधर बहुगुणा (1981, 40 pp.)",
+      "Himalayan Folklore — E.S. Oakley & Tara Dutt Gairola (1935, 313 pp.)",
+      "गढ़वाली लोककथियों का समाजशास्त्र — मनोज खली (2017, 248 pp.)",
+      "गढ़वाली लोक-साहित्य का विवेचनात्मक अध्ययन — मोहनलाल बाबुलकर (1964, 307 pp.)"
+    ],
+    "lexical_mappings": [
+      "mythological_entities",
+      "moral_concepts",
+      "supernatural_flora",
+      "hearthside_discourse"
+    ],
+    "computational_applications": [
+      "Narrative schema generation",
+      "Story summarization and character relationship graphs",
+      "Cross-cultural folklore comparative embeddings",
+      "Children's interactive educational storytelling"
+    ]
+  },
+  {
+    "pillar_number": 9,
+    "id": "kinship",
+    "icon": "👨‍👩‍👧",
+    "name_en": "Kinship Terminology",
+    "name_garhwali": "गढ़वाली नाते-रिश्तेदारी एवं पारिवारिक शब्दावली",
+    "description": "Hyper-specific kinship systems distinguishing paternal vs maternal lineage, elder vs younger status, affinal relations, and traditional Himalayan household roles.",
+    "subcategories": [
+      "Patrilineal relations (बाबू, दाज्यू, कका, ब्वाड़ा)",
+      "Matrilineal relations (मामा, मवेणी, मासी)",
+      "In-law / Affinal terminology (सौसर, सासु, ब्वारी, जंवाई, स्याल)",
+      "Generational and sibling address honorifics"
+    ],
+    "canonical_sources": [
+      "गढ़वाली-हिंदी शब्दकोश — अरविंद पुरोहित & बीना बेंजवाल (2007)",
+      "गढ़वाली भाषा का शब्दकोश — जयलाल वर्मा (1982)",
+      "गढ़वाली लोकमानस — शिवानन्द नौटियाल (1975)"
+    ],
+    "lexical_mappings": [
+      "kinship",
+      "family",
+      "honorifics",
+      "social_structure"
+    ],
+    "computational_applications": [
+      "Kinship graph extraction from texts",
+      "Honorific agreement in MT and dialogue systems",
+      "Family relationship question answering",
+      "Cross-dialectal kinship alignment"
+    ]
+  },
+  {
+    "pillar_number": 10,
+    "id": "agriculture_occupations",
+    "icon": "🌾",
+    "name_en": "Agriculture & Traditional Occupations",
+    "name_garhwali": "कृषि, पशुपालन एवं पारंपरिक व्यवसाय शब्दावली",
+    "description": "Technical mountainous agrarian vocabulary: terraced slopes, irrigation gul channels, traditional crops, rainfed farming, animal husbandry, and artisan guilds.",
+    "subcategories": [
+      "Terrace cultivation & field types (सेरा, उखड़, क्यारी)",
+      "Traditional crops & millets (कोदा, झंगोरा, मंडुआ, चौलाई)",
+      "Farming implements (हल, पाटा, कुदाल, दाथुळी)",
+      "Artisan trades (औजी, लुहार, बढ़ई, चुनार, भिटारू)"
+    ],
+    "canonical_sources": [
+      "मध्य पहाड़ी भाषा का अनुशीलन — डॉ० गुणानन्द जुयाल (1967)",
+      "गढ़वाली भाषा — गोविन्द चातक (1959)",
+      "गढ़वाली भाषा और उसका लोक-साहित्य — जनार्दन प्रसाद काला (2012)"
+    ],
+    "lexical_mappings": [
+      "agriculture",
+      "tools",
+      "occupations",
+      "animals",
+      "grain"
+    ],
+    "computational_applications": [
+      "Domain-specific terminology extraction",
+      "Traditional ecological knowledge (TEK) databases",
+      "Agricultural advisory translation in local dialect",
+      "Ethno-occupational ontology modeling"
+    ]
+  },
+  {
+    "pillar_number": 11,
+    "id": "religious_temple",
+    "icon": "🛕",
+    "name_en": "Religious & Temple Vocabulary",
+    "name_garhwali": "देव-धाम, मन्दिर, पूजा-विधान एवं जात्रा शब्दावली",
+    "description": "Sacred Kedarkhand terminology: pilgrimage rites, Panch Kedar, Panch Badri, Devi shrines, local Gramdevatas, ritual implements, and sacred hymns.",
+    "subcategories": [
+      "Pilgrimage shrines & routes (चार धाम, पंच केदार, पंच बद्री)",
+      "Ritual implements & offerings (अरघा, अचमणी, धूपदान, कलश, रोट)",
+      "Festivals & Jatras (नंदा राजजात, बग्वाल, बैसाखी, घी संक्रांति)",
+      "Guardian deities & Kshetrapals (भैरव, लाटू, घंडियाल, नागराजा)"
+    ],
+    "canonical_sources": [
+      "गढ़वाली मांगळ संग्रह — तोताराम ढौंडियाल / शांति प्रकाश 'जिज्ञासु'",
+      "श्रीमद्भगवद्गीता (गढ़वाली अनुवाद) — गोपाल दत्त मिश्र / आनन्द बल्लभ रतूड़ी",
+      "गढ़वाली रामायण — देवेन्द्र प्रसाद चमोली",
+      "गढ़वाल के लोकगीत एवं लोकनृत्य — शिवानन्द नौटियाल"
+    ],
+    "lexical_mappings": [
+      "rituals",
+      "deities",
+      "places",
+      "festivals",
+      "calendar"
+    ],
+    "computational_applications": [
+      "Sacred text Named Entity Recognition",
+      "Cultural heritage semantic search",
+      "Pilgrimage routing and tourist Q&A systems",
+      "Religious verse alignment and translation"
+    ]
+  },
+  {
+    "pillar_number": 12,
+    "id": "food_cuisine",
+    "icon": "🍲",
+    "name_en": "Food and Traditional Dishes",
+    "name_garhwali": "गढ़वाली खान-पान, पारम्परिक व्यंजन एवं पाक शब्दावली",
+    "description": "High-altitude nutritious culinary vocabulary: millet breads, pulse gravies, fermented condiments, roasted delicacies, and forest vegetables.",
+    "subcategories": [
+      "Main staples (कौणी का भात, मंडुवे की रोटी, बाड़ी, फणूं)",
+      "Lentils & gravies (चैंसूं, काफुली, झोली, दाल)",
+      "Seasonal wild preparations (लिंगुड़े की सब्जी, कंडाली का साग)",
+      "Sweets and snacks (अरसा, रोट, गुलगुला, स्वाले)"
+    ],
+    "canonical_sources": [
+      "गढ़वाली-हिंदी शब्दकोश — अरविंद पुरोहित & बीना बेंजवाल",
+      "गढ़वाली भाषा का शब्दकोश — जयलाल वर्मा",
+      "लोक का बाना — संदीप रावत (2016)"
+    ],
+    "lexical_mappings": [
+      "food",
+      "cooking",
+      "taste",
+      "flora",
+      "household"
+    ],
+    "computational_applications": [
+      "Recipe knowledge graphs",
+      "Nutritional and botanical food entity tagging",
+      "Culinary tourism chatbots",
+      "Dietary culture preservation"
+    ]
+  },
+  {
+    "pillar_number": 13,
+    "id": "clothing_ornaments",
+    "icon": "👗",
+    "name_en": "Clothing and Ornaments",
+    "name_garhwali": "गढ़वाली पहरावा, पारम्परic वस्त्र एवं आभूषण शब्दावली",
+    "description": "Traditional Himalayan woolen clothing, wedding attire, and elaborate gold/silver jewelry marking marital status, status, and festive dignity.",
+    "subcategories": [
+      "Traditional garments (गाती, धोती, मिर्जई, वास्केट, पाखला)",
+      "Nose & ear ornaments (नथुली, बुलाक, मूर्खली, कुंडल)",
+      "Neck & chest ornaments (हंसुली, गुलूबंद, चरेऊ, चवन्नी माला)",
+      "Hand & foot ornaments (धगुला, पौंछि, झांवर, बिछुवे)"
+    ],
+    "canonical_sources": [
+      "बाजूबन्द : घसियारियों के गीत — महीपाल सिंह नेगी (2017)",
+      "गढ़वाली लोकगीत — गोविन्द चातक",
+      "गढ़वाली लोकमानस — शिवानन्द नौटियाल"
+    ],
+    "lexical_mappings": [
+      "clothing",
+      "ornaments",
+      "wedding",
+      "festivals"
+    ],
+    "computational_applications": [
+      "Costume & craft image-text cross-modal retrieval",
+      "Ethnographic entity extraction",
+      "Museum archival cataloguing",
+      "Cultural question answering"
+    ]
+  },
+  {
+    "pillar_number": 14,
+    "id": "architecture_household",
+    "icon": "🏡",
+    "name_en": "Architecture & Household Vocabulary",
+    "name_garhwali": "पारंपरिक भवन निर्माण, घर-आंगन एवं बर्तन-भांडे",
+    "description": "Traditional Koti Banal earthquake-resistant slate and wood masonry, courtyard layout, granaries, and domestic utensils.",
+    "subcategories": [
+      "Traditional house elements (तिवारी, चौक, डांडा, पाथ्या, ओबरा)",
+      "Materials & stones (पाथर, देवदार काष्ठ, गारा, चीड़)",
+      "Household storage & granaries (कोठार, कुठार, कंडी, डलिया)",
+      "Domestic vessels (तामी, भदडू, परांत, गगरी, लोटा)"
+    ],
+    "canonical_sources": [
+      "गढ़वाली भाषा — गोविन्द चातक (1959)",
+      "गढ़वाली भाषा और उसका लोक-साहित्य — जनार्दन प्रसाद काला",
+      "गढ़वाली-हिंदी शब्दकोश — अरविंद पुरोहित & बीना बेंजवाल"
+    ],
+    "lexical_mappings": [
+      "house",
+      "architecture",
+      "utensils",
+      "tools"
+    ],
+    "computational_applications": [
+      "Vernacular architecture terminology standardisation",
+      "Spatial preposition and layout relationship parsing",
+      "Heritage preservation metadata cataloguing",
+      "Household entity extraction"
+    ]
+  },
+  {
+    "pillar_number": 15,
+    "id": "flora_fauna",
+    "icon": "🐄",
+    "name_en": "Animals, Birds and Plants",
+    "name_garhwali": "पशु, पक्षी, जीव-जंतु, वनस्पति एवं जड़ी-बूटियाँ",
+    "description": "Rich biodiversity vocabulary of the Central Himalayas: sacred alpine flowers, medicinal roots, wild berries, high-altitude fauna, and bird omens.",
+    "subcategories": [
+      "Sacred trees & flowers (बुरांश, ब्रह्मकमल, देवदार, बांज, थूनेर)",
+      "Wild medicinal berries & fruits (काफल, बेडू, तिमलू, किलमोड़ा, हिसर)",
+      "Himalayan fauna (कस्तूरी मृग, घुरड़, थार, मोनाल, भालू, गुलदार)",
+      "Bird calls & omen avifauna (घुघुती, काफल पाको चखुल्या, न्योली)"
+    ],
+    "canonical_sources": [
+      "काफल पाको — चन्द्रकुंवर बर्त्वाल (1942)",
+      "गढ़वाली लोकगीत (चखुल्या गीत) — गोविन्द चातक",
+      "Himalayan Ethnobotanical Flora database — garhwali.culture.flora"
+    ],
+    "lexical_mappings": [
+      "plants",
+      "animals",
+      "birds",
+      "forest",
+      "medicine"
+    ],
+    "computational_applications": [
+      "Ethnobotanical scientific binomial mapping",
+      "Biodiversity and ecological NLP",
+      "Birdsong and nature lyric identification",
+      "Himalayan environmental text tagging"
+    ]
+  },
+  {
+    "pillar_number": 16,
+    "id": "geography_toponyms",
+    "icon": "🏞️",
+    "name_en": "Garhwal Geography and Place Names",
+    "name_garhwali": "स्थान-नाम, डांडा-कांठा, धार-गाड, पंच प्रयाग एवं बुग्याल",
+    "description": "Central Pahari toponymy: high alpine meadows (बुग्याल), mountain ridges (डांडा/धार), glacial rivers (गाड/गदेरा), mountain passes (खाल/धुरा), and holy confluences (प्रयाग).",
+    "subcategories": [
+      "Toponym suffixes (-गाड, -खाल, -धार, -सैंण, -बगड़, -कोट, -सारी)",
+      "Panch Prayag & holy confluences (देवप्रयाग, रुद्रप्रयाग, कर्णप्रयाग, नन्दप्रयाग, विष्णुप्रयाग)",
+      "High alpine bugyals (औली, चोपता, दयारा, वेदनी, रूपकुंड)",
+      "Districts and historic parganas (श्रीनगर, टिहरी, पौड़ी, चमोली, रुद्रप्रयाग, उत्तरकाशी)"
+    ],
+    "canonical_sources": [
+      "बर्फ़ पाणी — ललित मोहन रयाल (2018)",
+      "गढ़वाल : इतिहास, संस्कृति, भाषा एवं साहित्य — सुरेश ममगाईं (2011)",
+      "Linguistic Survey of India: Central Pahari — G.A. Grierson (1916)"
+    ],
+    "lexical_mappings": [
+      "geography",
+      "places",
+      "nature",
+      "landmarks"
+    ],
+    "computational_applications": [
+      "Geocoding and Toponym Resolution (GPE NER)",
+      "Geographical Information System (GIS) gazetteer linking",
+      "Mountain terrain description extraction",
+      "Regional dialect boundary mapping"
+    ]
+  },
+  {
+    "pillar_number": 17,
+    "id": "names_surnames",
+    "icon": "👥",
+    "name_en": "Personal Names, Surnames and Community",
+    "name_garhwali": "व्यक्ति-नाम, उपनाम, थोक, जाति एवं गोत्र शब्दावली",
+    "description": "Central Himalayan clan structure, village-derived toponymic surnames, ancestral forts (गढ़/थोक), gotras, and traditional social designations.",
+    "subcategories": [
+      "Village-origin toponymic surnames (बिष्ट, नेगी, रावत, कण्डारी, चमोला, उनियाल)",
+      "Khatriya / Rajput clans & Garh commanders (भंडारी, रौतेला, चौहान, पंवार)",
+      "Brahmin lineages & priestly gotras (नौटियाल, बहुगुणा, मैठाणी, भट्ट, डबराल)",
+      "Artisan & musician communities (शिल्पकार, औजी, बादी, धौंसिया)"
+    ],
+    "canonical_sources": [
+      "गढ़वाल का इतिहास — पं० हरिकृष्ण रतूड़ी (1928)",
+      "गढ़वाली उपनाम एवं गोत्र कोश — garhwali.culture.surnames",
+      "गढ़वाली लोकमानस — शिवानन्द नौटियाल (1975)"
+    ],
+    "lexical_mappings": [
+      "surnames",
+      "clans",
+      "social_structure",
+      "titles"
+    ],
+    "computational_applications": [
+      "Person Name Entity Recognition (PER NER)",
+      "Genealogical relationship extraction",
+      "Historical migration pattern inference",
+      "Sociolinguistic demographic tagging"
+    ]
+  },
+  {
+    "pillar_number": 18,
+    "id": "historical_inscriptions",
+    "icon": "📜",
+    "name_en": "Historical Documents and Inscriptions",
+    "name_garhwali": "शिलालेख, ताम्रपत्र, राज-आज्ञा एवं ऐतिहासिक दस्तावेज",
+    "description": "Old Garhwali copper-plate charters (ताम्रपत्र), temple rock inscriptions (शिलालेख), royal land grants, and court firmans of the Panwar Kings of Srinagar.",
+    "subcategories": [
+      "Panwar dynasty copper plates & royal sanads",
+      "Temple stone inscriptions (बद्रीनाथ, गोपेश्वर त्रिशूल लेख, देवलगढ़)",
+      "Revenue records and boundary settlements (बन्दोबस्त)",
+      "Court and trade letters in early Garhwali prose"
+    ],
+    "canonical_sources": [
+      "गढ़वाल के शिलालेख एवं ताम्रपत्र — डॉ० शिवप्रसाद डबराल 'चारण'",
+      "गढ़वाली गद्य परंपरा — अनिल डबराल (2007)",
+      "Linguistic Survey of India — G.A. Grierson (1916)"
+    ],
+    "lexical_mappings": [
+      "archaic_law",
+      "royalty",
+      "land_tenure",
+      "epigraphy"
+    ],
+    "computational_applications": [
+      "Historical OCR and epigraphic text decoding",
+      "Palaeographic language change modeling",
+      "Historical named entity and date extraction",
+      "Diachronic lexical evolution tracking"
+    ]
+  },
+  {
+    "pillar_number": 19,
+    "id": "periodicals_media",
+    "icon": "📰",
+    "name_en": "Garhwali Newspapers and Magazines",
+    "name_garhwali": "गढ़वाली पत्र-पत्रिकाएं, समाचार, सामयिकी एवं मीडिया",
+    "description": "Print periodicals and modern digital magazines documenting contemporary written Garhwali, public discourse, social issues, and linguistic revival.",
+    "subcategories": [
+      "Historic journals (गढ़वाली मासिक पत्र, विशाल कीर्ति, कर्मभूमि)",
+      "Literary magazines (धाद, रैबार, पहाड़, उत्तरांचल)",
+      "Community newsletters and periodicals",
+      "Modern web portals and social media discourse"
+    ],
+    "canonical_sources": [
+      "गढ़वाली (मासिक पत्रिका 1905–) — पं० गिरिजादत्त नैथानी / तारा दत्त गैरोला",
+      "कर्मभूमि — भक्तदर्शन एवं भैरवदत्त धूलिया",
+      "धाद सांस्कृतिक पत्रिका — देहरादून",
+      "रैबार गढ़वाली समाचार पत्र"
+    ],
+    "lexical_mappings": [
+      "contemporary_politics",
+      "news",
+      "media",
+      "neologisms"
+    ],
+    "computational_applications": [
+      "Topic modeling and news classification",
+      "Temporal sentiment analysis of regional discourse",
+      "Modern loanword and neologism detection",
+      "Web corpus scraping and deduplication"
+    ]
+  },
+  {
+    "pillar_number": 20,
+    "id": "oral_transcriptions",
+    "icon": "🎙️",
+    "name_en": "Audio & Transcribed Oral Literature",
+    "name_garhwali": "ध्वनि-अभिलेख, मौखिक साहित्य, वाचन एवं पॉडकास्ट",
+    "description": "Verbatim transcriptions of recorded speech, radio broadcasts, audio plays, village interviews, oral poetry recitations, and natural spontaneous speech.",
+    "subcategories": [
+      "All India Radio (AIR) Najibabad / Dehradun Garhwali broadcasts",
+      "Village elder life-history oral interviews",
+      "Field audio transcriptions of Jagars and folk singers",
+      "Contemporary podcasts and YouTube dialogues"
+    ],
+    "canonical_sources": [
+      "गढ़वाली आकाशवाणी वार्ता एवं नाटक अभिलेखागार",
+      "डिजिटल आर्काइव ओरल हिस्ट्री संग्रह (Garhwali Digital Folklore Repository)",
+      "यूट्यूब / इंटरनेट मौखिक वाचन संकलन (Mera Pahad & Bol Pahadi)"
+    ],
+    "lexical_mappings": [
+      "conversational_hesitations",
+      "fillers",
+      "intonation_markers",
+      "colloquial_elisions"
+    ],
+    "computational_applications": [
+      "Automatic Speech Recognition (ASR) acoustic-language modeling",
+      "Speech-to-text phonetic alignment",
+      "Spontaneous speech disfluency handling",
+      "Text-to-Speech (TTS) natural prosody modeling"
+    ]
+  }
+]

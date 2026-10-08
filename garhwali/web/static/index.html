@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Garhwali Language Library — Universal AI & Linguistic Playground</title>
+  <meta name="description" content="Explore Garhwali (गढ़वाळी) language with universal translation, voice synthesis, dictionary lookup, verb conjugation, numbers, classical Holi songs, and digital library page reader.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Header -->
+    <header class="app-header">
+      <div class="logo-group">
+        <div class="logo-badge">गढ़वाळी</div>
+        <div>
+          <h1 class="logo-title">Garhwali Language Library</h1>
+          <p class="logo-subtitle">Central Pahari (ISO 639-3: gbm) • Computational Linguistics, NLP & AI Suite</p>
+        </div>
+      </div>
+      <div class="header-badges">
+        <span class="pill-badge" id="badge-words">2,428 Words</span>
+        <span class="pill-badge" id="badge-cats">83 Categories</span>
+        <span class="pill-badge" id="badge-books">13 Books (3,076 Pgs)</span>
+      </div>
+    </header>
+
+    <!-- Navigation Tabs -->
+    <nav class="tabs-nav" id="main-nav">
+      <button class="nav-btn active" data-tab="tab-translator" id="btn-tab-translator">
+        <span class="nav-icon">🌐</span> Translator
+      </button>
+      <button class="nav-btn" data-tab="tab-voice" id="btn-tab-voice">
+        <span class="nav-icon">🎙️</span> Voice & Audio
+      </button>
+      <button class="nav-btn" data-tab="tab-dictionary" id="btn-tab-dictionary">
+        <span class="nav-icon">📖</span> Dictionary
+      </button>
+      <button class="nav-btn" data-tab="tab-verbs" id="btn-tab-verbs">
+        <span class="nav-icon">⚡</span> Verb Engine
+      </button>
+      <button class="nav-btn" data-tab="tab-numbers" id="btn-tab-numbers">
+        <span class="nav-icon">🔢</span> Numbers
+      </button>
+      <button class="nav-btn" data-tab="tab-folklore" id="btn-tab-folklore">
+        <span class="nav-icon">🪕</span> Folklore & Holi
+      </button>
+      <button class="nav-btn" data-tab="tab-reader" id="btn-tab-reader">
+        <span class="nav-icon">📚</span> Digital Reader
+      </button>
+    </nav>
+
+    <!-- TAB 1: TRANSLATOR -->
+    <main class="tab-content active" id="tab-translator">
+      <div class="card glass-card">
+        <div class="card-header">
+          <h2>Universal Translation Bridge</h2>
+          <div class="controls-row">
+            <label for="trans-source">Source:</label>
+            <select id="trans-source" class="select-input">
+              <option value="auto">Auto-Detect</option>
+              <option value="en">English</option>
+              <option value="hi">Hindi (हिंदी)</option>
+              <option value="hinglish">Hinglish</option>
+              <option value="fr">French (Pivot)</option>
+              <option value="es">Spanish (Pivot)</option>
+              <option value="de">German (Pivot)</option>
+              <option value="ja">Japanese (Pivot)</option>
+            </select>
+            <label for="trans-dialect">Dialect:</label>
+            <select id="trans-dialect" class="select-input">
+              <option value="srinagariya">Srinagariya (Standard)</option>
+              <option value="rathwali">Rathwali (Pauri)</option>
+              <option value="tehri">Tehri / Gangapariya</option>
+              <option value="salani">Salani (Southern)</option>
+              <option value="badhani">Badhani (Chamoli)</option>
+            </select>
+            <label for="trans-method">Engine:</label>
+            <select id="trans-method" class="select-input">
+              <option value="auto">Auto (Rule + Lexicon)</option>
+              <option value="pivot">Multi-Lingual Pivot</option>
+              <option value="llm">Neural / LLM Adapter</option>
+            </select>
+          </div>
+        </div>
+        <div class="card-body grid-2col">
+          <div class="input-pane">
+            <textarea id="trans-input" class="text-area" placeholder="Type words, questions, or sentences in English, Hindi, Hinglish, or any foreign language... e.g. 'Where does this road go?' or 'आप कैसे हैं?'"></textarea>
+            <div class="action-bar">
+              <button class="btn btn-primary" id="btn-translate">Translate into Garhwali</button>
+              <button class="btn btn-secondary" id="btn-clear-trans">Clear</button>
+            </div>
+          </div>
+          <div class="output-pane">
+            <div class="output-box" id="trans-output-box">
+              <div class="output-text" id="trans-output-text">Translation will appear here...</div>
+              <div class="output-roman" id="trans-output-roman"></div>
+              <div class="output-meta" id="trans-output-meta"></div>
+            </div>
+            <div class="quick-examples">
+              <span class="label-hint">Try:</span>
+              <button class="chip-btn" data-fill="Where is mom?">Where is mom?</button>
+              <button class="chip-btn" data-fill="What is your name?">What is your name?</button>
+              <button class="chip-btn" data-fill="How far is Srinagar from here?">How far is Srinagar?</button>
+              <button class="chip-btn" data-fill="Give me cold water.">Give me cold water.</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- TAB 2: VOICE & AUDIO -->
+    <section class="tab-content" id="tab-voice">
+      <div class="card glass-card">
+        <div class="card-header">
+          <h2>Voice Translation & Speech Synthesis</h2>
+          <div class="controls-row">
+            <label for="voice-category">Phrasebook Category:</label>
+            <select id="voice-category" class="select-input">
+              <option value="all">All Situations</option>
+              <option value="greetings">Greetings & Respect</option>
+              <option value="travel">Travel & Mountain Directions</option>
+              <option value="food">Food & Hospitality</option>
+              <option value="shopping">Bazaar & Shopping</option>
+              <option value="emergency">Emergency & Health</option>
+              <option value="weather">Weather & Peaks</option>
+            </select>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="grid-2col">
+            <div>
+              <h3>Interactive Spoken Translator</h3>
+              <p class="section-desc">Generate Garhwali speech markup (SSML), phonetic syllables, and acoustic waveform audio.</p>
+              <div class="voice-input-row">
+                <input type="text" id="voice-text-input" class="text-input" placeholder="Enter text to speak (e.g. 'Welcome to our village')...">
+                <button class="btn btn-primary" id="btn-voice-synthesize">Synthesize Speech</button>
+              </div>
+              <div class="voice-result-box" id="voice-result-box" style="display: none;">
+                <div class="devanagari-large" id="voice-dev-text"></div>
+                <div class="roman-pronounce" id="voice-roman-text"></div>
+                <div class="audio-controls-row">
+                  <button class="btn btn-accent" id="btn-play-audio">▶ Play Audio Cue</button>
+                  <span class="audio-status" id="audio-status">Ready</span>
+                </div>
+                <div class="syllable-chips" id="voice-syllables-list"></div>
+                <details class="ssml-details">
+                  <summary>View Speech Synthesis SSML Markup</summary>
+                  <pre><code id="voice-ssml-code"></code></pre>
+                </details>
+              </div>
+            </div>
+            <div>
+              <h3>Curated Spoken Situations</h3>
+              <div class="phrases-scroller" id="phrases-container">
+                <!-- Rendered dynamically -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 3: DICTIONARY -->
+    <section class="tab-content" id="tab-dictionary">
+      <div class="card glass-card">
+        <div class="card-header">
+          <h2>Comprehensive 2,428-Word Lexicon</h2>
+          <div class="search-bar-row">
+            <input type="text" id="dict-search-input" class="text-input" placeholder="Search by Garhwali, English, or Hindi meaning (e.g. 'पानी', 'water', 'किताब', 'school')...">
+            <button class="btn btn-primary" id="btn-dict-search">Search</button>
+          </div>
+        </div>
+        <div class="card-body">
+          <div id="dict-results" class="results-grid">
+            <p class="placeholder-msg">Type in the search bar above to look up words in the 83-category Garhwali lexicon.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 4: VERB ENGINE -->
+    <section class="tab-content" id="tab-verbs">
+      <div class="card glass-card">
+        <div class="card-header">
+          <h2>Garhwali Verb Conjugation Engine</h2>
+        </div>
+        <div class="card-body">
+          <div class="conjugate-controls">
+            <div class="control-item">
+              <label for="verb-input">Verb Root / Infinitive:</label>
+              <input type="text" id="verb-input" class="text-input" value="खाणु">
+            </div>
+            <div class="control-item">
+              <label for="verb-tense">Tense / Aspect:</label>
+              <select id="verb-tense" class="select-input">
+                <option value="present">Present (वर्तमान)</option>
+                <option value="past">Past (भूतकाल)</option>
+                <option value="future">Future (भविष्यत्)</option>
+                <option value="present_continuous">Present Continuous (तात्कालिक वर्तमान)</option>
+                <option value="past_continuous">Past Continuous (अपूर्ण भूतकाल)</option>
+                <option value="present_perfect">Present Perfect (पूर्ण वर्तमान)</option>
+                <option value="habitual_past">Habitual Past (नित्य भूतकाल)</option>
+                <option value="conditional">Conditional (संकेतार्थक)</option>
+              </select>
+            </div>
+            <div class="control-item">
+              <label for="verb-person">Person:</label>
+              <select id="verb-person" class="select-input">
+                <option value="1">1st Person (मी / हम)</option>
+                <option value="2">2nd Person (तू / तुम)</option>
+                <option value="3" selected>3rd Person (यो / वो)</option>
+              </select>
+            </div>
+            <div class="control-item">
+              <label for="verb-gender">Gender:</label>
+              <select id="verb-gender" class="select-input">
+                <option value="m">Masculine (पुल्लिंग)</option>
+                <option value="f">Feminine (स्त्रीलिंग)</option>
+              </select>
+            </div>
+            <div class="control-item btn-align">
+              <button class="btn btn-primary" id="btn-conjugate">Conjugate Verb</button>
+            </div>
+          </div>
+          <div class="conjugation-result-box" id="conjugate-output-box">
+            <div class="res-title">Conjugated Form:</div>
+            <div class="res-value" id="conjugate-output-text">खान्दू</div>
+            <div class="res-sub" id="conjugate-output-sub">3rd Person Singular Masculine Present</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 5: NUMBERS -->
+    <section class="tab-content" id="tab-numbers">
+      <div class="card glass-card">
+        <div class="card-header">
+          <h2>Garhwali Numbers, Numerals & Fractions</h2>
+        </div>
+        <div class="card-body">
+          <div class="number-controls">
+            <label for="num-input">Enter Integer:</label>
+            <input type="number" id="num-input" class="text-input" value="15" min="0" max="99999999">
+            <button class="btn btn-primary" id="btn-convert-num">Convert Number</button>
+          </div>
+          <div class="numbers-display-grid">
+            <div class="num-card">
+              <span class="num-card-label">Devanagari Words</span>
+              <span class="num-card-val" id="num-dev-words">पन्द्रह</span>
+            </div>
+            <div class="num-card">
+              <span class="num-card-label">Romanized Pronunciation</span>
+              <span class="num-card-val" id="num-rom-words">pandrah</span>
+            </div>
+            <div class="num-card">
+              <span class="num-card-label">Devanagari Numerals</span>
+              <span class="num-card-val" id="num-dev-digits">१५</span>
+            </div>
+            <div class="num-card">
+              <span class="num-card-label">Ordinal Rank</span>
+              <span class="num-card-val" id="num-ordinal">पन्द्रहवाँ</span>
+            </div>
+          </div>
+          <div class="fractions-section">
+            <h3>Himalayan Fraction Terminology</h3>
+            <div class="fractions-grid">
+              <div class="fraction-item"><strong>पौण / पौणा:</strong> 0.75 (Three-Quarters)</div>
+              <div class="fraction-item"><strong>आधो / आधा:</strong> 0.50 (Half)</div>
+              <div class="fraction-item"><strong>सवा:</strong> 1.25 (One and a Quarter)</div>
+              <div class="fraction-item"><strong>डेढ़:</strong> 1.50 (One and a Half)</div>
+              <div class="fraction-item"><strong>ढाई:</strong> 2.50 (Two and a Half)</div>
+              <div class="fraction-item"><strong>साढ़े:</strong> + 0.50 (Half past for 3+)</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 6: FOLKLORE & HOLI -->
+    <section class="tab-content" id="tab-folklore">
+      <div class="card glass-card">
+        <div class="card-header">
+          <h2>Classical Baithki & Khadi Holi Songs (20 Compositions)</h2>
+          <div class="controls-row">
+            <label for="holi-form">Style:</label>
+            <select id="holi-form" class="select-input">
+              <option value="">All Styles</option>
+              <option value="Baithki Holi">Baithki Holi</option>
+              <option value="Khadi Holi">Khadi Holi</option>
+              <option value="Mahila Holi">Mahila Holi</option>
+            </select>
+            <button class="btn btn-secondary" id="btn-random-proverb">Random Proverb</button>
+          </div>
+        </div>
+        <div class="card-body">
+          <div id="proverb-banner" class="proverb-banner" style="display: none;">
+            <div class="prov-pakhana" id="prov-pakhana"></div>
+            <div class="prov-meaning" id="prov-meaning"></div>
+          </div>
+          <div class="songs-grid" id="holi-songs-grid">
+            <!-- Rendered dynamically -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 7: DIGITAL READER -->
+    <section class="tab-content" id="tab-reader">
+      <div class="card glass-card">
+        <div class="card-header">
+          <h2>13 Digitized Historical Books (3,076 Pages)</h2>
+          <div class="controls-row">
+            <label for="reader-book-select">Select Work:</label>
+            <select id="reader-book-select" class="select-input"></select>
+            <label for="reader-page-num">Page:</label>
+            <input type="number" id="reader-page-num" class="text-input page-input" value="1" min="1" max="500">
+            <button class="btn btn-primary" id="btn-read-page">Read Page</button>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="reader-view-container">
+            <div class="reader-meta" id="reader-book-meta"></div>
+            <div class="reader-page-paper" id="reader-page-content">
+              Select a book and page above to inspect the preserved historical text.
+            </div>
+            <div class="reader-nav-bar">
+              <button class="btn btn-secondary" id="btn-prev-page">← Previous Page</button>
+              <span id="page-indicator">Page 1</span>
+              <button class="btn btn-secondary" id="btn-next-page">Next Page →</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+      <p>Garhwali Language Library • Built for computational linguistics, speech synthesis, education & cultural preservation.</p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
