@@ -1,0 +1,62 @@
+[
+  {
+    "id": "fiol_2017_recasting_folk_himalayas",
+    "title": "Recasting Folk in the Himalayas: Indian Music, Media, and Social Mobility",
+    "author": "Stefan Patrick Fiol",
+    "year": 2017,
+    "identifier": "recastingfolkinh0000fiol",
+    "file_name": "recastingfolkinh0000fiol_djvu.txt",
+    "out_file": "fiol_recasting_folk_himalayas_2017.txt",
+    "size_bytes": 616534
+  },
+  {
+    "id": "alter_2000_knowing_dil_das_hunter",
+    "title": "Knowing Dil Das: Stories of a Himalayan Hunter",
+    "author": "Joseph S. Alter",
+    "year": 2000,
+    "identifier": "knowingdildassto0000alte",
+    "file_name": "knowingdildassto0000alte_djvu.txt",
+    "out_file": "alter_knowing_dil_das_himalayan_hunter_2000.txt",
+    "size_bytes": 617461
+  },
+  {
+    "id": "lewis_1995_himalayas_history_religion",
+    "title": "The Himalayas: A Syllabus of the Region's History, Anthropology, and Religion",
+    "author": "Todd Lewis",
+    "year": 1995,
+    "identifier": "dli.pahar.3680",
+    "file_name": "1995 Himalayas--Sylabus of the Region's History Anthropology and Religion by Lewis s_djvu.txt",
+    "out_file": "lewis_himalayas_history_anthropology_religion_1995.txt",
+    "size_bytes": 285942
+  },
+  {
+    "id": "singh_2002_trekking_in_himalaya",
+    "title": "Trekking in the Himalaya: Garhwal Trails and High Passes",
+    "author": "Hashmat Singh",
+    "year": 2002,
+    "identifier": "trekkinginhimala0000sing",
+    "file_name": "trekkinginhimala0000sing_djvu.txt",
+    "out_file": "singh_trekking_in_himalaya_2002.txt",
+    "size_bytes": 284299
+  },
+  {
+    "id": "lsi_2023_himachal_pahari_survey",
+    "title": "Linguistic Survey of India: Pahari Dialects of the Western and Central Himalayas",
+    "author": "Language Division, Office of the Registrar General, Government of India",
+    "year": 2023,
+    "identifier": "PARI.linguistic-survey-of-india---himachal-pradesh",
+    "file_name": "linguistic-survey-of-india---himachal-pradesh_djvu.txt",
+    "out_file": "lsi_himachal_pahari_language_survey_2023.txt",
+    "size_bytes": 1298673
+  },
+  {
+    "id": "himachal_shabdawali_kangari_pahari",
+    "title": "Himachali and Pahari Shabdawali: Comparative Himalayan Vocabulary",
+    "author": "BVP Research Collection / Linguistic Cell",
+    "year": 1998,
+    "identifier": "bvp-05997-md-himachali-kangari-shabdawali",
+    "file_name": "BVP05997-MD-Himachali-Kangani-Shabdawali_djvu.txt",
+    "out_file": "himachali_kangari_pahari_shabdawali.txt",
+    "size_bytes": 121099
+  }
+]

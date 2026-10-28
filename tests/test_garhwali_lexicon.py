@@ -14,7 +14,7 @@ class TestGarhwaliLexicon(unittest.TestCase):
 
     def test_total_words_count(self):
         words = self.d.all_words()
-        self.assertGreaterEqual(len(words), 200, "Dictionary should have at least 200 authenticated words")
+        self.assertGreaterEqual(len(words), 3300, "Dictionary should have at least 3300 authenticated words")
 
     def test_extracted_words_lookup(self):
         # Topography & Nature
@@ -65,6 +65,55 @@ class TestGarhwaliLexicon(unittest.TestCase):
         damau = self.d.lookup("दमाऊँ")
         self.assertIsNotNone(damau)
         self.assertIn("kettle-drum", damau["english"].lower())
+
+    def test_newly_mined_words_lookup(self):
+        # Historical & administrative terms
+        garhpati = self.d.lookup("गढपति")
+        self.assertIsNotNone(garhpati)
+        self.assertIn("fortress", garhpati["english"].lower())
+
+        thaatwan = self.d.lookup("थातवान")
+        self.assertIsNotNone(thaatwan)
+        self.assertIn("landowner", thaatwan["english"].lower())
+
+        # Alpine topography & geography
+        dhura = self.d.lookup("धुरा")
+        self.assertIsNotNone(dhura)
+        self.assertIn("pass", dhura["english"].lower())
+
+        prayag = self.d.lookup("प्रयाग")
+        self.assertIsNotNone(prayag)
+        self.assertIn("confluence", prayag["english"].lower())
+
+        # Rituals & pilgrimage
+        rajjaat = self.d.lookup("राजजात")
+        self.assertIsNotNone(rajjaat)
+        self.assertIn("pilgrimage", rajjaat["english"].lower())
+
+        # Verbs & actions
+        hernu = self.d.lookup("हेरणु")
+        self.assertIsNotNone(hernu)
+        self.assertEqual(hernu["pos"], "verb")
+        self.assertIn("search", hernu["english"].lower())
+
+        # Descriptors
+        dhundlo = self.d.lookup("धुंदळो")
+        self.assertIsNotNone(dhundlo)
+        self.assertIn("hazy", dhundlo["english"].lower())
+
+        # Domestic life & dairy culture
+        ghyoo = self.d.lookup("घ्यू")
+        self.assertIsNotNone(ghyoo)
+        self.assertIn("butter", ghyoo["english"].lower())
+
+        # Customary matrimonial & adornment
+        taka = self.d.lookup("टका-ब्याव")
+        self.assertIsNotNone(taka)
+        self.assertIn("marriage", taka["english"].lower())
+
+        hansuli = self.d.lookup("हंसुली")
+        self.assertIsNotNone(hansuli)
+        self.assertIn("silver", hansuli["english"].lower())
 
     def test_dictionary_search(self):
         results = self.d.search("mother")

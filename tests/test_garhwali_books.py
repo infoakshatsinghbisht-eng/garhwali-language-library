@@ -12,15 +12,24 @@ class TestGarhwaliBooksCorpus(unittest.TestCase):
     def test_list_books(self):
         books = garhwali.list_digital_books()
         self.assertIsInstance(books, list)
-        self.assertGreaterEqual(len(books), 10)
+        self.assertGreaterEqual(len(books), 28)
         book_ids = [b["id"] for b in books]
         self.assertIn("grierson_1916_central_pahari", book_ids)
         self.assertIn("upreti_1894_proverbs_folklore", book_ids)
         self.assertIn("chatak_1959_garhwali_bhasha", book_ids)
+        self.assertIn("pati_ram_1916_garhwal_ancient", book_ids)
+        self.assertIn("walton_1910_british_garhwal", book_ids)
+        self.assertIn("bailey_1908_languages_northern_himalayas", book_ids)
+        self.assertIn("verma_1978_pahari_language", book_ids)
+        self.assertIn("dabral_1961_shri_uttarakhand_yatra", book_ids)
+        self.assertIn("atkinson_1882_himalayan_districts_vol1", book_ids)
+        self.assertIn("joshi_1929_khasa_family_law", book_ids)
+        self.assertIn("mukandi_lal_1968_garhwal_painting", book_ids)
+        self.assertIn("pahari_academy_1989_pahari_hindi_shabdkosh", book_ids)
 
     def test_total_pages_count(self):
         total_pages = BooksCorpus.total_pages_in_library()
-        self.assertGreaterEqual(total_pages, 3000)
+        self.assertGreaterEqual(total_pages, 8500)
 
     def test_get_book(self):
         book = garhwali.get_digital_book("grierson_1916_central_pahari")
@@ -28,6 +37,15 @@ class TestGarhwaliBooksCorpus(unittest.TestCase):
         self.assertIsInstance(book, GarhwaliDigitalBook)
         self.assertEqual(book.author, "Sir George Abraham Grierson")
         self.assertGreater(book.total_pages, 900)
+
+        pati_ram = garhwali.get_digital_book("pati_ram_1916_garhwal_ancient")
+        self.assertIsNotNone(pati_ram)
+        self.assertEqual(pati_ram.author, "Rai Pati Ram Bahadur")
+        self.assertGreaterEqual(pati_ram.total_pages, 200)
+
+        dabral = garhwali.get_digital_book("dabral_1961_shri_uttarakhand_yatra")
+        self.assertIsNotNone(dabral)
+        self.assertIn("Dabral", dabral.author)
 
     def test_get_page(self):
         page = garhwali.read_book_page("chatak_1959_garhwali_bhasha", 1)

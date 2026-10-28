@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<library id="garhwali" version="1.2.0">
+<library id="garhwali" version="1.3.0">
     <metadata>
         <name>garhwali</name>
         <alternate_names>
@@ -51,7 +51,7 @@ print(garhwali.words_to_num("पच्चीस")) # 25
 holi_songs = garhwali.FolkloreTreasury.list_holi_songs()
 print(f"Loaded {len(holi_songs)} classical Baithki & Khadi Holi compositions")
 
-# 7. Digitized Historical Books (3,076 pages)
+# 7. Digitized Historical Books (86 books, 23,856 pages)
 books = garhwali.list_digital_books()
 page = garhwali.read_book_page(books[0]['id'], page_number=1)
 print(page.text[:100])
@@ -152,7 +152,7 @@ print(page.text[:100])
         </module>
 
         <module name="garhwali.culture">
-            <description>Master digital library (13 books, 3,076 pages), 45 complete folk songs, 20 classical Holi songs, 40+ sacred shrines, 158+ catalogued bibliography records, deities, and clan lineages.</description>
+            <description>Master digital library (86 books, 23,856 pages), 45 complete folk songs, 20 classical Holi songs, 48 sacred shrines, 231 catalogued bibliography records, deities, and clan lineages.</description>
             <facades>
                 <facade name="FolkloreTreasury">Methods: list_songs, get_song, search_songs, list_holi_songs, get_holi_song, search_holi_songs, get_jagar_songs, get_mangal_geet, get_pawada_songs, get_khudei_songs, get_dance_songs, get_ritu_geet, list_sources, stats</facade>
                 <facade name="BooksCorpus">Methods: read_book_page, list_digital_books, get_digital_book, search_digital_books</facade>
@@ -184,7 +184,7 @@ print(page.text[:100])
 
     <cli>
         <command name="garhwali translate">Translate text into Garhwali across dialects</command>
-        <command name="garhwali lookup">Look up words in the 3,107-entry lexicon</command>
+        <command name="garhwali lookup">Look up words in the 3,619-entry lexicon</command>
         <command name="garhwali conjugate">Conjugate verbs across tenses, aspects, and full paradigms</command>
         <command name="garhwali numbers">Convert integers to Garhwali words and Devanagari numerals</command>
         <command name="garhwali culture">Explore festivals, classical songs, literature, and proverbs</command>

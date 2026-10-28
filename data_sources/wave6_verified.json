@@ -1,0 +1,62 @@
+[
+  {
+    "id": "sherring_1906_western_tibet_british_borderland",
+    "title": "Western Tibet and the British Borderland: Garhwal and Bhotia Customs",
+    "author": "Charles A. Sherring",
+    "year": 1906,
+    "identifier": "westerntibetbrit00sher",
+    "out_file": "sherring_western_tibet_british_borderland_1906.txt",
+    "file_name": "westerntibetbrit00sher_djvu.txt",
+    "size_bytes": 568476
+  },
+  {
+    "id": "batten_1851_official_reports_kumaon_garhwal",
+    "title": "Official Reports on the Province of Kumaon and Garhwal",
+    "author": "J. H. Batten",
+    "year": 1851,
+    "identifier": "dli.pahar.0412",
+    "out_file": "batten_official_reports_kumaon_garhwal_1851.txt",
+    "file_name": "1851 Official Reports On The Province Of Kumaon By Batten S_djvu.txt",
+    "size_bytes": 1128378
+  },
+  {
+    "id": "bisht_1994_tourism_garhwal_himalaya",
+    "title": "Tourism in Garhwal Himalaya: Pilgrimage, Culture and Economy",
+    "author": "Dr. Harshwanti Bisht",
+    "year": 1994,
+    "identifier": "tourism-in-garhwal-himalaya-by-harshwanti-bisht-to",
+    "out_file": "bisht_tourism_in_garhwal_himalaya_1994.txt",
+    "file_name": "Tourism In Garhwal Himalaya By Harshwanti Bisht Tourism Mountaineering Himalaya Illustrated New Delhi 1994 - Indus Publishing Company_djvu.txt",
+    "size_bytes": 426994
+  },
+  {
+    "id": "khanduri_1986_peaks_passes_garhwal",
+    "title": "Peaks and Passes of the Garhwal Himalaya",
+    "author": "Garhwal Exploration Society",
+    "year": 1986,
+    "identifier": "dli.pahar.3635",
+    "out_file": "khanduri_peaks_and_passes_garhwal_1986.txt",
+    "file_name": "1990 Peaks and Passes of Garhwal Himalaya by Babicz s_djvu.txt",
+    "size_bytes": 314640
+  },
+  {
+    "id": "bhatt_1992_garhwal_himalaya_nature_culture",
+    "title": "Garhwal Himalaya: Nature, Culture and Society",
+    "author": "H. P. Bhatt et al.",
+    "year": 1992,
+    "identifier": "GarhwalHimalaya",
+    "out_file": "bhatt_garhwal_himalaya_nature_culture_1992.txt",
+    "file_name": "Garhwal Himalaya_djvu.txt",
+    "size_bytes": 280348
+  },
+  {
+    "id": "verma_2003_pahari_dictionary_part2",
+    "title": "Dr. Siddheshwar Varma's Pahari Dictionary of 27 Dialects (Part 2)",
+    "author": "Dr. Siddheshwar Varma",
+    "year": 2003,
+    "identifier": "bvp-03865",
+    "out_file": "verma_pahari_dictionary_part2_2003.txt",
+    "file_name": "BVP03865-PUC-Dr.-Siddheshwar-Varma`s-Pahari-Dictionary-of-27-North-Western-Himalayan-Dialects,-Vol.-I,-Part-II-(Kangri-Group)_djvu.txt",
+    "size_bytes": 133849
+  }
+]

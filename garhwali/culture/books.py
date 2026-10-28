@@ -2,9 +2,9 @@
 """
 Full-Text Digital Book Corpus and Page-by-Page Reader for Garhwali Language.
 
-Provides access to 13 complete digitised historical, linguistic, and literary books
-comprising over 3,000 pages of authentic Garhwali texts, grammars, folk epics,
-and linguistic surveys.
+Provides access to 86 complete digitised historical, linguistic, and literary books
+comprising 23,856 pages of authentic Garhwali texts, grammars, folk epics,
+gazetteers, and linguistic surveys.
 """
 
 import json
@@ -163,7 +163,7 @@ class BooksCorpus:
 
     @classmethod
     def search_all_books(cls, query: str) -> List[BookSearchResult]:
-        """Search across all 13 complete books in the library."""
+        """Search across all complete books in the library."""
         all_results = []
         for meta in cls.list_books():
             book = cls.get_book(meta["id"])

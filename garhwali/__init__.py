@@ -5,7 +5,7 @@ Comprehensive Linguistic, Computational, Cultural Heritage & Knowledge toolkit f
 - 2,390,000+ Inflected Word Forms across 5 dialects (Srinagariya, Rathwali, Tehri, Salani, Badhani)
 - Multi-dialect & Pivot Neural/Rule-based Translation Engine
 - Voice Synthesis, Phonetic Syllabification & SSML Generation
-- Master Bibliography & Digitized Literary Corpus (80+ Canonical Books Catalogued, 13 Full Books with 3,076 Pages)
+- Master Bibliography & Digitized Literary Corpus (231 Canonical Books Catalogued, 86 Full Books with 23,856 Pages)
 - Classical Baithki & Khadi Holi Ragas, Traditional Folk Songs, Shamanic Jagars & Digital Archives
 - Folk Epics (पवाड़े / जागर), Classical Poems & Canonical Authors
 - Sacred Geography & Heritage Places of Garhwal (Panch Kedar, Panch Badri, Panch Prayag, Bugyals, Historical Towns)
@@ -19,7 +19,7 @@ Comprehensive Linguistic, Computational, Cultural Heritage & Knowledge toolkit f
 - Interactive Web GUI Playground & REST API Server
 """
 
-__version__ = "1.2.0"
+__version__ = "1.3.0"
 __author__ = "Akshat Singh Bisht"
 __email__ = "infoakshatsinghbisht@gmail.com"
 __maintainer__ = "Akshat Singh Bisht"

@@ -208,7 +208,7 @@ class TestGarhwaliAdvanced(unittest.TestCase):
 
     def test_grammar_rules_registry(self):
         from garhwali.grammar import RuleRegistry, GARHWALI_GRAMMAR_RULES, RuleCategory
-        self.assertGreaterEqual(len(GARHWALI_GRAMMAR_RULES), 15)
+        self.assertGreaterEqual(len(GARHWALI_GRAMMAR_RULES), 40)
         
         r1 = RuleRegistry.get_rule("GARH-SYN-001")
         self.assertIsNotNone(r1)
@@ -216,14 +216,28 @@ class TestGarhwaliAdvanced(unittest.TestCase):
         self.assertGreater(len(r1.examples), 0)
         
         syntax_rules = RuleRegistry.list_by_category("syntax")
-        self.assertGreaterEqual(len(syntax_rules), 4)
+        self.assertGreaterEqual(len(syntax_rules), 7)
+
+        # Check new rules
+        r_abl = RuleRegistry.get_rule("GARH-CASE-004")
+        self.assertIsNotNone(r_abl)
+        self.assertIn("Ablative", r_abl.name)
+
+        r_hon = RuleRegistry.get_rule("GARH-HON-001")
+        self.assertIsNotNone(r_hon)
+        self.assertIn("Three-Tiered", r_hon.name)
+
+        r_phon = RuleRegistry.get_rule("GARH-PHON-004")
+        self.assertIsNotNone(r_phon)
+        self.assertIn("Retroflex", r_phon.name)
         
         found = RuleRegistry.search_rules("ergative")
         self.assertGreater(len(found), 0)
         
         stats = RuleRegistry.stats()
-        self.assertGreaterEqual(stats["total_rules"], 15)
-        self.assertGreaterEqual(stats["total_annotated_examples"], 20)
+        self.assertEqual(stats["total_rules"], 81)
+        self.assertEqual(stats["categories_count"], 8)
+        self.assertGreaterEqual(stats["total_annotated_examples"], 175)
 
     def test_advanced_sentence_builders(self):
         from garhwali.grammar import (

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "mumm_1909_five_months_in_himalaya_garhwal",
+    "title": "Five Months in the Himalaya: A Record of Mountain Travel in Garhwal",
+    "author": "A. L. Mumm",
+    "year": 1909,
+    "identifier": "india.history.resource.91859",
+    "out_file": "mumm_five_months_in_himalaya_garhwal_1909.txt",
+    "file_name": "91859_djvu.txt",
+    "size_bytes": 391906
+  },
+  {
+    "id": "up_govt_1919_kumaun_garhwal_local_customs",
+    "title": "Kumaun and Garhwal: Local Customs and Usages",
+    "author": "Government of United Provinces",
+    "year": 1919,
+    "identifier": "india.history.resource.88082",
+    "out_file": "up_govt_kumaun_garhwal_local_customs_1919.txt",
+    "file_name": "88082_djvu.txt",
+    "size_bytes": 211214
+  },
+  {
+    "id": "verma_2003_pahari_dictionary_part3",
+    "title": "Dr. Siddheshwar Varma's Pahari Dictionary of 27 Dialects (Part 3)",
+    "author": "Dr. Siddheshwar Varma",
+    "year": 2003,
+    "identifier": "bvp-03883",
+    "out_file": "verma_pahari_dictionary_part3_2003.txt",
+    "file_name": "BVP03883-PUC-Dr.-Siddheshwar-Varma`s-Pahari-Dictionary-of-27-North-Western-Himalayan-Dialects,-Vol.-I,-Part-I-(Kashmiri-Group)_djvu.txt",
+    "size_bytes": 513678
+  },
+  {
+    "id": "himalayan_folklore_1920_legends",
+    "title": "Himalayan Folklore: Legends and Traditions of Kumaon and Garhwal",
+    "author": "Rev. E. S. Oakley",
+    "year": 1920,
+    "identifier": "in.ernet.dli.2015.108282",
+    "out_file": "oakley_himalayan_folklore_legends_1920.txt",
+    "file_name": "2015.108282.Himalayan-Folklore-Kumaon-And-West-Nepal_djvu.txt",
+    "size_bytes": 468468
+  },
+  {
+    "id": "dictionary_pahari_1911_dialects",
+    "title": "Dictionary of Pahari Dialects of the Western and Central Himalayas",
+    "author": "Government Press, Punjab & United Provinces",
+    "year": 1911,
+    "identifier": "dli.pahar.1894",
+    "out_file": "dictionary_pahari_dialects_punjab_himalaya_1911.txt",
+    "file_name": "1911 Dictionary of Pahari Dialects spoken in Punjab Himalayas by Joshi from JPASBv7 NS s_djvu.txt",
+    "size_bytes": 339966
+  },
+  {
+    "id": "himalayan_letters_1927_pilgrimage",
+    "title": "The Himalayan Letters of Gypsy Davy and Lady Ba: Pilgrimage in Garhwal",
+    "author": "Gypsy Davy and Lady Ba",
+    "year": 1927,
+    "identifier": "the-himalayan-letters-of-gypsy-davy-and-lady-ba-written-on-pilgrimage-to-the-hig",
+    "out_file": "gypsy_davy_himalayan_letters_pilgrimage_1927.txt",
+    "file_name": "1927 Himalayan Letters of Gypsy Davy and Lady Ba_djvu.txt",
+    "size_bytes": 637001
+  }
+]

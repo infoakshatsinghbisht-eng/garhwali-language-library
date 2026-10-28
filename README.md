@@ -26,7 +26,7 @@ A comprehensive Python library, NLP toolkit, and computational linguistics engin
      - **Tehri** (Tehri Garhwal & Bhagirathi Valley)
      - **Salani** (Southern Pauri / Kotdwar)
      - **Badhani** (Chamoli / Alaknanda Valley)
-3. **📖 1,000+ Verified Lexical Lemmas (`garhwali.lexicon.dictionary`)**:
+3. **📖 3,619+ Verified Lexical Lemmas (`garhwali.lexicon.dictionary`)**:
    - Richly categorized vocabulary database with dialect variants across 27 domains:
      - **Kinship & Family**: *बुबा, दद्दा, भुली, दीदी, भुलू, नौनी, नौना, ब्वारी, जंवाई, कक्यो, काकी, मामा, मामी, बूबू, दादी, नाती, सौरास, मैत, ध्याणी, समधी, जेठ, देवर, ननद, साला, साली, पुरखा*
      - **Marriage & Wedding Culture**: *ब्याव, मंगणी, बन्ना, बन्नी, धूली-अर्घ, मंगल-गीत, कन्यादान, फेरा, बिदाई, रौंतेली, बरात, जनेती, नथुली, गुलोबंद, पिछौड़ा, अरसा, नेग, न्यौता*
@@ -81,21 +81,93 @@ A comprehensive Python library, NLP toolkit, and computational linguistics engin
      - *Bedu Pako Baramasa, Chaita Ki Chaitwali, Thando Re Thando Mera Pahada Ko Paani, Ghughuti Na Baas Mait Ki, Dhari Devi Jagar, Nanda Raj Jat, Mangal Geet, Igas Bagwal, Phooldei Chham Chham, Maletha Ki Gool (Madho Singh Bhandari), Jeetu Bagdwal, Surkanda Mata Vandana, Saruli Meru Jiya Lagi, Hilaans Pakhi, Chhori Garhwali, Jai Badrinath Kedarnath, Tehri Doobon, Buransh Phooli Ge, Pandav Nritya Mandaan, Kodu Jhangora Khani*.
    - **7 Active Digital Heritage Archives** indexed in `digital_sources.json`.
 10. **📚 Master Garhwali Bibliography & Literature (`garhwali.culture.bibliography` & `literature`)**:
-    - **80+ Canonical Books Catalogued** across works written in Garhwali, grammar/linguistics treatises, and cultural studies.
+    - **231 Canonical Books Catalogued** across works written in Garhwali, grammar/linguistics treatises, and cultural studies.
     - **6 Classical Folk Epics (पवाड़े)**, **4 Canonical Poems**, and **10 Distinguished Authors**.
-11. **📖 13 Complete Full-Text Digital Books & Page Reader (`garhwali.culture.books`)**:
-    - **3,070+ Complete Digitized Pages** available page-by-page directly in Python:
+11. **📖 86 Complete Full-Text Digital Books & Page Reader (`garhwali.culture.books`)**:
+    - **23,856 Complete Digitized Pages** available page-by-page directly in Python:
       - *Sir George Grierson (1916)*: Linguistic Survey of India (Central Pahari / Garhwali) — 977 pages
       - *Pandit Ganga Datt Upreti (1894)*: Proverbs & Folklore of Kumaun and Garhwal — 398 pages
       - *Rev. E.S. Oakley & Tara Dutt Gairola (1935)*: Himalayan Folklore — 313 pages
       - *Dr. Govind Chatak (1959)*: Garhwali Bhasha (Linguistic & Grammatical Study) — 102 pages
       - *Dr. Govind Chatak (1958)*: Gadwali Lok Gathayen (Pawada & Jagar Epics) — 114 pages
-      - *Dr. Haridatta Bhatt 'Shailesh' (1976)*: Garhwali Bhasha Aur Uska Sahitya — 301 pages
-      - *Dr. Gunanand Juyal (1967)*: Madhya Pahadi Bhasha (Garhwali-Kumauni) — 161 pages
-      - *Shanti Chaudhary (1994)*: Garhwali Lokkala Aur Loksahitya — 231 pages
-      - *Shyam Chand Negi (1954)*: Gadwali Sahitya Ki Bhumika — 46 pages
-      - *Uttarakhand Open University*: CGL-102 (Prose), CGL-103 (Poetry), CGL-104 (Grammar), AECC-G-101 (General Studies) — 433 pages
-    - Full search API across all 3,070+ pages with text snippets, keywords, and chapter detection.
+      - *Dr. Haridatta Bhatt 'Shailesh' (1976)*: Garhwali Bhasha Aur Uska Sahitya — 128 pages
+      - *Dr. Gunanand Juyal (1967)*: Madhya Pahadi Bhasha (Central Pahari Phonology & Morphology) — 117 pages
+      - *Shyam Chand Negi (1954)*: Gadwali Sahitya (Anthology & Critical History) — 151 pages
+      - *Pt. Govind Prasad Ghildyal (1928)*: Garhwali Bhasha Aur Uska Vyakaran — 84 pages
+      - *Pt. Hari Krishna Raturi (1928)*: Garhwal Ka Itihas (Ancient Inscriptions & Clans) — 381 pages
+      - *Pt. Ganga Datt Upreti (1894)*: Proverbs & Folklore (Extended Edition) — 398 pages
+      - *Dr. Govind Chatak (1956)*: Garhwali Lok Geet (Folk Songs of Garhwal) — 114 pages
+      - *Shanti Chaudhary (1994)*: Garhwali Lokkala (Aipan, Murals & Ritual Arts) — 110 pages
+      - *Edwin T. Atkinson (1882)*: The Himalayan Districts of the North-Western Provinces (Vol. 1) — 955 pages
+      - *Edwin T. Atkinson (1884)*: The Himalayan Districts of the North-Western Provinces (Vol. 2) — 1,389 pages
+      - *Edwin T. Atkinson (1883)*: Notes on the History of the Himalayan Districts — 684 pages
+      - *Dr. Shiv Prasad Dabral 'Charan' (1961)*: Shri Uttarakhand Yatra Darshan — 451 pages
+      - *Dr. Shiv Prasad Dabral 'Charan' (1971)*: Uttarakhand Ka Itihas (Bhag 1: Pragaithihasik Kaal) — 596 pages
+      - *Dr. Shiv Prasad Dabral 'Charan' (1973)*: Uttarakhand Ka Itihas (Bhag 3: Garhwal Ka Naveen Itihas) — 624 pages
+      - *E. K. Pauw (1896)*: Report on the Tenth Settlement of the Garhwal District — 662 pages
+      - *H. G. Walton (1910)*: British Garhwal: A Gazetteer — 347 pages
+      - *Pati Ram (1916)*: Garhwal: Ancient and Modern — 363 pages
+      - *Rev. T. Grahame Bailey (1908)*: The Languages of the Northern Himalayas — 285 pages
+      - *Rev. T. Grahame Bailey (1915)*: Linguistic Studies from the Himalayas — 267 pages
+      - *L. D. Joshi (1929)*: The Khasa Family Law in the Himalayan Districts — 434 pages
+      - *Mukandi Lal (1968)*: Garhwal Painting (Mola Ram & Garhwali School of Art) — 128 pages
+      - *Dr. Siddheshwar Verma (1978)*: Pahari Language: A Linguistic Analysis — 97 pages
+      - *Central Hindi Directorate (1989)*: Pahari-Hindi Shabdkosh — 123 pages
+      - *George William Traill (1828)*: Statistical Sketch of Kumaon and Garhwal — 680 pages
+      - *Pandit Ganga Datt Upreti (1900)*: Hill Dialects of the Kumaun Division (Central Pahari) — 119 pages
+      - *H. G. Walton (1911)*: Dehra Dun: A Gazetteer (Vol. 1) — 441 pages
+      - *Dr. Siddheshwar Verma (2004)*: Pahari Dictionary of 27 North-Western Himalayan Dialects — 395 pages
+      - *Indian Institute of Advanced Study (2002)*: Pahari Bhasha Tatha Sahitya — 210 pages
+      - *Dr. Shiv Prasad Dabral 'Charan' (1965)*: Uttarakhand Ke Bhotantik: Alaknanda Upatyaka Mein Pravas (Bhag 2) — 177 pages
+      - *Edwin T. Atkinson (1886)*: The Himalayan Districts of the North-Western Provinces (Vol. 3) — 899 pages
+      - *V. A. Stowell (1916)*: Kumaun Rulings for Civil Courts (Customary Law) — 185 pages
+      - *Government of North-Western Provinces (1842)*: Historical Papers Relating to Kumaun and Garhwal 1809-1842 — 307 pages
+      - *Rev. E. S. Oakley & Tara Dutt Gairola (1935)*: Himalayan Folklore (Extended Archival Edition) — 313 pages
+      - *Dr. Siddheshwar Verma (2003)*: Dr. Siddheshwar Varma's Pahari Dictionary (Vol. 1) — 372 pages
+      - *Imperial Gazetteer of India (1905)*: Imperial Gazetteer of India: Kumaun Division (Garhwal) — 69 pages
+      - *A. L. Mumm (1909)*: Five Months in the Himalaya: Mountain Travel in Garhwal — 211 pages
+      - *Government of United Provinces (1919)*: Kumaun and Garhwal: Local Customs and Usages — 105 pages
+      - *Dr. Siddheshwar Verma (2003)*: Dr. Siddheshwar Varma's Pahari Dictionary (Part 3) — 270 pages
+      - *Rev. E. S. Oakley (1920)*: Himalayan Folklore: Legends and Traditions of Kumaon and Garhwal — 269 pages
+      - *T. R. Joshi (1911)*: Dictionary of Pahari Dialects of the Western and Central Himalayas — 154 pages
+      - *Gypsy Davy and Lady Ba (1927)*: The Himalayan Letters of Gypsy Davy and Lady Ba (Garhwal Pilgrimage) — 319 pages
+      - *Charles A. Sherring (1906)*: Western Tibet and the British Borderland: Garhwal and Bhotia Customs — 304 pages
+      - *J. H. Batten (1851)*: Official Reports on the Province of Kumaon and Garhwal — 620 pages
+      - *Dr. Harshwanti Bisht (1994)*: Tourism in Garhwal Himalaya: Pilgrimage, Culture and Economy — 215 pages
+      - *Garhwal Exploration Society (1986)*: Peaks and Passes of the Garhwal Himalaya — 161 pages
+      - *H. P. Bhatt et al. (1992)*: Garhwal Himalaya: Nature, Culture and Society — 143 pages
+      - *Dr. Siddheshwar Varma (2003)*: Dr. Siddheshwar Varma's Pahari Dictionary of 27 Dialects (Part 2) — 72 pages
+      - *Language Division, Govt. of India (2023)*: Linguistic Survey of India: Pahari Dialects — 596 pages
+      - *Dr. Omkareshwor Shrestha (2000)*: A Grammar of Pahari: Phonology, Morphology and Syntax — 217 pages
+      - *Todd Lewis (1995)*: The Himalayas: History, Anthropology, and Religion — 140 pages
+      - *André Roch (1947)*: Garhwal Himalaya: Mountain Expeditions and High Passes — 131 pages
+      - *BVP Research Collection (1998)*: Himachali and Pahari Shabdawali — 25 pages
+      - *J. B. Auden (1936)*: The Structure of the Himalaya in Garhwal — 38 pages
+      - *Sir George Grierson (1916)*: LSI Pahari Languages and Gujuri (IGNCA Edition) — 770 pages
+      - *Forest Department (1897)*: Working Plan of the Tehri-Garhwal Leased Forests — 186 pages
+      - *Iqbal Nazish (1995)*: Chalyaan Suraan: Pahari Rhythms, Songs and Verses — 57 pages
+      - *N. S. Bhandari et al. (1946)*: Snow Balls of Garhwal: Folk Songs and Ballads — 50 pages
+      - *Himalayan Natural History Society (1969)*: Birds and Natural History of Lower Garhwal — 38 pages
+      - *A. W. Ibbotson (1933)*: Eleventh Revenue Settlement of Garhwal District — 26 pages
+      - *Frank S. Smythe (1932)*: Kamet Conquered: Exploration in the Garhwal Himalaya and the Valley of Flowers — 378 pages
+      - *Pt. Hariram Sharma (1938)*: Badrinath-Kedarnath Yatra: Holy Pilgrimage in the Garhwal Himalayas — 91 pages
+      - *Frank S. Smythe (1932)*: Explorations in Garhwal around Kamet (Geographical Journal) — 31 pages
+      - *Dr. Mohammad Ishaq Khan (1978)*: History of Srinagar: Socio-Cultural Change in the Central and Northern Himalayas — 319 pages
+      - *Parvez Maanoos (2020)*: Parbaton Ki Khushbu: Selected Pahari Mountain Tales, Folklore and Idioms — 57 pages
+      - *Swami Sivananda (1966)*: Himalayan Forest Hermitage: Health, Nature and Sacred Living in Garhwal — 183 pages
+      - *Swami Prabodhanand (1961)*: Across Gangotri Glaciers: Explorations in Northern Garhwal — 50 pages
+      - *Shiv Kumar Painuli et al. (2000)*: Shri Nanda Devi Raj Jat: The Royal Himalayan Pilgrimage of Garhwal — 23 pages
+      - *Eric Shipton (1936)*: Nanda Devi: Exploration of the Great Himalayan Sanctuary — 235 pages
+      - *Eric Shipton (1935)*: Nanda Devi and the Ganges Watershed: Mountain Topography of Garhwal — 33 pages
+      - *Zoological Survey of India (1997)*: Fauna of Nanda Devi Biosphere Reserve: Wildlife and Avifauna — 116 pages
+      - *K. S. Negi et al. (1985)*: Flora of Khatling Glacier in the Garhwal Himalaya (District Tehri) — 19 pages
+      - *H. G. Ross (1874)*: Settlement of Pargana Jaunsar-Bawar: Customary Law and Land Tenure — 114 pages
+      - *Dr. D. N. Majumdar (1960)*: Himalayan Polyandry: Kinship, Culture and Social Structure in Jaunsar-Bawar — 538 pages
+      - *G. F. Hearth (1889)*: Working Plan of the Deoban Range, Jaunsar Forest Division — 391 pages
+      - *Pt. Devendranath Sharma (1955)*: Himtirth Badrinath: The Holy Himalayan Sanctum and Sacred Geography — 39 pages
+      - *H. W. Tilman (1937)*: The Ascent of Nanda Devi: First Historic Ascent of the Sanctuary Peak — 232 pages
+      - *J. J. Languepin (1956)*: To Kiss High Heaven: Nanda Devi and Trishul Himalayan Expeditions — 176 pages
+    - Full search API across all 23,856 pages with text snippets, keywords, and chapter detection.
 12. **⚖️ Split-Ergativity & SOV Syntax Validator (`garhwali.grammar.syntax`)**:
     - Enforces authentic Central Pahari ergative case markings (`-न / -ले` in transitive perfective clauses).
 13. **🔢 Garhwali Numbers Engine (`garhwali.numbers`)**:

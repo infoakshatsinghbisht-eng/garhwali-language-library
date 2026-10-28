@@ -21,6 +21,8 @@ from garhwali.culture.flora import FloraTreasury
 from garhwali.culture.rituals import RitualsTreasury
 from garhwali.culture.folklore import FolkloreTreasury
 
+from garhwali.grammar.rules import RuleRegistry
+
 # Load baseline audit
 baseline_path = os.path.join("data_sources", "baseline_audit.json")
 with open(baseline_path, "r", encoding="utf-8") as f:
@@ -83,7 +85,8 @@ after = {
     "comprehensive_idioms_proverbs": len(garhwali.IdiomCorpus.all()),
     "primary_native_corpus_books": len(BibliographyTreasury.primary_corpus_books()),
     "reference_scholarly_books": len(BibliographyTreasury.reference_books()),
-    "unit_tests_count": 86
+    "grammar_rules_count": len(RuleRegistry.all_rules()),
+    "unit_tests_count": 101
 }
 
 audit_comparison = {
